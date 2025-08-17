@@ -1,5 +1,6 @@
 # NineThirtyBatch
 Tasks(30 july 2025)
+
 1Q. What is the history of python ?
 *creater of python is "Guido van rossum", he was named the programming language as python from british comedy group "Monty Python's Flying Circus" and it was started in 1989.
 
@@ -37,6 +38,7 @@ It is free, lightweight, cross-platform code editor made by microsoft, and it su
 9Q. Difference between single(=) and double (==) equal ?
 = stores a value in a variable ,
 == comparision operator.
+
 
 
 
