@@ -5,7 +5,7 @@ Tasks(30 july 2025)
 
 2Q.What is the famous web application ?
 * Instagram is the famous web application.
-* 
+  
 3Q.What is compilation ?
 * In python, compilation means converting .py file into bytecode(.pyc) ,then executed by python interpreter.
 
@@ -23,7 +23,7 @@ Tasks(30 july 2025)
 * Supports multiple paradiagrams.
 * open source.
 * Interpreted language.
-* 
+  
 6Q. Is the 'char' exist in python or not ?
 There is no separate 'char' in python, a character in python is just a string of length 1.
 
@@ -37,5 +37,6 @@ It is free, lightweight, cross-platform code editor made by microsoft, and it su
 9Q. Difference between single(=) and double (==) equal ?
 = stores a value in a variable ,
 == comparision operator.
+
 
 
