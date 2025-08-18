@@ -1,6 +1,6 @@
 # Strings are Data Types in Python
 # str4= "\n \t \s"
-str1 = "Narender"
+str1 = "Rahul "
 str2 = "Modi"
 
 print(str1 + "" + str2)
