@@ -9,3 +9,33 @@ Visual Studio Code is a free, lightweight, and open-source code editor developed
 *Debugging
 *Running terminals
 *Using extensions for different programming languages
+
+ Q3various technologies of data base
+ Databases use various technologies depending on their type, purpose, and use case. Here's a breakdown of various database technologies, categorized by type:
+1)Relational Database Technologies
+2)NoSQL Database Technologies
+3)NewSQL Databases
+4)Time Series Databases
+5)Object-Oriented Databases
+6)Multimodel Databases
+7)Cloud Database Technologies
+
+Q4 difference between http and https
+HTTP : HyperText Transfer Protoco, Uses port 80,Not secure,Data is sent in plain text,No SSL/TLS certificate.
+HTTPS :HyperText Transfer Protocol Secure,Uses port 443,Secure,Data is encrypted to prevent eavesdropping,Requires an SSL/TLS certificate.
+
+Q5 All the features of web applications
+ 1) User Interface (UI)
+ 2) User Management
+ 3) Backend Functionality
+ 4) Security Features
+ 5) Communication Features
+ 6) Performance & Optimization
+ 7) Data Handling
+ 8) Admin Panel
+ 9) Scalability & Maintenance
+ 10) Integration Capabilities
+ 11) Accessibility
+ 12) Internationalization
+ 13) Testing & Debugging
+ 14) Compliance & Legal
