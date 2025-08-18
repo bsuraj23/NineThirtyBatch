@@ -1,13 +1,36 @@
-print("Different data types")
-a=2
-b=5.4
-c=True
-d="Akhila"
-print("Value of a is", a)
-print(type(a))
-print("Value of b is", b)
-print(type(b))
-print("Value of c is", c)
+#integer 
+a=30
+b=50
+c=a+b
+print(c)
 print(type(c))
-print("Value of d is", d)
-print(type(d))
+
+#boolean
+a="its is very beauty"
+b="its is very handsome"
+y=True
+k=False
+if(len(a)==len(b)):
+      print(a)
+else:
+    print(b)
+
+#float
+a="its is very beauty"
+b="its is very handsome"
+y=True
+k=False
+if(len(a)==len(b)):
+      print(a)
+else:
+    print(b)
+
+#string
+a='ammu'
+b='adhi'
+c=a+b
+print(c)
+print(type(a))
+
+
+
