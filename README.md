@@ -45,6 +45,7 @@ Q3.How many types of range functions are there to use in loops?
 Q1.Difference between Break and continue?
    Break terminates the program according to the condition give. ex: if i==2 then break; here at the value i=2 the break statement terminates the program.
    Continue skips the value given in the condition and executes the next values. ex: if i=5 then continues skips the value 5 and executes 1,2,3,4,6,7,....
+   
 Q2. explore about %d, %s, %t, /n?
    The %d, %s, %t, /n are the conversion specifiers where,
    %d is used at digit values
