@@ -20,6 +20,7 @@ Q3.Find if char datatype exist in python or not?
 *So, in python string holds single alphabet,letter and also group of alphabets which is called as a string.
 
 (13-08-2025)
+
 Q1.Difference between compiler and interpreter?
    Compiler checks the entire code at once and gives the errors present in the respective lines 
    Interpreter check the code line by line and if there is any error in line no.2 then the interpreter terminates the program and gives the error.
@@ -38,3 +39,15 @@ Q3.How many types of range functions are there to use in loops?
    range(0)	No numbers produced	for i in range(0): print(i)	(no output)
    range(negative, positive)	Works with negative start values	for i in range(-3, 3): print(i)	-3 -2 -1 0 1 2
    range(start, stop, large_step)	Skips values according to step size	for i in range(0, 20, 5): print(i)	0 5 10 15
+
+(14-08-2025)
+
+Q1.Difference between Break and continue?
+   Break terminates the program according to the condition give. ex: if i==2 then break; here at the value i=2 the break statement terminates the program.
+   Continue skips the value given in the condition and executes the next values. ex: if i=5 then continues skips the value 5 and executes 1,2,3,4,6,7,....
+Q2. explore about %d, %s, %t, /n?
+   The %d, %s, %t, /n are the conversion specifiers where,
+   %d is used at digit values
+   %s is used at string values
+   %t is used for tab values
+   /n is used for new line or next line
