@@ -52,3 +52,34 @@ Q2. explore about %d, %s, %t, /n?
    %s is used at string values
    %t is used for tab values
    /n is used for new line or next line
+
+   (18-08-2025)
+
+Q1.What is S in https?
+   HTTPS stands for Hyper Text Transfer Protocol Secure 
+   HTTP is used for transferring data between a web browser and a website.
+   HTTPS adds a security layer using SSL/TLS encryption, which ensures data privacy and protection from attackers.
+
+Q2.How a Search engine Works?
+   Search engines use web crawlers (bots/spiders) that go from page to page on the internet.
+   They follow links, read the content, and collect data.
+   Example: If a crawler visits a blog, it also checks all links on that blog to discover new pages.
+
+(19-08-2025)
+
+Q1.What is the difference between List and Set?
+   LIST                                                                                SET
+   An ordered collection of elements                                                   An unordered collection of unique elements
+   Maintains the order of insertion                                                    Does not maintain any order (unordered)
+   Allows duplicate elements                                                           Does not allow duplicates
+   Mutable – you can add, remove, or change elements                                   Mutable – you can add or remove elements, but elements must be immutable (no lists inside a set)
+
+Q2.What is the difference between remove() and discard()?
+   remove() → Removes an element, but raises an error if it’s missing.
+   discard() → Removes an element, but does nothing if it’s missing.
+
+Q3.What is the purpose of the symbol :: in set()?
+   start → where slicing begins (default = 0).
+   stop → where slicing ends (default = end of sequence).
+   step → the interval between elements (default = 1). ex: sequence[start : stop : step]
+Q4
