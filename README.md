@@ -1,3 +1,5 @@
+HISTORY OF PYTHON:  Python was created in 1989 by Guido van Rossum at CWI, Netherlands, and released in 1991 as a simple, easy-to-read, and powerful programming language.support for both procedural and object-oriented programming.It evolved through major versions—Python 1.0 (1994), Python 2.0 (2000) with features like list comprehensions and Unicode, and Python 3.0 (2008), which modernized the language but broke backward compatibility. Today, Python is one of the most widely used languages in the world, especially in web development, automation, data science, AI, and machine learning, with continuous improvements in speed and usability.
+
 FEATURES OF PYTHON:
 1.SIMPLE: python is written in simple english.
 2.EASY TO LEARN: syntax of python easy to understanded by begineers.
