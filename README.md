@@ -1,8 +1,9 @@
 # NineThirtyBatch
-this project is demo for github for ninethirty batch
+
 Q1 the difference between interpreter and compiler :
 interpreter:Translates and runs code line by line,Executes the program directly without converting the entire code to machine language first,Slower because it translates code on the fly.
 compiler:Translates the entire source code into machine code before running it,Generates an executable file that runs independently,Faster once compiled, since the translation happens only once.
+
 Q2 about vscode and there shortcuts
 Visual Studio Code is a free, lightweight, and open-source code editor developed by Microsoft, widely used by developers for:
 *Writing and editing code
@@ -38,4 +39,20 @@ Q5 All the features of web applications
  11) Accessibility
  12) Internationalization
  13) Testing & Debugging
- 14) Compliance & Legal
+ 14) Compliance & legal
+
+Q6 the difference between lists and sets 
+  lists :
+    1) ordered
+    2)allows duplicates
+    3)mutable
+    4)indexing and slicing
+    5)use case
+  sets :
+    1)unordered
+    2)not allows duplicates
+    3)mutable
+    4)fast lookup
+
+Q7     
+    5)use case
