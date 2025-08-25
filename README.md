@@ -90,7 +90,7 @@ discard() :Removes a specific element from a set and doesn't raises any error.
 (25 Aug 2025)
 
 15Q. Is the tuple mutable or not ?
-* Tuples are immutable
+* Tuple is immutable that means if we create a tuple then we can't change its elements.But, if a tuple contains mutable objects like lists or dictionaries then we can modify those contents.
 
 
 
