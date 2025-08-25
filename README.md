@@ -4,7 +4,7 @@ Tasks(30 july 2025)
 1Q. What is the history of python ?
 *creater of python is "Guido van rossum", he was named the programming language as python from british comedy group "Monty Python's Flying Circus" and it was started in 1989.
 
-2Q.What is the famous web application ?
+2Q.What is the famous web application develpoed using python ?
 * Instagram is the famous web application.
   
 3Q.What is compilation ?
@@ -12,14 +12,14 @@ Tasks(30 july 2025)
 
 (05 Aug 2025)
 
-4Q. What are the 5 different commands ?
+4Q. find any 5 commands to implement in the command prompt ?
 -ipconfig:Displays your computer's IP address and network details , and also used to reset your password.
 -Ping:Tests connectivity to another network device or website.
 -cd(change directory):Navigates between folders in CMD.
 -dir:Lists files and folders in the current directory.
 -cls:Clear the command prompt screen.
 
-5Q. What are the features of python ?
+5Q.What are the features of python ?
 * Easy to learn and use.
 * Large standard library.
 * Supports multiple paradiagrams.
@@ -37,13 +37,13 @@ Here, firstly compilation converts the code into intermediate level and then the
 8Q. understand about vs code and the shortcuts ?
 It is free, lightweight, cross-platform code editor made by microsoft, and it supports many programming languages through extensions.
 
-9Q. Difference between single(=) and double (==) equal ?
+9Q.find the difference between single(=) and double (==) equal ?
 = stores a value in a variable ,
 == comparision operator.
 
 (14 Aug 2025)
 
-10Q. Difference between break and continue ?
+10Q.find the difference between break and continue ?
 Break: It will break the condition ,when it reaches the given condition and then if there is next loop then it will goes to another loop.
 Continue: It just skip the condition/iteration and continues next iteration of the loop.
 
@@ -86,6 +86,11 @@ SET:
 14Q. Difference between remove() and discard() ?
 remove() :Removes a specific element from a set and raises a key error.
 discard() :Removes a specific element from a set and doesn't raises any error.
+
+(25 Aug 2025)
+
+15Q. Is the tuple mutable or not ?
+* Tuples are immutable
 
 
 
