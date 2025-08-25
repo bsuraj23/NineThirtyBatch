@@ -9,3 +9,7 @@ FEATURES OF PYTHON:
 6.open source: python is a open source and free.
 7. object oriented : python supports class, object, interpretation and it’s Supports multiple programming paradigms.
 8. libraries :A huge community provides tutorials, libraries, and help for any problem.
+
+tuple is mutable or not
+Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
+
