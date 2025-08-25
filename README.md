@@ -82,4 +82,9 @@ Q3.What is the purpose of the symbol :: in set()?
    start → where slicing begins (default = 0).
    stop → where slicing ends (default = end of sequence).
    step → the interval between elements (default = 1). ex: sequence[start : stop : step]
-Q4
+
+(25-08-2025)
+
+Q1.Check Whether tuple is mutable or not?
+Tuple is imutable. But it becomes mutable when tuple i combimed in List or set or dictionary.
+
