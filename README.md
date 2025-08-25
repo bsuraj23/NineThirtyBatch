@@ -86,5 +86,5 @@ Q3.What is the purpose of the symbol :: in set()?
 (25-08-2025)
 
 Q1.Check Whether tuple is mutable or not?
-Tuple is imutable. But it becomes mutable when tuple i combimed in List or set or dictionary.
+   Tuple is imutable. But it becomes mutable when tuple is combimed in List or set or dictionary.
 
