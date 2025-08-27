@@ -87,7 +87,7 @@ set does not having insertion order, it does not allow duplicate values, there i
 
 2.remove() → Removes an element, but raises an error if it’s missing. discard() → Removes an element, but does nothing if it’s missing.
 
-3.What is the purpose of the symbol :: in set()? start → where slicing begins (default = 0). stop → where slicing ends (default = end of sequence). step → the interval between elements (default = 1). ex: sequence[start : stop : step]
+3.What is the purpose of the symbol :: in set()? start → where slicing begins (default = 0). stop → where slicing ends (default = end of sequence). step → the interval between elements (default = 1).[start : stop : step]
 
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
