@@ -82,6 +82,10 @@ Ranking & Retrieval → When you search, it matches your query with the index an
 
 (19/08/25)
 
+list contains the insertion order,it allows duplicate values, it having indexing and slicing ,list is mutable
+
+set does not having insertion order, it does not allow duplicate values, there is no indexing,set is mutable
+
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
 
