@@ -5,10 +5,20 @@ HISTORY OF PYTHON:  Python was created in 1989 by Guido van Rossum at CWI, Nethe
  the famous web application developed using python is INSTAGRAM.
 
  Compilation means translating the code written by a programmer (source code) into machine code (binary code) that a computer processor can directly understand and execute.
- 
- 
 
-FEATURES OF PYTHON:
+ (05/08/25)
+
+1. 5 commands to implement the CMD 
+
+ dir → Shows list of files and folders in the current directory.
+cd <folder_name> → Changes directory (move into another folder).
+mkdir <folder_name> → Creates a new folder.
+del <filename> → Deletes a file.
+cls → Clears the command prompt screen.
+ 
+ 2.In Python, there is no separate char datatype .Instead, a single character is treated as a string of length 1.
+
+3. FEATURES OF PYTHON:
 1.SIMPLE: python is written in simple english.
 2.EASY TO LEARN: syntax of python easy to understanded by begineers.
 3. high level language: python code written in general english.
@@ -17,6 +27,8 @@ FEATURES OF PYTHON:
 6.open source: python is a open source and free.
 7. object oriented : python supports class, object, interpretation and it’s Supports multiple programming paradigms.
 8. libraries :A huge community provides tutorials, libraries, and help for any problem.
+
+
 
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
