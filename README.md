@@ -89,6 +89,7 @@ set does not having insertion order, it does not allow duplicate values, there i
 
 3.What is the purpose of the symbol :: in set()? start → where slicing begins (default = 0). stop → where slicing ends (default = end of sequence). step → the interval between elements (default = 1).[start : stop : step]
 
+(25/08/25)
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
 
