@@ -53,3 +53,6 @@ python was created in 1989 by Guido Van Rossum at CWI, Netherlands, and released
 Instagram is a famous web application.
 3
 Compilation is a work formed by the collection and assembling of preexisting materials or data that are selected, coordinated,or arranged in such a way that the resulting work as a whole constitutes an original work of authorship. the term "compilation" includes collective works.
+(05\08\2025)
+
+
