@@ -48,37 +48,46 @@ answers:
 
 (30-07-2025)
 
-1. 
-python was created in 1989 by Guido Van Rossum at CWI, Netherlands, and released in 1991 as a simple, easy to read, and powerfull programming language. support for both procedural and object-oriented programming.It evovlved though major versions-python 1.0 (1994),python 2.0 (2000) with features like list comprehensions and unicode,and python 3.0 (2008),which modernized the language but broke backward compatability.Python is one of the most widely used language in the world , especially in web development, automation , data science, AI and machine learning, with continous improvements in speed and usability.
+1.python was created in 1989 by Guido Van Rossum at CWI, Netherlands, and released in 1991 as a simple, easy to read, and powerfull programming language. support for both procedural and object-oriented programming.It evovlved though major versions-python 1.0 (1994),python 2.0 (2000) with features like list comprehensions and unicode,and python 3.0 (2008),which modernized the language but broke backward compatability.Python is one of the most widely used language in the world , especially in web development, automation , data science, AI and machine learning, with continous improvements in speed and usability.
 
-2
+2. Instagram is a famous web application.
 
-Instagram is a famous web application.
+3. Compilation is a work formed by the collection and assembling of preexisting materials or data that are selected, coordinated,or arranged in such a way that the resulting work as a whole constitutes an original work of authorship. the term "compilation" includes collective works.
 
-3
-
-Compilation is a work formed by the collection and assembling of preexisting materials or data that are selected, coordinated,or arranged in such a way that the resulting work as a whole constitutes an original work of authorship. the term "compilation" includes collective works.
 
 (05\08\2025)
 
-1
-
-commands to implementthe CMD
+1. commands to implementthe CMD
 
 dir -> Shows list of files and folders in the current directory.cd<folder_name> ->changes directory(move into another folder).mkdir<folder_name> ->Cretes a new folder.del -> deletes a file. cls ->clear the command prompt screen.
 
 
+2.In python, there is no separate char datatype . instead, a single character is treated as a string of length 1 .
+
+
+3.FEATURES OF PYTHON: 1.SIMPLE: PYTHON is written in simple english.2.EASY TO LEARN:syntax of python easy to uderstanded by begineers.
+
  
-  2.In python, there is no separate char datatype . instead, a single character is treated as a string of length 1 .
-
-
-  3.FEATURES OF PYTHON: 1.SIMPLE: PYTHON is written in simple english.2.EASY TO LEARN:syntax of python easy to uderstanded by begineers.
-
- 
-  4.high level language: python code written in general english.
+4.high level language: python code written in general english.
 
   
-  5. dynamic: In python type of variable can be fixed at run time. 5. portable:python code can runs in differnt operating systems.
+5. dynamic: In python type of variable can be fixed at run time.
+   
+6. portable:python code can runs in differnt operating systems.
+
+
+3. python ie a popular, high-level, interpreted programming language known for its simplicity and versatility.
+key features
+ * East to Learn and Use
+ * Open Source and free
+ * Extensive Standard Library
+ * Platform Independent
+ * High-Level Language
+ * Dynamicallt typed
+ * Object-Oriented
+ * Interpreted Language
+
+   
 
 
 
