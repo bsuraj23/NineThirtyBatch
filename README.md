@@ -43,3 +43,9 @@ Assigned Tasks (Interview Questions)
 
 1.Check whether tuple is mutable or not?
 2.Test the 4 features of dictionary and get hands on by applying in programs?
+
+answers:
+
+(30-07-2025)
+1. 
+
