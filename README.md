@@ -33,15 +33,23 @@ cls → Clears the command prompt screen.
 1. Compilation means Converts the whole program into machine code at once before execution. Interpretation means Executes code line by line at runtime
 
 2. VS Code is a lightweight powerful code editor used for many languages with debugging extensions and Git support.
+
     SHORTCUTS
+
    ctrl+c
+   
    ctrl+v
+
    ctrl+T
+
    Ctrl + Shift + N
+
    Ctrl + Shift + p
+
    ctrl+/
 
-3.  = is Assignment operator that is stores a value in a variable.
+4.  = is Assignment operator that is stores a value in a variable.
+ 
    == is Comparison operator checks equality between two values.
 
 (14/08/25)
@@ -53,9 +61,27 @@ cls → Clears the command prompt screen.
  2. %d, %f, %s, %t, \n These are format specifiers / escape sequences 
 
 %d → Integer 
+
 %f → Floating-point 
+
 %t → Used in some languages for date/time
+
 \n → Newline
+
+(18/08/25)
+
+HTTP (HyperText Transfer Protocol) used to transfer data between a web browser and a server. It is not secure (data can be read by others).
+
+HTTPS (HyperText Transfer Protocol Secure)  it is same as HTTP, but adds encryption (SSL/TLS) so data is secure, private, and trusted.
+
+A search engine works in 3 steps:
+
+Crawling → Bots (spiders) scan the internet and collect pages.
+
+Indexing → Collected pages are stored in a huge database (index).
+
+Ranking & Retrieval → When you search, it matches your query with the index and shows results ranked by relevance.
+
 
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
