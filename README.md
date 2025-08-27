@@ -48,4 +48,4 @@ answers:
 
 (30-07-2025)
 1. 
-
+python was developed by guido van rossum
