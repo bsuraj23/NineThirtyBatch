@@ -28,7 +28,21 @@ cls → Clears the command prompt screen.
 7. object oriented : python supports class, object, interpretation and it’s Supports multiple programming paradigms.
 8. libraries :A huge community provides tutorials, libraries, and help for any problem.
 
+(13/08/25)
 
+1. Compilation means Converts the whole program into machine code at once before execution. Interpretation means Executes code line by line at runtime
+
+2. VS Code is a lightweight powerful code editor used for many languages with debugging extensions and Git support.
+    SHORTCUTS
+   ctrl+c
+   ctrl+v
+   ctrl+T
+   Ctrl + Shift + N
+   Ctrl + Shift + p
+   ctrl+/
+
+3.  = is Assignment operator that is stores a value in a variable.
+   == is Comparison operator checks equality between two values.
 
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
