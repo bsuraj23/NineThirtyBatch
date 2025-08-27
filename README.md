@@ -77,11 +77,10 @@ HTTPS (HyperText Transfer Protocol Secure)  it is same as HTTP, but adds encrypt
 A search engine works in 3 steps:
 
 Crawling → Bots (spiders) scan the internet and collect pages.
-
 Indexing → Collected pages are stored in a huge database (index).
-
 Ranking & Retrieval → When you search, it matches your query with the index and shows results ranked by relevance.
 
+(19/08/25)
 
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
