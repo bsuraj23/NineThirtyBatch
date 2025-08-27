@@ -61,6 +61,13 @@ Compilation is a work formed by the collection and assembling of preexisting mat
 
 (05\08\2025)
 
+4
+
+
+commands to implementthe CMD
+
+dir -> Shows list of files and folders in the current directory.cd<folder_name> ->changes directory(move into another folder).mkdir<folder_name> ->Cretes a new folder.del -> deletes a file. cls ->clear the command prompt screen.
+
 
 
 
