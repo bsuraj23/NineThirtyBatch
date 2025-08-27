@@ -44,6 +44,19 @@ cls → Clears the command prompt screen.
 3.  = is Assignment operator that is stores a value in a variable.
    == is Comparison operator checks equality between two values.
 
+(14/08/25)
+
+1.  break is Immediately stops the excecution of the loop and exit from the loop.
+
+ continue  means Skips the current iteration and excecute the next iteration.
+
+ 2. %d, %f, %s, %t, \n These are format specifiers / escape sequences 
+
+%d → Integer 
+%f → Floating-point 
+%t → Used in some languages for date/time
+\n → Newline
+
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
 
