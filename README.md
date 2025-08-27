@@ -82,9 +82,12 @@ Ranking & Retrieval → When you search, it matches your query with the index an
 
 (19/08/25)
 
-list contains the insertion order,it allows duplicate values, it having indexing and slicing ,list is mutable
-
+1.list contains the insertion order,it allows duplicate values, it having indexing and slicing ,list is mutable
 set does not having insertion order, it does not allow duplicate values, there is no indexing,set is mutable
+
+2.remove() → Removes an element, but raises an error if it’s missing. discard() → Removes an element, but does nothing if it’s missing.
+
+3.What is the purpose of the symbol :: in set()? start → where slicing begins (default = 0). stop → where slicing ends (default = end of sequence). step → the interval between elements (default = 1). ex: sequence[start : stop : step]
 
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
