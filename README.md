@@ -48,4 +48,4 @@ answers:
 
 (30-07-2025)
 1. 
-python was developed by guido van rossum
+python was created in 1989 by Guido Van Rossum at CWI, Netherlands, and released in 1991 as a simple, easy to read, and powerfull programming language. support for both procedural and object-oriented programming.It evovlved though major versions-python 1.0 (1994),python 2.0 (2000) with features like list comprehensions and unicode,and python 3.0 (2008),which modernized the language but broke backward compatability.Python is one of the most widely used language in the world , especially in web development, automation , data science, AI and machine learning, with continous improvements in speed and usability.
