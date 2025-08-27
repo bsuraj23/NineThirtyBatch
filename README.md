@@ -61,12 +61,25 @@ Compilation is a work formed by the collection and assembling of preexisting mat
 
 (05\08\2025)
 
-4
-
+1
 
 commands to implementthe CMD
 
 dir -> Shows list of files and folders in the current directory.cd<folder_name> ->changes directory(move into another folder).mkdir<folder_name> ->Cretes a new folder.del -> deletes a file. cls ->clear the command prompt screen.
+
+
+ 
+  2.In python, there is no separate char datatype . instead, a single character is treated as a string of length 1 .
+
+
+  3.FEATURES OF PYTHON: 1.SIMPLE: PYTHON is written in simple english.2.EASY TO LEARN:syntax of python easy to uderstanded by begineers.
+
+ 
+  4.high level language: python code written in general english.
+
+  
+  5. dynamic: In python type of variable can be fixed at run time. 5. portable:python code can runs in differnt operating systems.
+
 
 
 
