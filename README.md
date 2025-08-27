@@ -46,6 +46,11 @@ Assigned Tasks (Interview Questions)
 
 answers:
 
-(30-07-2025)
-1. 
+(30-07-2025)dat
+1.HISTORY OF PYTHON:python was created in 1989 by Guido van Rossum at CWI, netherland, and released in 1991 as a
+simple,easy-to-read, and powerful programming language.python 1.0(1991)included features like functions,exceptions,
+core data type(str,list,dict)and modules.python 2.0(2000)added list comprehensions, garbage collection,unicode support.
+Python 3.0 (2008)major redesign to fix flaws in python.Today,python is one of the most widely used language in the world,
+especially in web development automation data science,AI,and machine learning, with continous improvements in speed and usability.
+
 
