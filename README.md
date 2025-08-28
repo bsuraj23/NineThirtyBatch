@@ -88,3 +88,14 @@ Q3.What is the purpose of the symbol :: in set()?
 Q1.Check Whether tuple is mutable or not?
    Tuple is imutable. But it becomes mutable when tuple is combimed in List or set or dictionary.
 
+(26-08-2025)
+
+Q1.Understand about RAG?
+Combines Retrieval + Generation – RAG uses an external knowledge base (like documents, databases, or vector stores) to fetch relevant information, then passes it to a generative model (like GPT) to create accurate, context-aware answers.
+Improves Accuracy & Reduces Hallucination – By grounding the model’s response in retrieved data, RAG ensures outputs are more reliable, factual, and up-to-date compared to a model generating purely from memory.
+
+(28-08-2025)
+Q1.Give the difference between the symbols " " and ' ' while we use them for string?
+   If your string contains a single quote ', use double quotes " ". If your string contains a double quote ", use single quotes ' '.
+   If your string contains both ' and ", you can Use escape characters with \ or we can triple codes ex: """ hello it's "rainy" today"""
+
