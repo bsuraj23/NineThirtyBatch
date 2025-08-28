@@ -44,13 +44,17 @@ Assigned Tasks (Interview Questions)
 1.Check whether tuple is mutable or not?
 2.Test the 4 features of dictionary and get hands on by applying in programs?
 
-answers:
+(26-08-2025)
 
-(30-07-2025)dat
-1.HISTORY OF PYTHON:python was created in 1989 by Guido van Rossum at CWI, netherland, and released in 1991 as a
-simple,easy-to-read, and powerful programming language.python 1.0(1991)included features like functions,exceptions,
-core data type(str,list,dict)and modules.python 2.0(2000)added list comprehensions, garbage collection,unicode support.
-Python 3.0 (2008)major redesign to fix flaws in python.Today,python is one of the most widely used language in the world,
-especially in web development automation data science,AI,and machine learning, with continous improvements in speed and usability.
+1.Understand about RAG?
+2.Find the possible ways to print list without object? hint: Use any loops.
+3.Without using sorting techniques write a code which can sort the list of integers?
+
+(28-08-2025)
+
+1.find the difference between " " and ' ' while using them for a string?
+2.correct the code "xyz=set(temp for i in range (2))"
+
+
 
 
