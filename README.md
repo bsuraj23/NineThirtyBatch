@@ -92,5 +92,12 @@ discard() :Removes a specific element from a set and doesn't raises any error.
 15Q. Is the tuple mutable or not ?
 * Tuple is immutable that means if we create a tuple then we can't change its elements.But, if a tuple contains mutable objects like lists or dictionaries then we can modify those contents.
 
+(26 Aug 2025)
+
+16Q. What is RAG ?
+RAG is a method where a language model (like GPT) is combined with an external retriever system that fetches relevant documents, facts, or data before generating an answer. This helps the model give more accurate, up-to-date, and context-specific responses.
+
+
+
 
 
