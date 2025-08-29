@@ -13,8 +13,9 @@ Assigned Tasks (Interview Questions)
 
 1.find any 5 commands to implement in the command prompt? -ipconfig:Displays all computer's IP/TCP address and network details, and also used to reset your pasword. -ping:Tests cennectivity to another network device or website. -cd(change directory):Navigates between folders in CMD. -dir:Lists files and folders in the current directory. -cls:clear the command prompt screen.
 
-2.Check whether 'char' datatype exist in python or not? 
-3.What are the features of python?
+2.Check whether 'char' datatype exist in python or not? In python does not have a separate char datatype. Instead, a single character is treated as a string ( str ) of length 1.
+
+3.What are the features of python? 
 
 (13-08-2025)
 
