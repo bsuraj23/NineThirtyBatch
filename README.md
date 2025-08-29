@@ -95,7 +95,22 @@ Combines Retrieval + Generation – RAG uses an external knowledge base (like do
 Improves Accuracy & Reduces Hallucination – By grounding the model’s response in retrieved data, RAG ensures outputs are more reliable, factual, and up-to-date compared to a model generating purely from memory.
 
 (28-08-2025)
+
 Q1.Give the difference between the symbols " " and ' ' while we use them for string?
    If your string contains a single quote ', use double quotes " ". If your string contains a double quote ", use single quotes ' '.
    If your string contains both ' and ", you can Use escape characters with \ or we can triple codes ex: """ hello it's "rainy" today"""
+
+(29-08-2025)
+
+Q1.Understand about self keyword?
+   self refers to the instance of the class that is currently being used.
+   It allows access to instance variables and methods inside the class.
+Q2.How can you restart vs code by clearing the cache?
+    To restart the vscode we have a shortcut i.e crtl+shift+P but this dosenot change the chace.
+    Inorder to change the cache the process must be done manually
+Q3.How can you print all the attributes of a function?
+   We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func))
+   
+
+
 
