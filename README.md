@@ -56,8 +56,10 @@ Q6 the difference between lists and sets
 
 Q7 the difference between remove and discard
    The key difference between the remove and discard methods in Python sets is how they handle trying to remove an element that is not present in the set
+
 Q8 what is the purpose of :: in sets
    The double colon :: in Python is used as a slice operator for sequences like lists, strings, and tuples. It allows for slicing with a specified step, meaning it    can skip elements while iterating through the sequence.
+   
 Q9 make a presentation on the topics dictionary,set,list,tuple
    Python provides several built-in data structures to organize and store data. Four fundamental types are
    1)Dictionary
@@ -65,27 +67,40 @@ Q9 make a presentation on the topics dictionary,set,list,tuple
    3)List
    4)Tuple
   These structures differ in properties like ordering, mutability, duplication allowance, and indexing
+  
 Q10 check whether tuple is mutable or not
     Tuples in Python are immutable. This means that once a tuple is created, its elements cannot be changed, added, or removed. Attempting to modify an element in      a tuple will raise a TypeError.
+    
 Q11 test the four features of dictionary and get hands on by applying in program    
       1)Dictionary holds data as key-value pairs.
       2)Supports value access via keys.
       3)Dictionary is mutable .
       4)Keys are unique; updating a key changes its value
+      
 Q12 about RAG
+
 Q13 find the possible ways to print list without object.
+
 Q14 without using sorting techniques write a code which can sort the list of interges
+
 Q15 find the difference between  "" and ''
      1)Both represent string literals and behave identically in Python.
      2)Single quotes are often chosen when the string contains double quotes inside, to avoid escaping.
      3)Double quotes are preferred when the string contains single quotes/apostrophes inside, for the same reason.
+     
 Q16 correct the code "xyz=set(temp for i in range (2))"?
+
 Q17 understand about self keyword?
-     The self keyword in Python is a fundamental concept in object-oriented programming (OOP). It represents the instance of the class that is being created or          used. When an object is created from a class, self refers to that specific objec.
+     The self keyword in Python is a fundamental concept in object-oriented programming (OOP). It represents the instance of the class that is being created or          used. When an object is created from a class, self refers to that specific object.
+     
 Q18 print the local variable of the function using attribute?
+
 Q19 how can you restart vs code by clearing the cache
+
 Q20 print all the attributes of a function
+
 Q21 how many anotations in python
      Python supports various types of annotations mainly used for type hinting. These annotations are optional syntax that specify the expected data types of            variables, function parameters, and return types. They help tools like type checkers, IDEs, and linters provide better error detection and code completion.
+     
 Q22 how can we check the processor through python
     
