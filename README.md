@@ -29,7 +29,7 @@ Assigned Tasks (Interview Questions)
   * Compilation means coverts the whole program into machine code at once before execution.
   * Interpreter means Executes code line by line at runtime.
     
-2.Understand about VS code and the shortcuts? 
+2.Understand about VS code and the shortcuts? Visual Studio Code (VS Code) is a powerful, free, and lightweight code editor developed by Microsoft. It's used for various programming languages and is available on Windows, macOS, and Linux.
 3.Find the difference between (=) and (==)?
 
 (14-08-2025)
