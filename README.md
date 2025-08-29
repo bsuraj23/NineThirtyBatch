@@ -30,12 +30,24 @@ Assigned Tasks (Interview Questions)
   * Interpreter means Executes code line by line at runtime.
     
 2.Understand about VS code and the shortcuts? Visual Studio Code (VS Code) is a powerful, free, and lightweight code editor developed by Microsoft. It's used for various programming languages and is available on Windows, macOS, and Linux.
-3.Find the difference between (=) and (==)?
+  SHORTCUTS
+  *ctrl+c
+  *ctrl+v
+  *ctrl+T
+  *ctrl+shift+N
+  *ctrl+shift+p
+  
+3.Find the difference between (=) and (==)? In python, (=) and (==) have different purposes: 
+  *(=) is the assaignment operator, used to assign a value to a variable.
+  *(==) is the equality comparison operator, used to check if two values are equal.
 
 (14-08-2025)
 
-1.Difference between break and continue statements?
-2.Explore about %d,%f,%s,%t,/n?
+1.Difference between break and continue statements? 
+  * The break statement is used to exit the loop entirely. when the program encounters break, it immediately terminates the       loop it's inside and continues execution at the next statement following the loop.
+  * The continue statement is used to skip the current iteration of the loop and move on to the next one.
+    
+2.Explore about %d,%f,%s,%t,/n? 
 
 (18-08-2025)
 
