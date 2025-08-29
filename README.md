@@ -1,7 +1,6 @@
-NINE THIRTY BATCH PYTHON FULL STACK AI 
-Assigned Tasks (Interview Questions)
-
-(30-07-2025)
+NINE THIRTY BATCH PYTHON FULL STACK AI                                                                                                    
+Assigned Tasks (Interview Questions)                                                                                                       
+(30-07-2025)                                                                                                                               
 
 1.what is the history of python?
 2.What is the famous web application developed using python?
