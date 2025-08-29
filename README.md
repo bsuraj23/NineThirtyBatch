@@ -3,8 +3,9 @@ Assigned Tasks (Interview Questions)
 
 (30-07-2025)
 
-1.what is the history of python?
-2.What is the famous web application developed using python?
+1.what is the history of python? HISTORY OF PYTHON: python was created in 1989 by Guido Van Rossum at CWI,Netherlands,and released in 1991 as a simple,easy-to-read, and powerful programming language.python is a high-level,interpreted programming language known for its simplicity,readability,and versatility.It evolved through major versions--python 1.0(1994), python 2.0(2000) with features like list comprehensions and unicode,and python 3.0(2008),which modernized the language but broke backward compatibility.Widely used AI,machine learning,data science,web development,automation,and scientific computing.
+
+2.What is the famous web application developed using python? 
 3.What is compilation?
 
 (05-08-2025)
@@ -54,6 +55,7 @@ Assigned Tasks (Interview Questions)
 
 1.find the difference between " " and ' ' while using them for a string?
 2.correct the code "xyz=set(temp for i in range (2))"?.
+
 
 
 
