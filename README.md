@@ -48,6 +48,11 @@ Assigned Tasks (Interview Questions)
   * The continue statement is used to skip the current iteration of the loop and move on to the next one.
     
 2.Explore about %d,%f,%s,%t,/n? 
+  * %d -> Integer
+  * %f -> Floating-Point Number
+  * %s -> String
+  * %t -> Used in some languages for date&time
+  * \n -> Newline. 
 
 (18-08-2025)
 
