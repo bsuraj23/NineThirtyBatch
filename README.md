@@ -16,11 +16,20 @@ Assigned Tasks (Interview Questions)
 2.Check whether 'char' datatype exist in python or not? In python does not have a separate char datatype. Instead, a single character is treated as a string ( str ) of length 1.
 
 3.What are the features of python? 
-
+  * Easy to learn.
+  * High-level language.
+  * Interpreted.
+  * Object-oriented.
+  * Extensive libraries.
+  * Cross-platform. 
+    
 (13-08-2025)
 
-1.Difference between compilation and interpreter?
-2.Understand about VS code and the shortcuts?
+1.Difference between compilation and interpreter? 
+  * Compilation means coverts the whole program into machine code at once before execution.
+  * Interpreter means Executes code line by line at runtime.
+    
+2.Understand about VS code and the shortcuts? 
 3.Find the difference between (=) and (==)?
 
 (14-08-2025)
