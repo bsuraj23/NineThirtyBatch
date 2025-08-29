@@ -55,5 +55,20 @@ Assigned Tasks (Interview Questions)
 1.find the difference between " " and ' ' while using them for a string?
 2.correct the code "xyz=set(temp for i in range (2))"?.
 
+(30-07-2025)
+2.The famous web application developed using python is instagram,you tube
 
+compilation means translating the code written by a programmer(source code)into machine code(binary code)
+a compueter processor can directly understand and execute
+(05-08-2025)
+1.5command to implement the CMD
+DIS:display a list of file and folders in the current directory,CD:change the current working directory(example)cd document
+CLS:clear the command prompt screen.COPYcopies files from one location to another,DEL:deletes one or more files example:del file.txt
+2.In python, there is no separate 'char'datatype .instead a single character is treated as a string of length so the char is does 
+not exist in python use str(string).
+3.SIMPLE:python syntax is close to english ,so beginner can learn it quickly
+HIGH-LEVEL LANGUAGE: you don't need to manage memory or low-level details
+INTERPRETED LANGUAGE: it is no need for compilation; python code is executed line by the interprete
+CROSS-PLATFORM: runs on windows,macOS,linux,and even mobile device without modification
+PORTABLE AND EMBEDDABLE:python code can run anywhere and can be embedded in other languages like c\c++.
 
