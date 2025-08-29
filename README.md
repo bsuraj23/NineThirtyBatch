@@ -5,14 +5,13 @@ Assigned Tasks (Interview Questions)
 
 1.what is the history of python? HISTORY OF PYTHON: python was created in 1989 by Guido Van Rossum at CWI, Netherlands, and released in 1991 as a simple, easy-to-read, and powerful programming language. Python is a high-level, interpreted programming language known for its simplicity, readability, and versatility. It evolved through major versions--python 1.0(1994), python 2.0(2000) with features like list comprehensions and unicode, and python 3.0(2008), which modernized the language but broke backward compatibility. Widely used AI,machine learning, data science, web development, automation, and scientific computing.
 
-2.What is the famous web application developed using python? 
-  .The famous web application developed using python is INSTAGRAM.
+2.What is the famous web application developed using python? The famous web application developed using python is INSTAGRAM.
 
-3.What is compilation?
+3.What is compilation? Python's compilation process translates your source code into bytecode, which is then executed by the intrepreter. No separate compilation step is needed before running your code.
 
 (05-08-2025)
 
-1.find any 5 commands to implement in the command prompt?
+1.find any 5 commands to implement in the command prompt? 
 2.Check whether 'char' datatype exist in python or not?
 3.What are the features of python?
 
