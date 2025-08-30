@@ -113,3 +113,10 @@ SET: unordered collection of unique element.does not allow duplicates.elements c
  3.the symbol :: is not specific to sets in python-it actually comes from slicing notation used with sequence like tuple,and strings
  
  (25-08-2025)
+ 1.TUPLE:In python a *** is immutable, which means once tuple is created, its element cannot be changed, added,or removed
+ list is mutable,tuple is immutable.
+ 2.FEATURES OF DICTIONARY:
+* unordered as python 3.7,insertion order is preserved
+* mutable we can change values,add or remove items
+* key are unique no duplicates allowed;later key overwrites earlier one
+* key must be immutable is like string number,tuple.
