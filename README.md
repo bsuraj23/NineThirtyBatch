@@ -30,8 +30,7 @@ Assigned Tasks (Interview Questions)
   * Interpreter means Executes code line by line at runtime.
     
 2.Understand about VS code and the shortcuts? Visual Studio Code (VS Code) is a powerful, free, and lightweight code editor developed by Microsoft. It's used for various programming languages and is available on Windows, macOS, and Linux.
-
-  SHORTCUTS:
+  SHORTCUTS
   *ctrl+c
   *ctrl+v
   *ctrl+T
