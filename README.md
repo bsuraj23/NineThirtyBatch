@@ -30,7 +30,8 @@ Assigned Tasks (Interview Questions)
   * Interpreter means Executes code line by line at runtime.
     
 2.Understand about VS code and the shortcuts? Visual Studio Code (VS Code) is a powerful, free, and lightweight code editor developed by Microsoft. It's used for various programming languages and is available on Windows, macOS, and Linux.
-  SHORTCUTS
+
+  SHORTCUTS:
   *ctrl+c
   *ctrl+v
   *ctrl+T
@@ -82,7 +83,8 @@ SET:
   * Sets automatically eliminate duplicate elements.
   * Sets are mutable, means they can be modified after creation.
       
-2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-   > Removes an element, but does nothing if it's missing.  
+2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-   > Removes an element, but does nothing if it's missing.
+
 3.What is the purpose of the symbol :: in sets?
 
 (21-08-2025)
