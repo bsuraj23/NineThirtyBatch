@@ -43,4 +43,33 @@ Assigned Tasks (Interview Questions)
 
 1.Check whether tuple is mutable or not?
 2.Test the 4 features of dictionary and get hands on by applying in programs?
-1.HISTORY OF PYTHON
+
+(30-07-2025)
+1.HISTORY OF PYTHON:python was created in 1989 by guido van Rossum at CWI,netherland, and realeased in 1991
+as asimple,easy-to-read and powerful programming language.first version of python(0.9.0)released it already had 
+features like functions,exception handling,and the core datetype(str,list,dict,)along with modules.present has become
+the most popular programming language in the world.widely used in web development,data science,AI\ML,automation,scientific
+computing and education.python 2.0 was released list comprehension, garbage collection(using reference counting cycle detecting
+ and support unicode
+
+the famous web application developed using python is instargram,you tube
+
+complication means translating the code written by a programmer(source code)into machine code(binary code) a computer processor
+can directly understand and execute
+
+(05-08-2025)
+1.5 commands to implement the CMD
+DIR: display a list of files and folders in the current disectory.CD change the current working directory(cd documents).CLS clears the command
+prompt screen.COPY copies file from one  location to another(copy file1.txt.DEL Deletes one or more files(del file1.txt
+2.IN python ,there is no separate char datatype. instead a single character is treated as a string of length 1
+3.FEATURES OF PYTHON:
+* simple and easy to learn
+* interpreted language
+* cross platform
+* high-level language
+* object-oriented
+* extensive libraries
+* dynamic typing
+* free and open source.
+  
+(13-08-2025)  
