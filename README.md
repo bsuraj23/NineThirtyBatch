@@ -44,7 +44,7 @@ Assigned Tasks (Interview Questions)
 (14-08-2025)
 
 1.Difference between break and continue statements? 
-  * The break statement is used to exit the loop entirely. when the program encounters break, it immediately terminates the loop it's inside and continues execution at the       next statement following the loop.
+  * The break statement is used to exit the loop entirely. when the program encounters break, it immediately terminates the       loop it's inside and continues execution at the next statement following the loop.
   * The continue statement is used to skip the current iteration of the loop and move on to the next one.
     
 2.Explore about %d,%f,%s,%t,/n? 
@@ -56,8 +56,14 @@ Assigned Tasks (Interview Questions)
 
 (18-08-2025)
 
-1.Explore about http and https? 
-2.Find how does a search engine works?
+1.Explore about http and https?
+  * HTTP (Hyper-Text Transfer Protocol) used to transfer data between a web browser and a server. It doesn't provide any          security.
+  * HTTPS (Hyper-Text Transfer Protocol Secure) adds a security layer using SSL/TLS encryption, which ensures data privacy        and protection from attackers.
+     
+2.Find how does a search engine works? 
+  A search engine operates in three main steps:
+  * Crawling -> Search engines use automated programs called crawlers or spiders to systematically find new and updated web       pages.
+  * 
 
 (19-08-2025)
 
