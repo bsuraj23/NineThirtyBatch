@@ -44,7 +44,7 @@ Assigned Tasks (Interview Questions)
 (14-08-2025)
 
 1.Difference between break and continue statements? 
-  * The break statement is used to exit the loop entirely. when the program encounters break, it immediately terminates the       loop it's inside and continues execution at the next statement following the loop.
+  * The break statement is used to exit the loop entirely. when the program encounters break, it immediately terminates the loop it's inside and continues execution at the       next statement following the loop.
   * The continue statement is used to skip the current iteration of the loop and move on to the next one.
     
 2.Explore about %d,%f,%s,%t,/n? 
