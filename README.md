@@ -63,12 +63,26 @@ Assigned Tasks (Interview Questions)
 2.Find how does a search engine works? 
   A search engine operates in three main steps:
   * Crawling -> Search engines use automated programs called crawlers or spiders to systematically find new and updated web       pages.
-  * 
+  * Indexing -> It extracts keywords, images, and other information,and then organizes this data into a massive database          called the index.
+  * Ranking -> When you search, it matches your query with the index and shows results ranked by relevance. 
 
 (19-08-2025)
 
 1.What is the difference between list and set?
-2.Difference between remove and discard?
+LIST:
+
+  * Lists maintain the order of elements.
+  * List elements can be accessed using their index.
+  * Lists can contain duplicate elements.
+  * Supports indexing and slicing.
+    
+SET:
+  * Sets do not maintain the order of elements.
+  * Set elements cannot be accessed using their index.
+  * Sets automatically eliminate duplicate elements.
+  * Sets are mutable, means they can be modified after creation.
+      
+2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-   > Removes an element, but does nothing if it's missing.  
 3.What is the purpose of the symbol :: in sets?
 
 (21-08-2025)
