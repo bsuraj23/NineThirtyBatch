@@ -72,4 +72,15 @@ prompt screen.COPY copies file from one  location to another(copy file1.txt.DEL 
 * dynamic typing
 * free and open source.
   
-(13-08-2025)  
+(13-08-2025)
+1.COMPILATION: the source code in python is saved as a.py file which is then compiled into format known as byte code,byte code is then
+convert to machine code.after the compilation,the code stored in .pyc files and is regenerated when it update.
+INTERPRETER:In python an interpreter is a program that directly executes code written in the python programminag language without requiring
+it to be compiled into machine language first.the source code and converting it into instruction that the computer can understand and execute.
+2.visual studio code(vs code) is hightweight , and powerful code editor developed by microsoft it support multiple programming languages
+* ctrl + N :new file
+* ctrl + S :save file
+* ctrl + W :close file
+* ctrk + F : find
+* ctrl + H : replace.
+(14-08-2025)
