@@ -83,4 +83,33 @@ it to be compiled into machine language first.the source code and converting it 
 * ctrl + W :close file
 * ctrk + F : find
 * ctrl + H : replace.
+
 (14-08-2025)
+1.BREAK STATEMENT:the  purpose of break statement is it is used to terminate(exit) the loop immediately.after break,control goes to the first
+statement outside the loop.it is often used when a certian condition is met and you dont want to continue looping
+CONTINUE STATEMENT:the purpose of continue statement is used to skip the current iteration and move to the next iteration of the loop.It does not
+stop the loop,only skips the remaining code for that iteration.
+
+2.explore about
+1.%d is used to print an integer (decimal number)
+2.%f is used to print floating point number
+3.%s is used to print a string
+4.%t is used with date/time formatting
+5.\n is an escape sequence used to insert a new line.
+
+(18-08-2025)
+1.HTTP:stand for hyper text transfer protocol.A protocol used for transferring data(web pages,text,images,)it is between the web browser and web server.
+it work on port 80 .faster no encrypted and decrypted
+HTTPS: stands for  hypertext transfer protocol secure it uses ssl/tls encryption to keep data safe during transfer its work port number 443 and it is 
+sensitive data(banking, login, shopping)
+2.A search engin like google,bing,yahoo and its work on three steps
+search engin=crawling+indexing+ranking.
+
+(19-08-2025)
+1.LIST :it is ordered collection of items.*allows duplicate element.*elements can be accessed using index.*syntax:list =[1, 2, 2, 3]
+SET: unordered collection of unique element.does not allow duplicates.elements cannot be accessed using index because it is unordered.syntax:set1={1, 4, 3}
+2.remove(): if you want to be warned when the element is missing.
+ discard():if you want to aviod errors when the element might not be in the set.
+ 3.the symbol :: is not specific to sets in python-it actually comes from slicing notation used with sequence like tuple,and strings
+ 
+ (25-08-2025)
