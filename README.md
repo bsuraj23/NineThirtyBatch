@@ -120,3 +120,8 @@ SET: unordered collection of unique element.does not allow duplicates.elements c
 * mutable we can change values,add or remove items
 * key are unique no duplicates allowed;later key overwrites earlier one
 * key must be immutable is like string number,tuple.
+(26-08-2025)
+1.RAG stands for retrieval-augmented generation it uses AI technique that combines two things,
+  Retrieval:searching relevent information from a knowledeg base
+  Generation:using like language mode(like GPT) to generate ansewrs based on both.
+  
