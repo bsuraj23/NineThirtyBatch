@@ -84,21 +84,41 @@ SET:
       
 2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-   > Removes an element, but does nothing if it's missing.
 
-3.What is the purpose of the symbol :: in sets? Start -> where slicing begins (default = 0). Stop -> where slicing ends (default = end of sequence). Step -> the interval between elements (default = 1). ex: sequence[start : stop : step].
+3.What is the purpose of the symbol :: in sets? Start -> where slicing begins (default = 0). Stop -> where slicing ends        (default = end of sequence). Step -> the interval between elements (default = 1). ex: sequence[start : stop : step].
 
 (21-08-2025)
 
-1.Make a presentation on the topics dictionary, set, list, tuple? 
+1.Make a presentation on the topics dictionary, set, list, tuple?
+LIST:
+  * Elements have a defined order, which you can access using an index.
+  * You can add, remove, or change elements after the list is created.
+  * Lists can contain multiple identical elements.
+  * Created with square brackets [].
+TUPLE:
+  * Just like lists, elements have a defined order.
+  * You cannot change, add, or remove elemnts after the tuple is created.
+  * Tuple can contain multiple identical elements.
+  * Created with parentheses.
+ SET:
+  * Elements do not have a defined or index.
+  * You can add or remove elements.
+  * A set automatically removes any duplicate elements.
+  * Created with curly braces {} or the set() function.
 
 (25-08-2025)
 
-1.Check whether tuple is mutable or not?
+1.Check whether tuple is mutable or not? A tuple is immutable because once a tuple is created, you cannot change, add, or      remove its's elements. But, if a tuple contains mutable objects like lists or dictionaries then we can modify those          contents. 
+
 2.Test the 4 features of dictionary and get hands on by applying in programs?
+  * MUTABLE: Dictionaries cab be changed after they're created. you can add, remove, and modify key-value pairs.
+  * UN-ORDERED(in python 3.6 and earlier): Items in a dictionary don't have a defined order. (in python 3.7+ dictionaries)       maintain insertion order, which means they are ordered.
+  * KEY-VALUE PAIRS: Data is stored in key:value pairs. A key is used to access its corresponding value.
+  * UNIQUE AND IMMUTABLE: Each key must be unique to pevent data conflicts . keys can only be immutable types like strings,      numbers, or tuples, not lists or other dictionaries.
 
 (26-08-2025)
 
 1.Understand about RAG?
-2.Find the possible ways to print list without object? hint: Use any loops.
+2.Find the possible ways to print list without object? hint: Use any loops?
 3.Without using sorting techniques write a code which can sort the list of integers?
 
 (28-08-2025)
