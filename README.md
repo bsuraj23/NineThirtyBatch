@@ -84,7 +84,7 @@ SET:
       
 2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-   > Removes an element, but does nothing if it's missing.
 
-3.What is the purpose of the symbol :: in sets?
+3.What is the purpose of the symbol :: in sets? Start -> where slicing begins (default = 0). Stop -> where slicing ends (default = end of sequence). Step -> the interval between elements (default = 1). ex: sequence[start : stop : step].
 
 (21-08-2025)
 
