@@ -100,7 +100,7 @@ TUPLE:
   * Just like lists, elements have a defined order.
   * You cannot change, add, or remove elemnts after the tuple is created.
   * Tuple can contain multiple identical elements.
-  * Created with parentheses.
+  * Created with parentheses ().
     
  SET:
   * Elements do not have a defined or index.
