@@ -89,16 +89,19 @@ SET:
 (21-08-2025)
 
 1.Make a presentation on the topics dictionary, set, list, tuple?
+
 LIST:
   * Elements have a defined order, which you can access using an index.
   * You can add, remove, or change elements after the list is created.
   * Lists can contain multiple identical elements.
   * Created with square brackets [].
+    
 TUPLE:
   * Just like lists, elements have a defined order.
   * You cannot change, add, or remove elemnts after the tuple is created.
   * Tuple can contain multiple identical elements.
   * Created with parentheses.
+    
  SET:
   * Elements do not have a defined or index.
   * You can add or remove elements.
