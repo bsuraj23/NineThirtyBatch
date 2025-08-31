@@ -88,7 +88,7 @@ SET:
 
 (21-08-2025)
 
-1.Make a presentation on the topics dictionary, set, list, tuple?
+1.Make a presentation on the topics dictionary, set, list, tuple? 
 
 (25-08-2025)
 
