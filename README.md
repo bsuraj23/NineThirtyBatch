@@ -90,10 +90,17 @@ key features
 (13\08\2025)
 
 
- Compiler: A compiler is a program that  translate the entire source code of a program into machine code or an intermediate representation like bytecode before the program is run. It produces a separate executable file. It executable is platform-specific.
+ 1. Compiler: A compiler is a program that  translate the entire source code of a program into machine code or an intermediate representation like bytecode before the program is run. It produces a separate executable file. It executable is platform-specific.
  
  Interpreted: An interpreter reads one statement of the program at a time,traslate it into machione code,and then executes it immediately before moving on to the next line. it executed line-by line by interpreter at runtime.
- 
+
+
+ 2. VS code shortcuts
+* Ctrl + Shift +p
+* Ctrl + P
+*  Ctrl + S
+*  Ctrl + ,
+*  CTRL + k, Ctrl + S
 
    
 
