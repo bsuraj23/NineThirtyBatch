@@ -37,4 +37,8 @@ Assigned Tasks (Interview Questions)
 2.Print the local variables of the function using attribute?                                                                              
 3.How can you restart VS code by clearing the cache?                                                                                      
 4.print all the attritubes of a function?                                                                                                    
-
+(1-09-2025)
+1.How to implement the global variable in the end of the function?
+2.What is hexa,octa,odinary,complex in phython?
+3.Get the all attributes of the functions?
+4.What is openAI?Give the examples.
