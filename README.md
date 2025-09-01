@@ -51,6 +51,48 @@
  Augment:Adds that information to the user's query
  Generate:Passes it to a Large Language Model(LLM) tp produce a more accurate answer
 
+Difference between single quotes(') and double quotes(")
+ single quotes
+-->No difference both represent string
+-->Use when string contains double quotes inside
+-->Less used for doc strings
 
+ Double quotes
+-->No difference both represent string
+-->Use when string contains single quotes inside
+-->Preferred for doc strings (or) documentation
+
+
+What is Self?
+-->Self is the instance the method is acting on the "current object".its just a name but by convention we write self
+-->In python,methods are just functions defined inside the class.when you call obj.method(X),
+Python actually does: Class.method(obj,x).So the instance (obj) is passed as the first argument.we capture it with self.self.value means the value belonging to this particular object& self is used to keep your code readable and idiomatic
+for example to use:
+-->Inside instance methods to read/write the object's data
+-->In init to set up per-object attributes
+-->In properties to access instance data
+
+
+
+
+What is Inavlid Cache?
+An invalid cache means the stored data is outdated,corrupted or no longer matches the actual data in memory or datbase,cache data that has become outdated,incorrect or unusable so it should not be used anymore 
+
+
+
+Globals and loclas(Attributes)
+Global:
+-->Declared outside of all the functions
+-->Can be accessed anywhere in the program
+--->Exists as long as the program is running
+-->Cannot be changed inside a function without using the global keyword
+-->Stored in global memory (program-level)
+
+Local:
+-->Declared inside a function
+-->Can only be accesed inside the function where it is created
+-->Exists only until the function finishes the execution
+-->Can be freely modified inside the function
+-->stored in stack memory(function-level)
 
  
