@@ -47,6 +47,9 @@ Assigned Tasks (Interview Questions)
 (1-09-2025)
 
 1.How to implement the global variable in the end of the function?
+
 2.What is hexa,octa,odinary,complex in phython?
+
 3.Get the all attributes of the functions?
+
 4.What is openAI?Give the examples.
