@@ -110,6 +110,7 @@ key features
 (14/08/2025)
 
 1. A break statement terminates the entire loop in which its located. when a break is executed,the program immediately exits the loop and continues withthe first statements after the loop. it is often used to exit a loop early when a certain condition is met.
+
 Continue: A continue statement skips the current iteration of a loop. when a continue is executed, the program jumps to the next iteratiom of the loop.
 
 
