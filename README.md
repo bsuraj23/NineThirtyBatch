@@ -124,4 +124,10 @@ SET: unordered collection of unique element.does not allow duplicates.elements c
 1.RAG stands for retrieval-augmented generation it uses AI technique that combines two things,
   Retrieval:searching relevent information from a knowledeg base
   Generation:using like language mode(like GPT) to generate ansewrs based on both.
+  RAG ensure outputs are more reliable,factual,and up-to-up data compared to a models generating purely from memory.
+
+(28-08-2025)
+  1.If the string contain a single quote ', use double quotes " ".if your string contains a double quote ",use single quotes ''.if your string contains
+  both'and", you can use escape character with triple code.                       ,
+
   
