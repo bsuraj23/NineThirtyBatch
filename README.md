@@ -4,10 +4,15 @@ Assigned Tasks (Interview Questions)
 1.what is the history of python?                                                                                                           
 2.What is the famous web application developed using python?                                                                               
 3.What is compilation?                                                                                                                     
+
 (05-08-2025)                                                                                                                               
+
 1.find any 5 commands to implement in the command prompt?                                                                                  
 2.Check whether 'char' datatype exist in python or not?                                                                                    
-3.What are the features of python?                                                                                                         (13-08-2025)                                                                                                                               
+3.What are the features of python?             
+
+(13-08-2025)                                                                                                                               
+
 1.Difference between compilation and interpreter?                                                                                          
 2.Understand about VS code and the shortcuts?                                                                                              
 3.Find the difference between (=) and (==)?                                                                                                
@@ -28,7 +33,8 @@ Assigned Tasks (Interview Questions)
 2.Test the 4 features of dictionary and get hands on by applying in programs?                                                              
 (26-08-2025)                                                                                                                               
 1.Understand about RAG?                                                                                                                    
-2.Find the possible ways to print list without object? hint: Use any loops?                                                              3.Without using sorting techniques write a code which can sort the list of integers?                                                       
+2.Find the possible ways to print list without object? hint: Use any loops?
+3.Without using sorting techniques write a code which can sort the list of integers?                                                       
 (28-08-2025)                                                                                                                               
 1.find the difference between " " and ' ' while using them for a string?                                                                   
 2.correct the code "xyz=set(temp for i in range (2))"?                                                                                     
@@ -37,7 +43,9 @@ Assigned Tasks (Interview Questions)
 2.Print the local variables of the function using attribute?                                                                              
 3.How can you restart VS code by clearing the cache?                                                                                      
 4.print all the attritubes of a function?                                                                                                    
+
 (1-09-2025)
+
 1.How to implement the global variable in the end of the function?
 2.What is hexa,octa,odinary,complex in phython?
 3.Get the all attributes of the functions?
