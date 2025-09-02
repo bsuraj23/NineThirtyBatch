@@ -92,4 +92,9 @@ set does not having insertion order, it does not allow duplicate values, there i
 (25/08/25)
 tuple is mutable or not
 Tuple is immutable because Python has designed it to be a fixed collection.Once created, its elements cannot be changed, added, or removed.
+ 
+ (26/08/25)
+
+ 1.RAG means Retrieval Augmented Generation.
+It is a method in Artificial Intelligence (AI) where the system combines. Retrieval means Searching for information from a database/documents and generation means Using AI model like ChatGPT, gemini AI, meta AI to generate an answer.Tts like a database it cantain the all information when any one ask question then it will give the answer in one or two seconds. 
 
