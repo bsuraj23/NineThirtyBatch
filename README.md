@@ -53,3 +53,11 @@ Assigned Tasks (Interview Questions)
 3.Get the all attributes of the functions?
 
 4.What is openAI?Give the examples.
+
+(2-09-2025)
+1. what is factorial of zero?
+2. what is palidrome and their examples?
+3. what is meaning of purge?
+4. what is conflit?How do slove conflit?
+5. program for reverse a string by using for & while loop?
+   
