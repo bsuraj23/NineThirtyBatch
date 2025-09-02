@@ -57,13 +57,13 @@ Assigned Tasks (Interview Questions)
 (18-08-2025)
 
 1.Explore about http and https?
-  * HTTP (Hyper-Text Transfer Protocol) used to transfer data between a web browser and a server. It doesn't provide any          security.
-  * HTTPS (Hyper-Text Transfer Protocol Secure) adds a security layer using SSL/TLS encryption, which ensures data privacy        and protection from attackers.
+  * HTTP (Hyper-Text Transfer Protocol) used to transfer data between a web browser and a server. It doesn't provide any security.
+  * HTTPS (Hyper-Text Transfer Protocol Secure) adds a security layer using SSL/TLS encryption, which ensures data privacy and protection from attackers.
      
 2.Find how does a search engine works? 
   A search engine operates in three main steps:
-  * Crawling -> Search engines use automated programs called crawlers or spiders to systematically find new and updated web       pages.
-  * Indexing -> It extracts keywords, images, and other information,and then organizes this data into a massive database          called the index.
+  * Crawling -> Search engines use automated programs called crawlers or spiders to systematically find new and updated web pages.
+  * Indexing -> It extracts keywords, images, and other information,and then organizes this data into a massive database called the index.
   * Ranking -> When you search, it matches your query with the index and shows results ranked by relevance. 
 
 (19-08-2025)
@@ -82,9 +82,9 @@ SET:
   * Sets automatically eliminate duplicate elements.
   * Sets are mutable, means they can be modified after creation.
       
-2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-   > Removes an element, but does nothing if it's missing.
+2.Difference between remove() and discard()? remove() -> Removes an element, but raises an error if it's missing. discard()-> Removes an element, but does nothing if it's missing.
 
-3.What is the purpose of the symbol :: in sets? Start -> where slicing begins (default = 0). Stop -> where slicing ends        (default = end of sequence). Step -> the interval between elements (default = 1). ex: sequence[start : stop : step].
+3.What is the purpose of the symbol :: in sets? Start -> where slicing begins (default = 0). Stop -> where slicing ends (default = end of sequence). Step -> the interval between elements (default = 1). ex: sequence[start : stop : step].
 
 (21-08-2025)
 
@@ -120,7 +120,9 @@ TUPLE:
 
 (26-08-2025)
 
-1.Understand about RAG?
+1.Understand about RAG? * RAG (Retrieval-Augmented Generation) is a framework used with large language models (LLMS) to enhance their ability to generate responses by         incorporating external authoritative knowledge bases.
+  * The core idea of RAG is to retrieve relevant information from an external source and then augment the LLM's prompt with this information before generating a response.
+    
 2.Find the possible ways to print list without object? hint: Use any loops?
 3.Without using sorting techniques write a code which can sort the list of integers?
 
