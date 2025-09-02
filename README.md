@@ -110,13 +110,13 @@ TUPLE:
 
 (25-08-2025)
 
-1.Check whether tuple is mutable or not? A tuple is immutable because once a tuple is created, you cannot change, add, or      remove its's elements. But, if a tuple contains mutable objects like lists or dictionaries then we can modify those          contents. 
+1.Check whether tuple is mutable or not? A tuple is immutable because once a tuple is created, you cannot change, add, or remove its's elements. But, if a tuple contains mutable objects like lists or dictionaries then we can modify those contents. 
 
 2.Test the 4 features of dictionary and get hands on by applying in programs?
   * MUTABLE: Dictionaries cab be changed after they're created. you can add, remove, and modify key-value pairs.
-  * UN-ORDERED(in python 3.6 and earlier): Items in a dictionary don't have a defined order. (in python 3.7+ dictionaries)       maintain insertion order, which means they are ordered.
+  * UN-ORDERED(in python 3.6 and earlier): Items in a dictionary don't have a defined order. (in python 3.7+ dictionaries) maintain insertion order, which means they are ordered.
   * KEY-VALUE PAIRS: Data is stored in key:value pairs. A key is used to access its corresponding value.
-  * UNIQUE AND IMMUTABLE: Each key must be unique to pevent data conflicts . keys can only be immutable types like strings,      numbers, or tuples, not lists or other dictionaries.
+  * UNIQUE AND IMMUTABLE: Each key must be unique to pevent data conflicts . keys can only be immutable types like strings, numbers, or tuples, not lists or other dictionaries.
 
 (26-08-2025)
 
