@@ -129,19 +129,28 @@ SET: unordered collection of unique element.does not allow duplicates.elements c
 (28-08-2025)
   1.If the string contain a single quote ', use double quotes " ".if your string contains a double quote ",use single quotes ''.if your string contains
   both'and", you can use escape character with triple code.                       ,
+
 (29-08-2025).
+
 1.SELF KEYWORD:In python the self keyword is very important when working with classes and object.self represents the current instance of the class.it is used
 to acces variableand methods that belong to the same object .
+
 2.ATTRIBUTES OF FUNCTION:In python a function itself is an object and like any object it has attributes.we can use the dir()function to print all the
 attributes of function which gives the directly ex print(dir(my-func)).
+
 3.VS CODE: To insert we have a shortcut i e crtl+shift+p but this doesnot change the chace.Inorder to change the cache the process must be done manually.
+
 (1-09-2025).
+
 1.IN python to modify a global variable inside a function you must declare it using the global keyword.use global varname inside the function before assingning
 to it.without global,python will treat it as a local variable.globals are useful sometimes but overusing them makes code harder to manage better to return
 value instead.
+
 2.NUMBER TYPES IN PYTHON:ordinary numbers these are the normal numbers we use every day(base 10).digits 0-9.octal number use the digits 0-7 onlyin the python
 octal numbers are written with prefix(zero+small).hexadecimal number is use base is 16 digits 0-9 and A-F(or a-f) in python,hexa decimal number are written
 with perfix 0x.complex number have a real part and an imaginary part.in the python imaginary unit is represented by j.
+
 3.openAI is an artifical intelligence research and deployment company.one of the most popular AI products from openAI is chatgpt,DALL.E(for AI art and image
 generation)WHISPER(for speech-to-text),CODEX (code generation help).
+
  (2-09-2025 )
