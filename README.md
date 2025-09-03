@@ -114,7 +114,7 @@ Q3.How can you print all the attributes of a function?
 (01-09-2025)
 
 Q1.How to implement the global variable in the end of the function?                                                                                                                 
-   In Python, to modify a global variable inside a function, we use the global keyword.
+   In Python, to modify a global variable inside a function, we use the global keyword.                                                                                                   
 Q2.What is hexa, octa, ordinary, complex in Python?                                                                                                                                  
    Hexa (Hexadecimal): Base 16 numbers, digits 0–9 + letters A–F. Prefix: 0x.Example: 0x1A → decimal 26.                                                                                  
    Octa (Octal): Base 8 numbers, digits 0–7. Prefix: 0o.Example: 0o12 → decimal 10.                                                                                                       
