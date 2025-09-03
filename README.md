@@ -102,5 +102,7 @@ It is a method in Artificial Intelligence (AI) where the system combines. Retrie
 
 1.In Python, there is no functional difference between using single quotes (') and double quotes (") to define a string. Both 'hello' and "hello" create identical string objects. The choice between them is largely a matter of style or convenience, especially when a string itself contains either a single or a double quote.If a string contains a single quote, it's often more convenient to enclose it in double quotes or If a string contains a double quote, it's often more convenient to enclose it in single quotes.
 
-2.
+(29/08/25)
+
+1.self refers to the instance of the class that is currently being used. It allows access to instance variables and methods inside the class. Q2.How can you restart vs code by clearing the cache? To restart the vscode we have a shortcut i.e crtl+shift+P but this dosenot change the chace. Inorder to change the cache the process must be done manually Q3.How can you print all the attributes of a function? We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func)
 
