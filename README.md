@@ -57,10 +57,15 @@ Assigned Tasks (Interview Questions)
 5. program for reverse a string by using for & while loop?
 
 (3-09-2025)
+
 1.Difference between exception and error.?
+
 2.How many types of exceptions are there in python.?
-3.HOW can you fix input function can able to access the boolean and null values.?
+
+3.How can you fix input function can able to access the boolean and null values.?
+
 4.None is data type or not in python.?
+
 5.what are the five pillors of OOPS.?
 
    
