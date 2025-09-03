@@ -98,3 +98,9 @@ Tuple is immutable because Python has designed it to be a fixed collection.Once 
  1.RAG means Retrieval Augmented Generation.
 It is a method in Artificial Intelligence (AI) where the system combines. Retrieval means Searching for information from a database/documents and generation means Using AI model like ChatGPT, gemini AI, meta AI to generate an answer.Tts like a database it cantain the all information when any one ask question then it will give the answer in one or two seconds. 
 
+(28/08/2025)
+
+1.In Python, there is no functional difference between using single quotes (') and double quotes (") to define a string. Both 'hello' and "hello" create identical string objects. The choice between them is largely a matter of style or convenience, especially when a string itself contains either a single or a double quote.If a string contains a single quote, it's often more convenient to enclose it in double quotes or If a string contains a double quote, it's often more convenient to enclose it in single quotes.
+
+2.
+
