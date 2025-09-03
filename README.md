@@ -214,6 +214,45 @@ They are almost the same, but the main difference is in convenience when writing
 2. Double Quotes (" ")
    Also used to create string values.
    Handy when the string contains single quotes inside.
+
+(29-08-2025)
+
+16.Understand about self keyword?
+ * Represents the current object
+      When you call a method using an object, self refers to that specific object.
+ * Automatically passed
+      You don’t need to pass it explicitly while calling a method; Python adds it automatically.
+ * Used to access attributes and methods
+      With self, you can access instance variables (self.name, self.age) and other methods.
+
+ 17.Print the local variable of the function using attribute? 
+  * local variables inside a function are temporary.
+  * If you want to print them later, you must convert them into attributes of the object (using self).
+  * local_var is a local variable, normally lost after function ends.
+  * self.local_var = local_var attaches it to the object as an attribute.
+  * Now you can access it outside the function using obj.local_var.
+
+ 18.How can you restart vs code by clearing the cache?  
+  * sometimes it misbehaves due to corrupted cache or settings.
+  *  You can restart it by clearing the cache in two main ways
+  * Reload Window" = quick restart (soft clear).
+  * Deleting cache folders = full reset (hard clear).
+
+ 19.Print all the attritubes of a function?
+   Every function is also an object, so it has attributes you can inspect.
+   Functions in Python have built-in attributes like:
+   __name__ → function name
+   __doc__ → docstring
+   __code__ → code object (contains local variables, line numbers, etc.)
+   __defaults__ → default argument values
+   __annotations__ → type hints
+
+ 20.  
+
+   
+    
+   
+
    
    
 
