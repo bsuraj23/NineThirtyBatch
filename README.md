@@ -97,6 +97,62 @@ discard() :Removes a specific element from a set and doesn't raises any error.
 16Q. What is RAG ?
 RAG is a method where a language model (like GPT) is combined with an external retriever system that fetches relevant documents, facts, or data before generating an answer. This helps the model give more accurate, up-to-date, and context-specific responses.
 
+(28 Aug 2025)
+
+17Q. What is the difference between single(')and double(") quotes?
+If your string contains a single quote ', use double quotes " ". If your string contains a double quote ", use single quotes ' '. If your string contains both ' and ", you can Use escape characters with \ or we can triple codes ex: """ hello it's "rainy" today""".
+
+(29 Aug 2025)
+
+18Q. What is the use of 'Self' keyword?
+If we declare the 'self' keyword in the local of a function then we can use those parameters at both local and global variables.
+
+19Q.How can we restart the vs code by using cache?
+VS Code can be restarted and cache cleared to fix performance issues by manually removing cache files or using built-in commands.
+* Manual cache deletion
+* Terminal commands (Mac/Linux)
+* Clear Extension Cache
+* Clear Workspace Storage & Editor History
+
+20Q. How can we print all the attributes of a function or class?
+All the attributes of a function or class in Python can be printed using tools like :
+* dir():Returns a list of all attribute and method names
+* __dict__:Provides a dictionary of an object's or class's namespace
+* vars():Equivalent to accessing __dict__, but more portable.
+
+21Q. how can we check the processing power percentage using the python code?
+The processing power percentage (CPU usage) in Python can be checked using the psutil library, which provides a simple and cross-platform way to retrieve real-time CPU statistics.
+* No special permissions are required to run this code, and it works on Windows, macOS, and Linux.
+* psutil.cpu_percent() can be called without arguments for instant usage, but accuracy improves with an interval.
+* This code reports the total (or per-core) processing power usage as a percentage, which helps monitor system load in real time.
+
+(1 Sep 2025)
+
+22Q.how to implement the global variable in the end of the function?
+A global variable in Python can be modified inside a function by declaring it with the global keyword.
+* Declare the global variable outside the function
+* Use the global keyword inside the function before assignment
+* You can place global variable_name at the end of the function before you assign or modify the variable, but it must come before any usage of      that variable in the function
+* Attempting to assign the variable before declaring it global inside the function will cause an error; so, declare global just before usage—even   if it's at the end
+
+23Q.What is Hexa, Octa, Ordinary, Complex in python?
+In Python, Hexa (Hexadecimal), Octa (Octal), Ordinary (Decimal), and Complex refer to different numeric types and representations used in code and computations.
+* Hexadecimal:
+Represents numbers using base 16 , Uses digits 0-9 and letters A-F
+* Octal
+Represents numbers using base 8, Uses digits 0-7 only.
+* Decimal
+Represents numbers using base 10, Uses digits 0-9.
+* Complex
+Represents complex numbers with real and imaginary parts.
+
+24Q. what is openAI ? give some examples.
+OpenAI is an artificial intelligence research organization and company that develops state-of-the-art AI models, including natural language processing models like GPT.
+* Advanced AI models for language understanding and generation
+* Tools for computer vision, code generation, chatbots, and more
+* APIs for developers to build intelligent applications easily.
+
+
 
 
 
