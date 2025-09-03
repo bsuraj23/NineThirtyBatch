@@ -108,3 +108,30 @@ It is a method in Artificial Intelligence (AI) where the system combines. Retrie
 
 Q2.To restart the vscode we have a shortcut i.e crtl+shift+P but this dosenot change the cache. Inorder to change the cache the process must be done manually Q3.How can you print all the attributes of a function? We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func)
 
+(1/09/25)
+ 1.In Python to modify an existing global variable within a function, the global keyword is used to explicitly declare that the variable being referenced is the global one, not a new local variable. 
+
+ 2.We can represent hexadecimal numbers in Python using the 0x prefix.Python provides built-in functions to convert from Base 10 integer to Binary, Octal and Hexadecimal representations. The respective functions are bin() , oct() and hex() — the returned values are of String type prefixed with the corresponding base: 0b for bin() , 0o for oct() and 0x for hex().
+
+3.To obtain all attributes of a function in Python, the dir() built-in function is commonly used.
+difference types of attributes of functions is 
+1.'__annotations__'
+2.'__builtins__'
+3.'__call__'
+4.'__closure__'
+5.'__code__'
+6.'__defaults__'
+7.'__dict__'
+8.'__doc__'
+9.'__get__'
+10.'__globals__'
+11.'__name__'
+12.'__qualname__'
+13.'__reduce__'
+14. '__repr__'
+15'__setattr__'
+16'__sizeof__'
+17'__str__'
+18'__subclasshook__'
+
+4.OpenAI is an AI company that builds and releases very smart computer programs. Think of it as a factory for advanced artificial intelligence. ex: chatgpt
