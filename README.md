@@ -122,7 +122,34 @@ Q2.What is hexa, octa, ordinary, complex in Python?
    Complex: Numbers with real and imaginary parts.Example: 3 + 4j (here j is √-1).                                                                                                        
 Q3.Get all attributes of the functions?                                                                                                                                                   
    You can use dir() to get attributes.                                                                                                                                                   
+Q4.What is OpenAI? Give examples.                                                                                                                                                  
+   OpenAI is an artificial intelligence research company that builds AI models like ChatGPT, DALL·E, Codex etc.                                                                           
+                                                                                                                                                                                       
+(02-09-2025)                                                                                                                                                                              
+                                                                                                                                                                                          
+Q1.What is factorial of 0?
+   The factorial of 0 is 1 by the mathematical definition.                                                                                                                                
+Q2.What is palindrome and examples?                                                                                                                                                      
+   A palindrome is a word, phrase, or number that reads the same from forward and backward.
+   Examples:Words → madam, level, racecar,Numbers → 121, 12321                                                                                                                            
+Q3.What is meaning of purge?                                                                                                                                                              
+   Purge means to remove completely or clean out unwanted items.                                                                                                                         
+   Example: Purging cache → clearing stored temporary files.                                                                                                                              
+Q4.What is conflict? How do you solve conflict?                                                                                                                                           
+   Conflict means a clash between two or more things (in programming often in Git or teamwork).                                                                                     
+   Solve conflict:In Git → manually merge code changes.
+                                                                                                                                                                                          
+(03-09-2025)                                                                                                                                                                              
+                                                                                                                                                                                          
+Q1.What is the difference between exception and error?                                                                                                                                    
+   Error: Problem in the program that stops execution. Usually caused by wrong syntax, missing file, etc.                                                                                 
+   Exception: Special type of error that can be handled using try-except.                                                                                                                 
+Q2.How many types of exceptions are there in python?                                                                                                                                      
+   Python has built-in exceptions (around 70+ types).                                                                                                                                     
+   Some common ones:ZeroDivisionError, ValueError, TypeError, IndexError, KeyError, FileNotFoundError                                                                                     
+Q3.Is None a datatype in python?                                                                                                                                                          
+   Yes → NoneType is its own data type in Python.                                                                                                                                         
+Q4.What are the five pillars of oops?                                                                                                                                                    
+   The 5 pillars of oops are: Class, Object, Polymorphism, encapsulation, inheritance.
    
-
-
 
