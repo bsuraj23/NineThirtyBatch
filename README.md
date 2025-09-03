@@ -104,5 +104,7 @@ It is a method in Artificial Intelligence (AI) where the system combines. Retrie
 
 (29/08/25)
 
-1.self refers to the instance of the class that is currently being used. It allows access to instance variables and methods inside the class. Q2.How can you restart vs code by clearing the cache? To restart the vscode we have a shortcut i.e crtl+shift+P but this dosenot change the chace. Inorder to change the cache the process must be done manually Q3.How can you print all the attributes of a function? We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func)
+1.self refers to the instance of the class that is currently being used. It allows access to instance variables and methods inside the class.
+
+Q2.To restart the vscode we have a shortcut i.e crtl+shift+P but this dosenot change the cache. Inorder to change the cache the process must be done manually Q3.How can you print all the attributes of a function? We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func)
 
