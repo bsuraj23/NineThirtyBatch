@@ -153,4 +153,11 @@ with perfix 0x.complex number have a real part and an imaginary part.in the pyth
 3.openAI is an artifical intelligence research and deployment company.one of the most popular AI products from openAI is chatgpt,DALL.E(for AI art and image
 generation)WHISPER(for speech-to-text),CODEX (code generation help).
 
- (2-09-2025 )
+ (2-09-2025 ).
+ 1.The factorial of zero is 1.by definition n!=n(n-1)base case 0!=1 there exactly one way to arrange zero object 2.A palindrome is a word, number, phrase,or
+ sequence that reads the same forward and backward( ignoring spaces punctuation,and capitalization in many cases).
+ 
+ 3.The word purge means to remove or get rid of something unwanted.to clean out or eliminate something undesirable 4.A conflict is a disagreement clash,or problem
+ that happens when two or more people,ideas or thinks.A.stay calm and listen carefully.B.communicate clearly without blaming.C.find a compromise or middle ground.
+ 
+(3-09-2025).
