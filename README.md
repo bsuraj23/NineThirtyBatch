@@ -46,9 +46,8 @@ Assigned Tasks (Interview Questions)
 
 (1-09-2025)
 
-1.How to implement the global variable in the end of the function?                                                                                                                         
-2.What is hexa,octa,odinary,complex in phython?                                                                                                                                            
-3.Get the all attributes of the functions?                                                                                                                                                 4.What is openAI?Give the examples.                                                                                                                                                        
+1.How to implement the global variable in the end of the function?                                                                                                               2.What is hexa,octa,odinary,complex in phython?                                                                                                                                
+3.Get the all attributes of the functions?                                                                                                                                       4.What is openAI?Give the examples.                                                                                                                                                     
 
 (2-09-2025)
 1. what is factorial of zero?
@@ -56,5 +55,12 @@ Assigned Tasks (Interview Questions)
 3. what is meaning of purge?
 4. what is conflit?How do slove conflit?
 5. program for reverse a string by using for & while loop?
+
+(3-09-2025)
+1.Difference between exception and error.?
+2.How many types of exceptions are there in python.?
+3.HOW can you fix input function can able to access the boolean and null values.?
+4.None is data type or not in python.?
+5.what are the five pillors of OOPS.?
 
    
