@@ -180,3 +180,57 @@ steps to solve conflict:
 * Brainstorm solutions
 * Agree and take action
   
+(3 Sep 2025)
+
+29Q. Understand the difference between exception and error?
+ERROR:
+* Errors are serious problems that occur in a program and usually cannot be handled by the program itself.
+* It caused by issues external to the program or low-level problems.
+* Errors are not expected to be caught or recovered from using exception handling (like try-except).
+
+EXCEPTION:
+* Exceptions are problems that occur during the execution of a program but can be handled in the code.
+* It caused by logical mistakes or invalid operations.
+* Exceptions are expected and recoverable using try-except blocks.
+
+30Q. How many types of exceptions are there in python?
+There are two types of exceptions:
+1.Built-in Exceptions
+These come with Python by default. They are further divided into two groups:
+a. Standard Exceptions (commonly used)
+-ZeroDivisionError → division by zero
+-ValueError → invalid value (e.g., converting "abc" to int)
+-IndexError → invalid list index
+-KeyError → invalid dictionary key
+-TypeError → operation on wrong data type
+-FileNotFoundError → file doesn’t exist
+-IOError → input/output operation failure
+-AttributeError → invalid attribute access
+-ImportError / ModuleNotFoundError → module not found
+b.System-related Exceptions (less common, more serious)
+-MemoryError → out of memory
+-RecursionError → too much recursion
+-SystemExit → program exit
+-KeyboardInterrupt → user stops program (Ctrl+C)
+2.User-defined Exceptions
+You can create your own exceptions by inheriting from the Exception class.
+
+31Q. Is 'none' datatype or not in python?
+* In Python,'None' is not a data type by itself,instead it is a special constant in Python.
+* It represents the absence of a value or null value, and the data type of None is called NoneType.
+
+32Q. How can you fix input function and can able to access the boolean and null values?
+* The input() function in Python always returns a string,that means if you type True, False, or None, Python treats them as strings ("True", "False", "None") instead of boolean/null values.
+solution:
+1. eval()
+   It can evaluate the input as Python code.It is unsafe if you take input from untrusted users, because it can execute malicious code.
+2. custom conversion logic
+   Instead of eval(), you can manually check and convert.
+
+33Q. What are the five pillars of OOPS?
+there are five main pillars (sometimes you’ll see 4, but the 5th is often added in modern teaching):
+1. Encapsulation-Wrapping data (attributes) and methods (functions) together into a single unit (class).
+2. Abstraction-Hiding the complex implementation details and showing only the essential features.
+3. Inheritence-One class (child) can derive properties and methods from another class (parent).
+4. polymorphism-The ability to take many forms (same method name behaving differently).
+5. Association-Defines how objects are related to each other (Has-A relationship).
