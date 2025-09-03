@@ -110,6 +110,18 @@ Q2.How can you restart vs code by clearing the cache?
     Inorder to change the cache the process must be done manually
 Q3.How can you print all the attributes of a function?
    We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func))
+
+(01-09-2025)
+
+Q1.How to implement the global variable in the end of the function?                                                                                                                 
+   In Python, to modify a global variable inside a function, we use the global keyword.
+Q2.What is hexa, octa, ordinary, complex in Python?                                                                                                                                  
+   Hexa (Hexadecimal): Base 16 numbers, digits 0–9 + letters A–F. Prefix: 0x.Example: 0x1A → decimal 26.                                                                                  
+   Octa (Octal): Base 8 numbers, digits 0–7. Prefix: 0o.Example: 0o12 → decimal 10.                                                                                                       
+   Ordinary (Decimal): Normal base 10 numbers (0–9).Example: 123 (decimal).                                                                                                               
+   Complex: Numbers with real and imaginary parts.Example: 3 + 4j (here j is √-1).                                                                                                        
+Q3.Get all attributes of the functions?                                                                                                                                                   
+   You can use dir() to get attributes.                                                                                                                                                   
    
 
 
