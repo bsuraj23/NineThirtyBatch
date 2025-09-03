@@ -1,18 +1,17 @@
 2-09-2025
-factorial of 0  --- 1
+1.factorial of 0  --- 1
 
-palindrome and some examples :
+2.palindrome and some examples :
                              Palindrome means a word,number,sequence or phrase that reads the same forward and backward.
                              Ex: MADAM,POP,EYE
 
-Purge:     Purge means to completely remove or clear out unwanted data, contents, or elements from a storage place such as    
-            memory, files, or data structures, leaving it empty or clean.
+3.Purge:     Purge means to completely remove or clear out unwanted data, contents, or elements from a storage place such as               memory, files, or data structures, leaving it empty or clean.
 
-What is Conflict and how do you solve it?
+4.What is Conflict and how do you solve it?
           A conflict is when two or more changes contradict each other.You solve it by choosing, merging, or editing the  
           changes so the system has a single, correct version.
 
-Program for reverse a string by using for and while loop:
+5.Program for reverse a string by using for and while loop:
   Using for loop:
               text = "hello"
               reversed_text = ""
