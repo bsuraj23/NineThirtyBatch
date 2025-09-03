@@ -152,8 +152,31 @@ OpenAI is an artificial intelligence research organization and company that deve
 * Tools for computer vision, code generation, chatbots, and more
 * APIs for developers to build intelligent applications easily.
 
+(2 Sep 2025)
 
+25Q. What is the factorial of '0'?
+* The factorial of zero (0!) is defined as 1.
+* This is a special mathematical convention that makes formulas and combinatorics work consistently.
+* if n=0, that multiplication has no numbers in it. The result of an empty product is defined as 1.
 
+26Q. What is palindrome and their examples?
+A palindrome is a word, phrase, number, or sequence that reads the same backward as forward.
+Examples of palindromes:
+Words: madam, level, refer.
+Numbers: 121, 1331.
+Phrases (ignoring spaces, punctuation, and capitalization): * nurses run
+                                                            * A man, a plan, a canal, Panama!
 
+27Q.What is the meaning of purge?
+The word “purge” has a few related meanings depending on context, but in general it means to remove or get rid of something unwanted or harmful.
 
-
+28Q. What is conflict? how do solve conflict?
+A conflict is a disagreement, clash, or struggle between two or more people, groups, or ideas.It usually happens when people have different opinions, needs, values, or goals.
+steps to solve conflict:
+* Identify the cause
+* Listen actively
+* Stay calm and respectful
+* Find common ground
+* Brainstorm solutions
+* Agree and take action
+  
