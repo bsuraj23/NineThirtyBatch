@@ -135,3 +135,15 @@ difference types of attributes of functions is
 18'__subclasshook__'
 
 4.OpenAI is an AI company that builds and releases very smart computer programs. Think of it as a factory for advanced artificial intelligence. ex: chatgpt
+
+(2/09/25)
+
+1.The factorial of zero is 1.
+
+2.A palindrome is a word, phrase, number, or other sequence of characters that reads the same backward as it does forward. Punctuation, capitalization, and spaces are usually ignored when checking for palindromes.
+ex:racecar,madam,level,kayak,rotator
+
+3.To purge means to remove something or someone that is unwanted, harmful, or considered "impure". This implies cleansing or removal, which can occur in several contexts. ex: a=35 but it can't used in entire code then it removed.
+
+4.In Python, a "conflict" is not a specific error but rather a general term for when different parts of your code or project clash. 
+
