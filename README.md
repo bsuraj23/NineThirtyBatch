@@ -147,3 +147,26 @@ ex:racecar,madam,level,kayak,rotator
 
 4.In Python, a "conflict" is not a specific error but rather a general term for when different parts of your code or project clash. 
 
+(3/09/25)
+
+1.error : error is syntax or semantic mistake and system problem it can be raised while compile time
+
+exception: exception is a run time error or Unexpected event at runtime can be handled using try, catch,finally blocks
+
+2.Python having Two main types of exceptions there are : built in exceptions and user defined exceptions
+
+3.None is not a datatype.It is a special constant and an object of NoneType.
+
+4.five pillors of oops are:
+
+Class 
+
+Object 
+
+Encapsulation 
+
+Inheritance 
+
+Polymorphism
+
+
