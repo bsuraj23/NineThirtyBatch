@@ -118,6 +118,15 @@ Continue: A continue statement skips the current iteration of a loop. when a con
    %s: used to format and print a string.
    %t: This is less common is standard C/C++ printf functions and might indicate a custom format specififer or a specfic librarys extension.in some contexts, it could relate to time or date formatting.
    %n: This represents a newline character,which moves the cursor to the beginning of the next line in the output.
+
+
+   (18/08/2025)
+
+   1. HTTP(Hypertext Transfer Protocol) is the foundation of data communication for the world wide web. It is a protocol used to transmit hypertext messsages like web pages between a wed server and a web browser.
+
+
+   HTTPS(=
+   
    
 
 
