@@ -77,13 +77,26 @@ HTTPS (HyperText Transfer Protocol Secure)  it is same as HTTP, but adds encrypt
 A search engine works in 3 steps:
 
 Crawling → Bots (spiders) scan the internet and collect pages.
+
 Indexing → Collected pages are stored in a huge database (index).
+
 Ranking & Retrieval → When you search, it matches your query with the index and shows results ranked by relevance.
 
 (19/08/25)
 
-1.list contains the insertion order,it allows duplicate values, it having indexing and slicing ,list is mutable
-set does not having insertion order, it does not allow duplicate values, there is no indexing,set is mutable
+LIST:
+
+list contains the insertion order
+it allows duplicate values
+it having indexing and slicing
+list is mutable
+
+SET
+
+setdoes not having insertion order
+it does not allow duplicate values
+there is no indexing
+set is mutable
 
 2.remove() → Removes an element, but raises an error if it’s missing. discard() → Removes an element, but does nothing if it’s missing.
 
