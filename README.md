@@ -125,7 +125,8 @@ Continue: A continue statement skips the current iteration of a loop. when a con
    1. HTTP(Hypertext Transfer Protocol) is the foundation of data communication for the world wide web. It is a protocol used to transmit hypertext messsages like web pages between a wed server and a web browser.
 
 
-   HTTPS(=
+   HTTPS(Hypertext Transfer protocol Secure)is a secure version of HTTP.It add a layer of security by using SSL (Secure Sockets Layer) to encrypt the data exchanged between the browse and the server.this encryption ensures that even if data is intercepted it cannot be read or tampered with by unauthorized parties.
+   
    
    
 
