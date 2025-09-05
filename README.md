@@ -161,14 +161,19 @@ generation)WHISPER(for speech-to-text),CODEX (code generation help).
  that happens when two or more people,ideas or thinks.A.stay calm and listen carefully.B.communicate clearly without blaming.C.find a compromise or middle ground.
  
 (3-09-2025).
+
 1.EXCEPTIONS:An exception is an event that occurs during the execution pf a program,disrupting the normal flow.exception are usually runtime problem that can be handled 
 with try-except.ERROR:An error usually happens because of a problem in the program or evnironment that connot recovered from easily. errors are often serious issues in the
 system or code logic.once an error,the program typically stops execution.
+
 2.There are two types of exceptions in python .
   a.built-in exception 
   b.user-defined exceptions
-3.none is not a datatype.it is a special constant and an object of none type.
+  
+3.none is not a datatype.it is a special constant and an object of none type
+.
 4.five pillor of oops are:
+
 a.class
 b.object
 c.encapsulation
