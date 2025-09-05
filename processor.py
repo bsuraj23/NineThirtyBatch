@@ -4,14 +4,12 @@ import sys
 import time
 import platform
 
-# Optional: psutil for live CPU/RAM stats
 try:
     import psutil
 except Exception:
     psutil = None
 
 def cpu_name():
-    # platform.processor() can be empty on some systems; add a fallback
     name = platform.processor()
     if not name:
         try:
@@ -21,7 +19,6 @@ def cpu_name():
         except Exception:
             pass
     return name or "Unknown CPU"
-
 def system_info():
     print("=== System Info ===")
     print(f"Python: {sys.version.split()[0]}")
@@ -50,14 +47,12 @@ def live_usage(seconds=3):
         mem = psutil.virtual_memory()
         print(f"CPU: {cpu:5.1f}%   RAM used: {mem.used // (1024**2)} MB / {mem.total // (1024**2)} MB")
     print()
-
 def benchmark_sum_squares(n=5_000_000):
     print("=== Benchmark: sum of squares ===")
     print(f"Problem size: n={n:,}")
     t0 = time.perf_counter()
     total = sum(i*i for i in range(n))
     elapsed = time.perf_counter() - t0
-    # light checksum to keep result used (prevents potential optimization in other runtimes)
     print(f"Result checksum: {total % 1_000_000_007}")
     print(f"Time: {elapsed:.3f} s  |  Throughput: {n/elapsed:,.0f} iterations/s")
     print()
