@@ -1,3 +1,4 @@
+
 def is_palindrome(text):
     # Remove spaces and convert to lowercase
     cleaned = text.replace(" ", "").lower()
