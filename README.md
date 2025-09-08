@@ -126,9 +126,7 @@ TUPLE:
 
 (28-08-2025)
 
-1.find the difference between single(') and double(") quotes? 
-2.correct the code "xyz=set(temp for i in range (2))"?.
-
+1.find the difference between single(') and double(") quotes? If your string contains a single quote', use double quotes "". If your string contains a double quote", use single quotes''. If your string contains both' and ", you can use escape character with \or we can triple codes.Ex: """hello it's "rainy" today""".
 
 
 
