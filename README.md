@@ -121,11 +121,8 @@ TUPLE:
 (26-08-2025)
 
 1.Understand about RAG?
-  * RAG (Retrieval-Augmented Generation) is a framework used with large language models (LLMS) to enhance their ability to       generate responses by incorporating external authoritative knowledge bases.
-  * The core idea of RAG is to retrieve relevant information from an external source and then augment the LLM's prompt with      this information before generating a response.
-    
-2.Find the possible ways to print list without object? hint: Use any loops?
-3.Without using sorting techniques write a code which can sort the list of integers?
+  * RAG (Retrieval-Augmented Generation) is a framework used with large language models (LLMS) to enhance their ability to generate responses by incorporating external authoritative knowledge bases.
+  * The core idea of RAG is to retrieve relevant information from an external source and then augment the LLM's prompt with this information before generating a response.
 
 (28-08-2025)
 
