@@ -126,7 +126,7 @@ TUPLE:
 
 (28-08-2025)
 
-1.find the difference between " " and ' ' while using them for a string?
+1.find the difference between single(') and double(") quotes? 
 2.correct the code "xyz=set(temp for i in range (2))"?.
 
 
