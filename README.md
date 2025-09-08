@@ -69,4 +69,13 @@ Assigned Tasks (Interview Questions)
 
 4.None is data type or not in python.?
 
-5.what are the five pillors of O
+5.what are the five pillors of OOPS
+
+(8-09-2025)
+
+1. what is reference variable?
+2. what is self keyword?
+3. write python code for get the IP address of your laptop?
+4. what is website and web browser?
+5. List the different types of web browsers and difference between them?
+   
