@@ -1,0 +1,136 @@
+
+
+## 🔹 Advanced Internals & Performance
+
+1. Explain how Python manages memory internally.
+2. What is the difference between `id()`, `hash()`, and `is` in Python?
+3. How does Python’s garbage collector work?
+4. What are reference cycles, and how does Python handle them?
+5. What is the difference between `deepcopy` and `pickle`?
+6. Explain the difference between shallow copy, deep copy, and assignment.
+7. How are Python’s lists implemented internally?
+8. How does Python implement dictionaries (hash tables)?
+9. What is the difference between `OrderedDict` and a normal dict in Python 3.7+?
+10. How do you profile Python code for performance bottlenecks?
+
+---
+
+## 🔹 Concurrency, Parallelism & Async
+
+11. What is the Global Interpreter Lock (GIL)? Why does it exist?
+12. Difference between **multithreading** and **multiprocessing** in Python.
+13. When should you use `threading` vs `multiprocessing`?
+14. What is `asyncio` in Python? How does it differ from threads?
+15. How do coroutines differ from generators?
+16. Explain the difference between `concurrent.futures.ThreadPoolExecutor` and `ProcessPoolExecutor`.
+17. What is the difference between cooperative multitasking and preemptive multitasking?
+18. Write an example of an async function that fetches data from multiple URLs concurrently.
+19. What are race conditions and deadlocks? How can Python handle them?
+20. How does Python handle inter-process communication?
+
+---
+
+## 🔹 Memory Optimization & Design
+
+21. What are Python memory views?
+22. What is the difference between `bytes`, `bytearray`, and `memoryview`?
+23. How do you reduce memory usage for large datasets in Python?
+24. What are slots (`__slots__`) in Python classes, and why are they useful?
+25. How do you implement an LRU cache manually?
+26. How does Python’s `functools.lru_cache` work internally?
+27. What are weak references (`weakref`) in Python?
+28. How do you debug a memory leak in Python?
+29. What are the trade-offs between generators and lists for memory efficiency?
+30. How do you handle huge data (GBs) efficiently in Python?
+
+---
+
+## 🔹 Advanced OOP & Design Patterns
+
+31. What are metaclasses in Python?
+32. Difference between `type()` and `class` in Python.
+33. How do you create a Singleton class in Python?
+34. How do you implement the Factory design pattern in Python?
+35. What is monkey patching in Python?
+36. How do you implement mixins in Python?
+37. What is duck typing? Give an example.
+38. How is multiple inheritance handled in Python (MRO - Method Resolution Order)?
+39. How do abstract base classes (`abc` module) work in Python?
+40. Explain dependency injection in Python with an example.
+
+---
+
+## 🔹 Data Structures & Algorithms in Python
+
+41. Implement a Trie in Python.
+42. Implement a thread-safe queue in Python.
+43. Implement a custom linked list class with `insert`, `delete`, and `search`.
+44. How do you implement a priority queue in Python?
+45. How do you optimize sorting large datasets in Python?
+46. Implement a balanced binary search tree in Python.
+47. Implement graph traversal (BFS & DFS) in Python.
+48. How do you detect cycles in a directed graph using Python?
+49. Implement a rate limiter in Python.
+50. Implement a distributed counter using Python.
+
+---
+
+## 🔹 Advanced Functional Programming
+
+51. What is a closure in Python? How is it different from a normal function?
+52. Explain currying in Python with an example.
+53. What are partial functions (`functools.partial`)?
+54. What is memoization? How is it different from caching?
+55. How do you implement functional pipelines in Python?
+56. How do you implement tail recursion optimization (since Python doesn’t have it natively)?
+57. Explain higher-order functions with real-world use cases.
+58. What is the difference between map/filter/reduce and comprehensions?
+59. How do you implement function composition in Python?
+60. What are monads in functional programming, and can they be represented in Python?
+
+---
+
+## 🔹 Testing, Packaging & Deployment
+
+61. How do you write unit tests in Python (`unittest` vs `pytest`)?
+62. What is mocking in Python testing?
+63. How do you patch dependencies in unit tests (`unittest.mock`)?
+64. What is the difference between integration tests and unit tests?
+65. How do you write a parameterized test in Python?
+66. What is the difference between `tox` and `pytest`?
+67. How do you build and publish a Python package to PyPI?
+68. How do you manage virtual environments and dependencies in Python?
+69. What are wheels (`.whl`) in Python packaging?
+70. What is `poetry` in Python dependency management?
+
+---
+
+## 🔹 Advanced Networking & System Design
+
+71. How do you implement a simple REST API in Python without Flask/Django?
+72. How do you implement WebSockets in Python?
+73. What is WSGI, and why is it important?
+74. How do you scale a Python web application to handle millions of requests?
+75. What are Python’s options for message queues (e.g., RabbitMQ, Kafka)?
+76. How do you implement a distributed task queue in Python (like Celery)?
+77. What is the difference between sync and async web frameworks in Python?
+78. How do you handle retries and backoff in Python services?
+79. What is the role of `uvicorn` and `gunicorn` in Python web apps?
+80. How do you implement rate limiting in a Python API?
+
+---
+
+## 🔹 Expert-Level Tricky & Practical
+
+81. How do you implement your own context manager without using `with`?
+82. How do you implement your own decorator class with parameters?
+83. What is the difference between `__new__` and `__init__`?
+84. How do you implement operator overloading in Python?
+85. How do you implement lazy evaluation in Python?
+86. What is the difference between `eval()` and `exec()`? Why are they dangerous?
+87. How do you sandbox untrusted Python code?
+88. How do you secure a Python application against code injection attacks?
+89. How do you optimize Python for multi-core CPUs given the GIL?
+90. How do you implement your own event loop in Python?
+
+
