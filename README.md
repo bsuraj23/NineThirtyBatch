@@ -179,3 +179,25 @@ b.object
 c.encapsulation
 d.inheritance
 e.polymorphism.
+
+(08-09-2025)
+1.Reference variable dont store data directly they store the memory address of the actual object/variable.Any change made through one reference reflects in all
+reference pointing to that same memory location.
+
+
+2.SELF KEYWORD:In python self is a reference to the current object of a class.whenever you creat an object from class and call its  method, python automatically
+passes the object itself as the first argument to those method.by convention we name that first argument.
+
+
+3.WEBSITE:A website is a collection of web pages(documents,images videos)that are stored on a web server and accessed over the internet.each website has a uniqe adderess
+(URL).websites are build using technologies like HTML,CSS,JAVAscript,and sometimes backend languages.
+WEB BROWSER:A web browser is a software application that allow you to access,retrieve and view websites.
+
+
+4.CHROME:most popular browser worldwide
+
+*Mazilla firefox:open source browser.
+*microsoft edge:successor of internet explorer
+*safari:default browser on macos & ios
+*opera:comes with built-inVPN ad blocker and sidebar apps
+*brave privacy focused blocks ads and trackers by default.
