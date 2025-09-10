@@ -103,4 +103,55 @@ Q21 how many anotations in python
      Python supports various types of annotations mainly used for type hinting. These annotations are optional syntax that specify the expected data types of            variables, function parameters, and return types. They help tools like type checkers, IDEs, and linters provide better error detection and code completion.
      
 Q22 how can we check the processor through python
-    
+
+
+   INTERVIEW QUESTIONS
+   
+   1) What are Python’s key features? Why is it called an interpreted language?
+    Python is known for its simplicity, readability, extensive libraries, and versatility. It is called an interpreted language because its code is executed line-by-line by a Python interpreter at runtime, rather than being fully compiled ahead of time
+   *easy to learn
+   *free and open source
+   *cross platform compatibility
+   *large standard libary
+   *dynamically typed
+   *object oriented and multi paradigm
+   *high level language
+   *gui and database support
+   *Extensible & Embeddable
+   *Active Community
+  Python source code is processed directly by the Python interpreter, which executes it line by line at runtime, not in advance
+  There is no need for a separate compilation and linking step as is required with compiled languages like C or C++
+
+
+2)difference between python 2 and python 3?
+   in python 2 print is a statement, ASCII by default , xrange() for iteration , except exception ,e:,  not all python3 libraries are supported , can leak into global scope , raw_input() and input() , ended in 2020 , slightly more complex.
+   in python 3 print() is a function , Unicode is default , range() replaces xrange() ,except exception as e: , Only input() (acts like raw_input() in Py2) ,Majority of libraries updated , Actively supported ,Simpler, more consistent,No leakage, more predictable.
+
+3) explain indentation and what happens if indentation is incorrect?
+   *uses indentation for group statements ,every line in a block must be equal
+   *this indentation replace braces {} or keyword like end found in many other language .
+   *using either space or tabs is crucial , mixing them can trigger error.
+   *if indentation levels are inconsistent or missing ,then python will raise an indentationerror and halt execution.
+   
+
+4)What are Python **keywords**? Can you use them as variable names?
+   * python keywords are special reserved words that have predefined meaning and function in python language
+   * python currently have around 35 to 39 keywords depending on the version
+   * no python keywords cannot be used for variable names , function names ,class names , or any identifiers
+
+5)Difference between **list, tuple, set, and dictionary**. Give examples
+  * lists are ordered , mutable and allows duplication 
+  * tuples are like lists but immutable
+  * sets are unordered,mutable and not allows duplication
+  * dictionaries map keys to value , keys must be unique and immutable
+
+6)What is the difference between **mutable and immutable** data types?
+  * mutable means value can be changed after the object has been created 
+  * immutable means data type cannot be altered once created 
+
+7)Explain **== vs is** operator in Python with examples
+  * The == operator compares the contents of the objects.
+  * == tests if two variables have same values
+  * The is operator compares their memory locations (identity), which can be checked using the id() function.
+  * is tests if two variables refer to the same object in memory
+
