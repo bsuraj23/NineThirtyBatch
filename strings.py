@@ -1,3 +1,4 @@
+
 str1="priya"
 str2="Teja sree"
 str3="keerthana"
@@ -11,4 +12,4 @@ if str1 != str2:
      print("strings are not equal")
 
 
-     
+      

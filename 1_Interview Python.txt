@@ -1,0 +1,80 @@
+Got it 👍
+
+
+# 🐍 Python Interview Questions (Beginner → Intermediate)
+
+## 🔹 Beginner Level (Basics & Core Concepts)
+
+1. What are Python’s key features? Why is it called an interpreted language?
+2. Difference between **Python 2 and Python 3**?
+3. Explain **indentation** in Python. What happens if indentation is incorrect?
+4. What are Python **keywords**? Can you use them as variable names?
+5. Difference between **list, tuple, set, and dictionary**. Give examples.
+6. What is the difference between **mutable and immutable** data types?
+7. Explain **== vs is** operator in Python with examples.
+8. What is the difference between **append() vs extend()** in lists?
+9. Explain **shallow copy vs deep copy** in Python.
+10. How does Python handle **memory management** (Garbage collection)?
+
+💻 **Coding Practice:**
+
+* Reverse a string without using slicing.
+* Find the largest number in a list.
+* Count vowels in a string.
+* Write a program to check if a number is **prime**.
+
+---
+
+## 🔹 Intermediate Level (OOPs, Functions, Advanced Data Types)
+
+1. What are **functions** in Python? Difference between \*args and \*\*kwargs?
+2. Explain **decorators** in Python with an example.
+3. What are **generators** and **yield**?
+4. Difference between **iterable, iterator, and generator**.
+5. Explain **list comprehension** with an example.
+6. What is the difference between **classmethod, staticmethod, and instance method**?
+7. Explain **Python’s OOP concepts**: inheritance, polymorphism, encapsulation.
+8. What are **magic/dunder methods** in Python? Give examples (`__str__`, `__init__`).
+9. Explain **Python’s Global Interpreter Lock (GIL)**. Why is it important?
+10. Difference between **deepcopy vs copy.copy()** in Python.
+
+💻 **Coding Practice:**
+
+* Implement a custom **iterator** class that returns Fibonacci numbers.
+* Write a function using **decorator** that logs the execution time of another function.
+* Implement a **generator** for even numbers up to N.
+* Write code to **flatten a nested list** (e.g., `[[1,2],[3,4]] → [1,2,3,4]`).
+
+---
+
+## 🔹 Data Handling & Error Management
+
+1. Explain **try, except, finally, else** in Python.
+2. What are **custom exceptions**? How do you create one?
+3. Explain **with statement** and context managers in Python.
+4. What are **lambda functions**? Give an example with `map`, `filter`, `reduce`.
+5. Difference between **isinstance() vs type()**.
+
+💻 **Coding Practice:**
+
+* Write code to read a text file and count word frequencies.
+* Write a **context manager** to handle file operations.
+* Use `map` and `filter` to get squares of even numbers from a list.
+
+---
+
+## 🔹 Modules & Intermediate Concepts
+
+1. Difference between **module and package** in Python.
+2. What are **Python namespaces and scope** (LEGB rule)?
+3. Explain **import vs from-import**.
+4. What is **virtual environment (venv)** in Python? Why is it needed?
+5. Difference between **shallow copy, deep copy, assignment operator**.
+6. Explain how **JSON** is handled in Python (`json` module).
+
+💻 **Coding Practice:**
+
+* Write code to import a custom module and call a function from it.
+* Serialize and deserialize a Python dictionary using JSON.
+* Implement a small script that reads command line arguments with `argparse`.
+
