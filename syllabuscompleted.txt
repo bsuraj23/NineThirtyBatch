@@ -1,0 +1,11 @@
+variables
+data types
+operators
+contional satements 
+control statements 
+loops
+functions
+builtin functions
+list,set,tuple,dictionary
+regular expressions 
+oops concept 

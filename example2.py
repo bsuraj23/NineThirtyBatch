@@ -54,3 +54,14 @@ print(d3)
 print(d4)
 print(d5)'''
 
+class Nandu:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print(self.name)
+        print(self.age)
+
+nandu1 = Nandu("Nandu", 21)
+
+
+
