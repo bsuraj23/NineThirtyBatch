@@ -1,0 +1,142 @@
+Python Interview Questions
+
+ Beginner Level (Basics & Core Concepts)
+
+1. What are Python’s key features? Why is it called an interpreted language?
+key features:
+
+    1.simpleand easy to learn
+    2.dynamic
+    3. interpreted
+    4.object oriented languages
+    5.large libraries
+In python code can be executes line by line using an interpreter so it is called interpreted language
+
+2. Difference between **Python 2 and Python 3**?
+     python 2 is legacy version of python it requires Unicode for string and python 3 is present and future version it can support the all the features.
+
+3. Explain **indentation** in Python. What happens if indentation is incorrect?
+     Python uses indentation instead of {} or ; to define code blocks.by following the indentation block of code will be executed. if the indentation is incorrect it will raise the indentation error
+
+4. What are Python **keywords**? Can you use them as variable names?
+python key words are :
+if ,else, try, catch, finally, for, is in, while
+keywords are not used as the variable names. because it has predefined functionality
+
+5. Difference between **list, tuple, set, and dictionary**. Give examples.
+
+list:
+1.ordered
+2.mutable
+3.duplicates allowed
+
+Tuples:
+1.ordered
+2.immutable
+3.duplicates allowed
+
+set:
+
+1.unordered
+2.mutable
+3.duplicates  not allowed
+
+dictionary:
+
+1.ordered
+2.mutable
+3.key must be unique and values can be duplicate
+
+6. What is the difference between **mutable and immutable** data types?
+
+mutable means after creation of data types u can change the values of the data types the it is called mutable
+ex:set,list,dict
+immutable means after creation of data types u can't change the values of the data types the it is called immutable
+ex:int ,char,float
+ 
+7. Explain **== vs is** operator in Python with examples.
+
+== is a euality operator it can check the values of the variables where as "is" is identity operatorand it can check the address of the variables
+
+8. What is the difference between **append() vs extend()** in lists?
+append() means add the elements into the list at the end of the list
+extend() means add the elements in a particular index
+
+9. Explain **shallow copy vs deep copy** in Python.
+Shallow Copy Creates a new outer object, but inner objects are still references to the same memory.Changes in inner objects affect both copies.
+Deep Copy Creates a completely independent clone, including all nested objects.Changes in one copy do not affect the other.
+
+10. How does Python handle **memory management** (Garbage collection)?
+Python handles memory automatically using a private heap and a built-in memory manager. Every object has a reference count, and when it drops to zero, it’s eligible for garbage collection. Python also has a cyclic garbage collector that detects and removes reference cycles. To optimize performance, Python uses generational garbage collection with three generations. Additionally, Python applies memory optimizations.
+
+
+Intermediate Level (OOPs, Functions, Advanced Data Types)
+
+1. What are **functions** in Python? Difference between \*args and \*\*kwargs?
+function is a reusable block of code defined with def.args allows passing a variable number of positional arguments (stored as tuple).kwargs allows passing a variable number of keyword arguments (stored as dict).
+
+2. Explain **decorators** in Python with an example.
+A decorator is a function that takes another function as input and adds extra functionality without modifying its code.
+Example:
+
+def decorator(func):
+    def wrapper():
+        print("Before call")
+        func()
+        print("After call")
+    return wrapper
+
+@decorator
+def greet():
+    print("Hello")
+
+3. What are **generators** and **yield**?
+A generator is a special type of iterator that yields values one at a time using yield.It saves memory because values are produced lazily.
+
+def gen(n):
+    for i in range(n):
+        yield i
+
+4. Difference between **iterable, iterator, and generator**.
+Iterable → object you can loop over (list, str).
+Iterator → object returned by iter(), has __next__() method.
+Generator → special iterator created with yield.
+
+5. Explain **list comprehension** with an example.
+List comprehension is a concise way to create lists in one line.
+
+nums = [x**2 for x in range(5)]
+print(nums)  
+
+6. What is the difference between **classmethod, staticmethod, and instance method**?
+
+nstance method → takes self, works with object instance.
+Class method → takes cls, works with class-level variables (@classmethod).
+Static method → no self/cls, like a normal function inside class (@staticmethod).
+
+7. Explain **Python’s OOP concepts**: inheritance, polymorphism, encapsulation.
+
+Inheritance → reuse code by deriving child class from parent.
+Polymorphism → same function name behaves differently (e.g., len() works for string & list).
+Encapsulation → hiding data (private vars with _var or __var).
+
+8. What are **magic/dunder methods** in Python? Give examples (__str__, __init__).
+Magic methods are special methods with double underscores, used to define object behavior.
+Examples:
+
+__init__ → constructor
+__str__ → string representation
+__len__ → used by len(obj)
+__add__ → operator overloading
+
+9. Explain **Python’s Global Interpreter Lock (GIL)**. Why is it important?
+
+GIL is a mutex in CPython that allows only one thread to execute Python bytecode at a time.
+Needed because CPython uses reference counting for memory management.
+Limitation → prevents true parallelism in multi-threading.
+Workaround → use multiprocessing for CPU-bound tasks.
+
+10. Difference between **deepcopy vs copy.copy()** in Python.
+
+copy.copy() (shallow copy) → creates new object but inner objects are shared.
+copy.deepcopy() (deep copy) → recursively copies everything, inner objects also separate.
