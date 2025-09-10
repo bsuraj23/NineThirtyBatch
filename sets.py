@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 
 s1=set()
 print(s1)
@@ -33,12 +33,12 @@ fruits.discard("mango")
 print(fruits)
 
 #pop
-fruits=["apple","banana","mango","orange","cherry","guava","grapes"]
+fruits={"apple","banana","mango","orange","cherry","guava","grapes"}
 fruits.pop()
 print(fruits)
 
 #clear
-fruits=["apple","banana","mango","orange","cherry","guava","grapes"]
+fruits={"apple","banana","mango","orange","cherry","guava","grapes"}
 fruits.clear()
 print(fruits)
 
