@@ -1,0 +1,50 @@
+Custom Data Type Conversion:
+Write a function that takes a list of mixed data types (int, float, str, bool) and returns a dictionary with the count of each type.
+
+Dynamic Input Parser:
+Implement a function that reads a line of input and parses it into appropriate Python data types (int, float, bool, str) based on its content.
+
+String Manipulation Suite:
+Given a string, write functions to:
+
+Remove all vowels
+Count the frequency of each character
+Return all substrings of length k
+Custom Array Operations:
+Implement a class that mimics Python’s list but only allows integers. Add methods for append, remove, pop, and slicing.
+
+Type Conversion Utility:
+Write a function that takes a dictionary with string values and converts them to their most likely Python types (int, float, bool, str).
+
+Prime Number Generator:
+Write a generator function that yields all prime numbers up to n using nested loops and control statements.
+
+Custom List Class with Advanced Features:
+Implement a class that supports list operations (append, insert, remove, pop, reverse, sort) and also supports undo/redo of operations.
+
+Set Operations:
+Write a function that takes two lists and returns their union, intersection, and difference using set operations.
+
+Type Casting Engine:
+Build a function that takes a list of values and a target type, and returns a new list with all values cast to the target type, handling exceptions gracefully.
+
+List Comprehension Challenge:
+Given a list of numbers, use list comprehensions to:
+
+Find all even numbers
+Square all odd numbers
+Create a list of tuples (number, square) for numbers divisible by 3
+Set Membership and Manipulation:
+Implement a function that takes a string and returns a set of unique characters, then removes all vowels from the set.
+
+Function Decorator for Logging:
+Write a decorator that logs the arguments and return value of any function it wraps.
+
+Deep Copy vs Shallow Copy Demonstration:
+Write code to demonstrate the difference between deep copy and shallow copy for nested lists.
+
+Custom Implementation of Built-in Functions:
+Implement your own versions of max, min, and sum functions for lists without using the built-in ones.
+
+Advanced Control Flow:
+Write a function that takes a list of numbers and returns a new list with only the numbers that are not skipped by a custom rule (e.g., skip multiples of 3, break if a negative number is found, continue otherwise).

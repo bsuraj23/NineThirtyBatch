@@ -1,0 +1,46 @@
+Recursive Data Processing:
+Write a recursive function to traverse and sum all numeric values in a nested dictionary or list structure of arbitrary depth.
+
+Regex-based Data Extraction:
+Given a block of text, use regular expressions to extract all valid email addresses, phone numbers, and dates in various formats.
+
+Custom Iterator for Fibonacci Sequence:
+Implement a class that generates Fibonacci numbers up to n using the iterator protocol (__iter__ and __next__).
+
+Advanced Exception Handling:
+Design a function that reads a file, parses its contents, and handles multiple exceptions (e.g., file not found, invalid format, permission error) with custom error messages.
+
+Assertions and Debugging:
+Write a function that validates input data using assertions and logs assertion failures to a file for debugging.
+
+Module and Package Management:
+Create a package with multiple modules for mathematical operations (addition, subtraction, multiplication, division). Demonstrate importing and using these modules with aliasing and selective imports.
+
+Class Design with Multiple Constructors:
+Implement a class with multiple ways to instantiate objects (e.g., from string, from dictionary, from individual arguments) using class methods as alternative constructors.
+
+Inheritance and Method Resolution Order (MRO):
+Design a class hierarchy with multiple inheritance. Demonstrate how Python resolves method calls using MRO and the super() function.
+
+Polymorphism with Abstract Base Classes:
+Create an abstract base class for geometric shapes with abstract methods for area and perimeter. Implement concrete subclasses for circle, rectangle, and triangle.
+
+Encapsulation and Property Decorators:
+Write a class with private attributes and use property decorators to provide controlled access and validation for those attributes.
+
+Custom Exception Class:
+Define a custom exception class for invalid operations in a banking application. Use it to handle errors such as insufficient funds or invalid account numbers.
+
+Inner Classes and Composition:
+Implement a class that contains an inner class for managing related data (e.g., a Car class with an inner Engine class). Demonstrate composition and data sharing.
+
+Garbage Collection and Destructors:
+Write a class that logs messages when objects are created and destroyed. Demonstrate how Python’s garbage collector works with object references.
+
+Function Aliasing and Higher-Order Functions:
+Show how to assign functions to variables, pass them as arguments, and return them from other functions. Use this to implement a simple plugin system.
+
+Interface Simulation:
+Simulate interfaces in Python using abstract base classes. Enforce that subclasses implement specific methods and demonstrate runtime checks.
+
+These questions cover recursion, regex, exception handling, modules, OOP principles (class, inheritance, polymorphism, encapsulation), and advanced Python features.

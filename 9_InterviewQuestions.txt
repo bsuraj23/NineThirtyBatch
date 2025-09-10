@@ -1,0 +1,47 @@
+High-Level OOPs Concepts & Coding Round Interview Questions (Python):
+
+Class Design:
+Design a Library class that manages books and members. Implement methods for adding/removing books, registering members, and issuing books.
+
+Constructor Overloading:
+Implement a class with multiple ways to create objects (e.g., from a string, from a dictionary, or from individual arguments) using class methods.
+
+Inheritance and Method Overriding:
+Create a base class Employee and subclasses Manager and Developer. Override methods to calculate salary and display details.
+
+Polymorphism:
+Write a function that takes a list of different shape objects (Circle, Rectangle, Triangle) and prints their area using a common interface.
+
+Encapsulation:
+Implement a BankAccount class with private attributes for balance and account number. Use property decorators for controlled access and validation.
+
+Abstract Base Class:
+Define an abstract class Vehicle with abstract methods for start() and stop(). Implement concrete subclasses for Car and Bike.
+
+Interface Simulation:
+Simulate interfaces in Python using abstract base classes. Enforce that subclasses implement specific methods and demonstrate runtime checks.
+
+Composition and Aggregation:
+Design a Car class that uses composition for its Engine and aggregation for its Owner. Show how changes in one affect the other.
+
+Inner Classes:
+Implement a class with an inner class to manage related data (e.g., a School class with an inner Student class).
+
+Function Aliasing and Higher-Order Functions:
+Show how to assign methods to variables, pass them as arguments, and use them in higher-order functions within a class.
+
+Custom Exception Class:
+Define a custom exception for invalid operations in a class (e.g., withdrawing more than the balance in BankAccount).
+
+Garbage Collection and Destructors:
+Write a class that logs messages when objects are created and destroyed. Demonstrate how Python’s garbage collector works with object references.
+
+Property Decorators for Validation:
+Create a class with attributes that use property decorators to validate input (e.g., age must be positive, name must be non-empty).
+
+Multiple Inheritance and MRO:
+Design a class hierarchy with multiple inheritance. Demonstrate how Python resolves method calls using MRO and the super() function.
+
+Custom Iterable Class:
+Implement a class that supports iteration over its elements in reverse order using the iterator protocol.
+

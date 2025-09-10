@@ -1,0 +1,44 @@
+Data Structure Design:
+Design a class that supports both stack and queue operations using a single list. Implement methods for push, pop, enqueue, dequeue, and peek.
+
+Custom String Formatter:
+Write a function that takes a template string with placeholders and a dictionary, and returns the formatted string by replacing placeholders with dictionary values. Handle missing keys gracefully.
+
+Multi-type Sorting:
+Given a list containing integers, floats, and strings, write a function that sorts the list so that all numbers come before strings, and numbers are sorted numerically, strings alphabetically.
+
+Recursive List Flattening:
+Implement a recursive function that flattens a nested list of arbitrary depth into a single list.
+
+Dynamic Function Dispatcher:
+Create a function that takes a string command and arguments, and dispatches to the correct function (e.g., "add", "subtract", "multiply", "divide") using a dictionary of function references.
+
+Custom Exception Handling:
+Design a function that processes a list of values and raises custom exceptions for invalid types, negative numbers, or division by zero, and logs all errors.
+
+Advanced List Comprehensions:
+Given a matrix (list of lists), use nested list comprehensions to extract the diagonal, transpose the matrix, and filter out rows containing negative numbers.
+
+Set and Dictionary Interactions:
+Write a function that takes a dictionary and a set, and returns a new dictionary containing only the key-value pairs where the key is in the set.
+
+Memoized Recursive Fibonacci:
+Implement a recursive Fibonacci function with memoization to optimize performance. Compare its speed to the naive recursive approach.
+
+Custom Iterable Class:
+Create a class that implements the iterator protocol to iterate over its elements in reverse order.
+
+List Partitioning:
+Write a function that partitions a list into n nearly equal parts and returns a list of lists.
+
+Type-safe Function Decorator:
+Implement a decorator that checks the types of arguments passed to a function and raises a TypeError if they do not match the expected types.
+
+Deep Copy with Custom Objects:
+Demonstrate deep copying of a list containing custom objects, ensuring that changes to copied objects do not affect the originals.
+
+Dynamic Attribute Access:
+Write a class that allows dynamic addition, deletion, and access of attributes using __getattr__, __setattr__, and __delattr__.
+
+Functional Programming Challenge:
+Use map, filter, and reduce to process a list of numbers: double the even numbers, filter out numbers less than 10, and compute the product of the remaining numbers.
