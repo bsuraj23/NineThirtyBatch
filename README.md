@@ -108,30 +108,30 @@ Q22 how can we check the processor through python
    INTERVIEW QUESTIONS
    
    1) What are Python’s key features? Why is it called an interpreted language?
-    Python is known for its simplicity, readability, extensive libraries, and versatility. It is called an interpreted language because its code is executed line-by-line by a Python interpreter at runtime, rather than being fully compiled ahead of time
-   *easy to learn
-   *free and open source
-   *cross platform compatibility
-   *large standard libary
-   *dynamically typed
-   *object oriented and multi paradigm
-   *high level language
-   *gui and database support
-   *Extensible & Embeddable
-   *Active Community
+       Python is known for its simplicity, readability, extensive libraries, and versatility. It is called an interpreted language because its code is executed line-by-line by a Python interpreter at runtime, rather than being fully compiled ahead of time
+   * easy to learn
+   * free and open source
+   * cross platform compatibility
+   * large standard libary
+   * dynamically typed
+   * object oriented and multi paradigm
+   * high level language
+   * gui and database support
+   * Extensible & Embeddable
+   * Active Community
   Python source code is processed directly by the Python interpreter, which executes it line by line at runtime, not in advance
   There is no need for a separate compilation and linking step as is required with compiled languages like C or C++
 
 
-2)difference between python 2 and python 3?
-   in python 2 print is a statement, ASCII by default , xrange() for iteration , except exception ,e:,  not all python3 libraries are supported , can leak into global scope , raw_input() and input() , ended in 2020 , slightly more complex.
+2) difference between python 2 and python 3?
+      In python 2 print is a statement, ASCII by default , xrange() for iteration , except exception ,e:,  not all python3 libraries are supported , can leak into global scope , raw_input() and input() , ended in 2020 , slightly more complex.
    in python 3 print() is a function , Unicode is default , range() replaces xrange() ,except exception as e: , Only input() (acts like raw_input() in Py2) ,Majority of libraries updated , Actively supported ,Simpler, more consistent,No leakage, more predictable.
 
 3) explain indentation and what happens if indentation is incorrect?
-   *uses indentation for group statements ,every line in a block must be equal
-   *this indentation replace braces {} or keyword like end found in many other language .
-   *using either space or tabs is crucial , mixing them can trigger error.
-   *if indentation levels are inconsistent or missing ,then python will raise an indentationerror and halt execution.
+   * uses indentation for group statements ,every line in a block must be equal
+   * this indentation replace braces {} or keyword like end found in many other language .
+   * using either space or tabs is crucial , mixing them can trigger error.
+   * if indentation levels are inconsistent or missing ,then python will raise an indentationerror and halt execution.
    
 
 4)What are Python **keywords**? Can you use them as variable names?
