@@ -69,4 +69,65 @@ A shallow copy creates a new object but does not create copies of nested objects
 
 ### 10. How does Python handle memory management (Garbage collection)?
 Python handles memory management automatically using reference counting and a built-in garbage collector that removes objects that are no longer needed to free up memory.
-Yes, in Python, you can change the value stored in a variable at any time by assigning a new value to it. The variable will then hold the new value, regardless of its previous value or data type.
+
+#INTERMEDIATE LEVEL (OOPS,Functions,Advanced Data Types)
+
+1. What are functions in Python? Difference between *args and **kwargs?
+
+Functions are reusable blocks of code that perform a specific task when called.
+*args allows you to pass a variable number of positional arguments to a function.
+**kwargs allows you to pass a variable number of keyword (named) arguments.
+
+2. Explain decorators in Python.
+
+Decorators are a way to modify or enhance the behavior of functions or methods without changing their code. They "wrap" another function, adding extra functionality before or after the original function runs.
+
+3. What are generators and yield?
+
+Generators are special functions that return an iterator, yielding values one at a time as you iterate over them, rather than returning everything at once.
+The yield keyword is used to produce a value and pause the function, resuming where it left off on the next call.
+
+4. Difference between iterable, iterator, and generator.
+
+Iterable: Any object you can loop over (like a list or a string).
+Iterator: An object that keeps state and produces the next value when you call next() on it.
+Generator: A type of iterator created by a generator function, which uses yield to produce values.
+
+5. Explain list comprehension.
+
+List comprehension is a concise way to create lists based on existing lists, applying an expression or filter to each item.
+
+6. Difference between classmethod, staticmethod, and instance method.
+
+Instance method: Belongs to an object; can access and modify object state.
+Class method: Belongs to the class, not an object; can access or modify class state.
+Static method: Doesn’t access or modify class or object state; it’s just grouped with the class for convenience.
+
+7. Explain Python’s OOP concepts: inheritance, polymorphism, encapsulation.
+
+Inheritance: One class can inherit traits and behavior from another class.
+Polymorphism: Different classes can have methods with the same name, and the correct one is called depending on the object.
+Encapsulation: Hiding internal details and showing only necessary features.
+
+8. What are magic/dunder methods? Examples: __str__, __init__.
+
+Magic methods (also called dunder methods) are special methods with double underscores before and after their names, used to define how objects behave (like initialization, string conversion, etc.).
+
+9. Explain Python’s Global Interpreter Lock (GIL).
+
+The GIL is a mechanism that allows only one thread to execute Python bytecode at a time, which affects the performance of multi-threaded programs in CPython.
+
+10. Difference between deepcopy vs copy.copy() in Python.
+
+copy.copy() makes a shallow copy (copies the object, but not nested objects).
+copy.deepcopy() makes a deep copy (copies the object and all nested objects recursively).
+
+
+
+
+
+
+
+
+
+
