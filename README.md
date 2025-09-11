@@ -95,4 +95,39 @@ Local:
 -->Can be freely modified inside the function
 -->stored in stack memory(function-level)
 
+
+# 🐍 Python Interview Questions (Beginner → Intermediate)
+
+## 🔹 Beginner Level (Basics & Core Concepts)
+
+1. What are Python’s key features? Why is it called an interpreted language?
+Ans: Easy to learn,and dynamically typed,object oriented,and large functional support,large standard library and third party modules.python code is executed by the python interpreter line by line instead of being compiled into machine code first
+2. Difference between **Python 2 and Python 3**?
+Ans:In python 2 strings are ascii by default      In python 3 strings are unicode by default 
+    python 2 is no longer supported               python 3 is present and future
+
+3. Explain **indentation** in Python. What happens if indentation is incorrect?
+Ans:Indentation:Spaces or tabs at the beginning of  a line to define code blocks.If indentation is incorrect python raises an indentation error
+
+4. What are Python **keywords**? Can you use them as variable names?
+Ans:If,for,def,class,return.No we can't use 
+5. Difference between **list, tuple, set, and dictionary**. Give examples.
+Ans:List                       Set                                Tuple
+  1)List is mutable         1)Set is mutable                    1)Tuple is immutable
+  2)it allows duplicates    2)it doesn't allows duplicates      2)it allows duplicates
+  3)it is ordered           3)it is unordered                   3)it is ordered
+6. What is the difference between **mutable and immutable** data types?
+Ans:mutable can be changed after creation   Immutable cannot be changed after creation
+  EX:List,Set,Dictionary                    Ex:int,float,string
+7. Explain **== vs is** operator in Python with examples.
+Ans: == compares the values(checks equality)       compares identities
+8. What is the difference between **append() vs extend()** in lists?
+  Ans:append:adds the whole object x as single element
+      Extend:adds elements of iterable one by one
+9. Explain **shallow copy vs deep copy** in Python.
+Ans:Shallow copy:Copies outer object,but references inner object
+    Deep Copy:Copies both outer and inner objects
+10. How does Python handle **memory management** (Garbage collection)?
+Ans:Python uses reference counting-keeps track of how many reference an object has.Garbage collector cleans upn unused objects
+
  
