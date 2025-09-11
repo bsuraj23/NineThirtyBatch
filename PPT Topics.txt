@@ -1,0 +1,44 @@
+
+Here are advanced/intermediate-level Python PPT topics based on your workspace (Class 1 to OOPs):
+
+1. Python Data Types & Type Conversion
+Mutable vs Immutable Types
+Advanced Type Conversion Techniques
+2. String Manipulation & Regular Expressions
+Slicing, Formatting, and Membership
+Regex for Data Extraction and Validation
+3. Lists, Tuples, Sets, and Dictionaries
+Deep vs Shallow Copy
+Advanced List Comprehensions
+Set Operations and Dictionary Manipulation
+4. Functions & Functional Programming
+Lambda, map, filter, reduce
+Decorators and Closures
+Recursion and Memoization
+5. Exception Handling & Debugging
+Custom Exceptions
+Nested try-except-finally Blocks
+Assertions and Logging
+6. File Handling & OS Operations
+Reading/Writing Files
+Directory and File Management with os
+Working with CSV and Excel Files
+7. Modules & Packages
+Importing, Aliasing, and Member Aliasing
+Creating and Using Custom Packages
+Exploring Built-in Modules (math, random, datetime, os, sys)
+8. Object-Oriented Programming (OOP)
+Classes, Objects, and Constructors
+Instance, Class, and Static Methods
+Inheritance (Single, Multiple, Multi-level, Hierarchical, Hybrid)
+Polymorphism and Duck Typing
+Encapsulation and Access Modifiers
+Abstract Classes, Interfaces, and Inner Classes
+Composition vs Aggregation
+9. Advanced Data Structures
+Linked Lists, Stacks, Queues
+Custom Iterable and Iterator Classes
+10. Advanced Python Features
+Multi-threading and Multiprocessing
+CLI Applications and Automation
+Property Decorators and Dynamic Attribute Access
