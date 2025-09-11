@@ -121,5 +121,15 @@ Ans.list.append(x) adds its argument x as a single element to the end of the lis
     list.extend(iterable) takes an iterable like another list, tuple, string and adds each element.
 
 9. Explain **shallow copy vs deep copy** in Python?
-Ans.
-  
+Ans.Shallow copy: creates a new container/object, but does not copy the nested (inner) objects. It just copies references to the inner objects. So the outer object is a separate object, but the inner ones are        shared between original and copy.
+    Deep copy: creates a new container/object and recursively copies all objects found in the original. So neither the outer nor any inner/mutable parts are shared. The copy is fully independent.
+
+10. How does Python handle **memory management** (Garbage collection)?
+Ans.Memory management refers to how Python allocates memory to objects, how it keeps track of what can be used and what can be freed, and how it reclaims unused memory. Python makes most of this automatic so you     usually don’t need to manually free memory (unlike in C).
+
+11. What are Python’s built-in data types?
+Ans.int,float,complex,string,list,tuple,range,dict,set,frozenset,boolean,None
+
+12. How are integers and floats stored in memory in Python?
+Ans.Integers in Python are stored as arbitrary‑precision objects (with a header + an array of “digits”), growing in size as needed,but Floats are stored as 64‑bit IEEE‑754 double‑precision values inside a Python object with metadata.
+      
