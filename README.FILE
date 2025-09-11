@@ -48,4 +48,23 @@
   * The is operator compares their memory locations (identity), which can be checked using the id() function.
   * is tests if two variables refer to the same object in memory
 
+8) How are integers and floats stored in memory in Python?
+      intergers and float are stored as distinct object types with different internal representation and memory mechanisms
+
+
+9)how to rewmove duplication from list?
+      convert the list to sets or use a dictinary to maintain order ,or iterate with a loop or list comprehension
+ 
+10) How do slicing operations work on lists and strings?
+      allow one to convert or modify sub sequences from lists and strings using a unified ,flexible syntax based on indices
+
+11)How do you reverse a string in Python?
+      use slicing with a negative step or combine built-in function and loops for alternative methods
+
+12) What is the difference between `break`, `continue`, and `pass`?
+
+
+
+
+
 
