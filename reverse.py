@@ -1,5 +1,10 @@
-#reverse of a string
-a="Teja sree"
-print(a[::-1])
-a="pravallika"
-print(a[::-1])
+print("reverse")
+def reversed_string(s):
+    reversed_str=""
+    for char in s:
+        reversed_str = char + reversed_str
+    return reversed_str
+text="hello"
+print("reversed string",reversed_string(text))
+
+
