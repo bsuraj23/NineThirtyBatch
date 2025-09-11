@@ -16,14 +16,15 @@ Automatic Memory Management: Manages memory automatically (via Garbage Collectio
 
 Why Interpreted?
 Python is called an interpreted language because the Python code is executed line by line by the Python interpreter at runtime, without needing a separate compilation step into machine code.
-
-✅ 2. Difference between Python 2 and Python 3
+ 
+ ✅ 2. Difference between Python 2 and Python 3
 Feature	Python 2	Python 3
 Print Statement	print "Hello"	print("Hello") (Function)
 Integer Division	5 / 2 → 2	5 / 2 → 2.5
 Unicode Support	ASCII by default	Unicode by default
 xrange()	Exists	Removed (use range())
 Maintenance	End-of-life (2020)	Actively maintained
+
 ✅ 3. Explain indentation in Python. What happens if indentation is incorrect?
 Indentation defines code blocks in Python (unlike braces {} in other languages).
 
@@ -45,6 +46,7 @@ print(keyword.kwlist)  # List all keywords
 
 # Invalid:
 if = 5  # SyntaxError
+
 ✅ 5. Difference between list, tuple, set, and dictionary with examples
 Data Type	Mutable	Ordered	Example
 List	✅ Yes	✅ Yes	[1, 2, 3]
@@ -68,6 +70,7 @@ lst[0] = 5  # Allowed
 
 tup = (1, 2, 3)
 tup[0] = 5  # TypeError
+
 ✅ 7. Explain == vs is operator in Python with examples
 ==: Compares values of objects.
 
@@ -81,6 +84,7 @@ a is b  # False (different objects)
 
 c = a
 a is c  # True
+
 ✅ 8. What is the difference between append() vs extend() in lists?
 append(): Adds a single element at the end.
 
@@ -93,6 +97,7 @@ lst.append([3, 4])
 lst = [1, 2]
 lst.extend([3, 4])
 # lst = [1, 2, 3, 4]
+
 ✅ 9. Explain shallow copy vs deep copy in Python
 Shallow Copy: Copies the object, but nested objects remain references.
 
@@ -106,6 +111,7 @@ Deep Copy: Copies the object and all nested objects recursively.
 deep = copy.deepcopy(lst1)
 deep[0][0] = 999
 print(lst1)  # [[100, 2], [3, 4]]
+
 ✅ 10. How does Python handle memory management (Garbage collection)?
 Python uses automatic memory management and garbage collection (GC) to reclaim unused memory.
 
