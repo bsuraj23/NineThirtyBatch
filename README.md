@@ -95,4 +95,84 @@ Local:
 -->Can be freely modified inside the function
 -->stored in stack memory(function-level)
 
- 
+
+# 🐍 Python Interview Questions (Beginner → Intermediate)
+
+## 🔹 Beginner Level (Basics & Core Concepts)
+
+1. What are Python’s key features? Why is it called an interpreted language?
+Ans: Easy to learn,and dynamically typed,object oriented,and large functional support,large standard library and third party modules.python code is executed by the python interpreter line by line instead of being compiled into machine code first
+2. Difference between **Python 2 and Python 3**?
+Ans:In python 2 strings are ascii by default      In python 3 strings are unicode by default 
+    python 2 is no longer supported               python 3 is present and future
+
+3. Explain **indentation** in Python. What happens if indentation is incorrect?
+Ans:Indentation:Spaces or tabs at the beginning of  a line to define code blocks.If indentation is incorrect python raises an indentation error
+
+4. What are Python **keywords**? Can you use them as variable names?
+Ans:If,for,def,class,return.No we can't use 
+5. Difference between **list, tuple, set, and dictionary**. Give examples.
+Ans:List                       Set                                Tuple
+  1)List is mutable         1)Set is mutable                    1)Tuple is immutable
+  2)it allows duplicates    2)it doesn't allows duplicates      2)it allows duplicates
+  3)it is ordered           3)it is unordered                   3)it is ordered
+6. What is the difference between **mutable and immutable** data types?
+Ans:mutable can be changed after creation   Immutable cannot be changed after creation
+  EX:List,Set,Dictionary                    Ex:int,float,string
+7. Explain **== vs is** operator in Python with examples.
+Ans: == compares the values(checks equality)       compares identities
+8. What is the difference between **append() vs extend()** in lists?
+  Ans:append:adds the whole object x as single element
+      Extend:adds elements of iterable one by one
+9. Explain **shallow copy vs deep copy** in Python.
+Ans:Shallow copy:Copies outer object,but references inner object
+    Deep Copy:Copies both outer and inner objects
+10. How does Python handle **memory management** (Garbage collection)?
+Ans:Python uses reference counting-keeps track of how many reference an object has.Garbage collector cleans upn unused objects
+
+Interview question 2
+8. What are Python’s built-in data types?
+Ans:Python built in data types
+  1)Numeric types
+  2)Sequence types
+  3)text types
+  4)Set types
+  5)Mapping types
+  6)Boolean types
+  7)Binary types
+
+10. How are integers and floats stored in memory in Python?
+    Ans:  Integers                                             Floats
+         1)Stored in binary (0s & 1s)                         1)Stored in IEEE 754 (64-bit format)
+         2)No size limit                                      2)Fixed 64-bit size
+         3)Exact values                                       3)Approximate values
+         4)Whole numbers will be used in use case             4)Decimal / fractional numbers will be used in use case
+16. What is the difference between `break`, `continue`, and `pass`?
+Ans:break stops the loop, continue skips current iteration, pass does nothing
+Code:for i in range(5):
+    if i == 2:
+        break     
+    print(i)
+
+17) What is the purpose of the `else` clause in loops?
+Ans:Runs only if loop finishes without break.
+Code:for i in range(3):
+    print(i)
+else:
+    print("Loop finished without break")
+
+18) How does `enumerate()` work in Python?
+Ans:Gives (index, value) pairs while iterating.
+Code:for i, val in enumerate(["a", "b", "c"]):
+    print(i, val)
+19) How do you iterate through a dictionary?
+Ans:Use .keys(), .values(), or .items().
+Code:my_dict = {"a": 1, "b": 2}
+for k, v in my_dict.items():
+    print(k, v)
+20)How do you use list comprehension in Python?
+Ans:Short way to create lists.
+Code:squares = [x**2 for x in range(5)]
+print(squares)  
+
+    
