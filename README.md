@@ -130,4 +130,49 @@ Ans:Shallow copy:Copies outer object,but references inner object
 10. How does Python handle **memory management** (Garbage collection)?
 Ans:Python uses reference counting-keeps track of how many reference an object has.Garbage collector cleans upn unused objects
 
- 
+Interview question 2
+8. What are Python’s built-in data types?
+Ans:Python built in data types
+  1)Numeric types
+  2)Sequence types
+  3)text types
+  4)Set types
+  5)Mapping types
+  6)Boolean types
+  7)Binary types
+
+10. How are integers and floats stored in memory in Python?
+    Ans:  Integers                                             Floats
+         1)Stored in binary (0s & 1s)                         1)Stored in IEEE 754 (64-bit format)
+         2)No size limit                                      2)Fixed 64-bit size
+         3)Exact values                                       3)Approximate values
+         4)Whole numbers will be used in use case             4)Decimal / fractional numbers will be used in use case
+16. What is the difference between `break`, `continue`, and `pass`?
+Ans:break stops the loop, continue skips current iteration, pass does nothing
+Code:for i in range(5):
+    if i == 2:
+        break     
+    print(i)
+
+17) What is the purpose of the `else` clause in loops?
+Ans:Runs only if loop finishes without break.
+Code:for i in range(3):
+    print(i)
+else:
+    print("Loop finished without break")
+
+18) How does `enumerate()` work in Python?
+Ans:Gives (index, value) pairs while iterating.
+Code:for i, val in enumerate(["a", "b", "c"]):
+    print(i, val)
+19) How do you iterate through a dictionary?
+Ans:Use .keys(), .values(), or .items().
+Code:my_dict = {"a": 1, "b": 2}
+for k, v in my_dict.items():
+    print(k, v)
+20)How do you use list comprehension in Python?
+Ans:Short way to create lists.
+Code:squares = [x**2 for x in range(5)]
+print(squares)  
+
+    
