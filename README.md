@@ -125,8 +125,21 @@ Continue: A continue statement skips the current iteration of a loop. when a con
    1. HTTP(Hypertext Transfer Protocol) is the foundation of data communication for the world wide web. It is a protocol used to transmit hypertext messsages like web pages between a wed server and a web browser.
 
 
-   HTTPS(Hypertext Transfer protocol Secure)is a secure version of HTTP.It add a layer of security by using SSL (Secure Sockets Layer) to encrypt the data exchanged between the browse and the server.this encryption ensures that even if data is intercepted it cannot be read or tampered with by unauthorized parties.
-   
+   HTTPS(Hypertext Transfer protocol Secure)is a secure version of HTTP.It add a layer of security by using SSL (Secure Sockets Layer) to encrypt the data exchanged between the browse and the server.this     encryption ensures that even if data is intercepted it cannot be read or tampered with by unauthorized parties.
+
+   2. The search engine to discover content on the internet.Since there no central registry of all web pages, search engines use automated programs called crawlers also known as " bots" or "spiders"to explore the web.
+
+      
+   (19/08/2025)
+
+   1. Elements are stored in a specific sequence. you can access elements by their integer index.
+   2. you can have multiple occurrences of the same element in a list.
+   3. you can add,remove ,or change elements in a list after it has been created.
+
+      set
+
+  1.Elemente do not have a specific position or index . you cannot access element by their index.
+  2.A set automatically ensures that all elements are unique. if you try to add a duplicate element, it will simply be ingored.
    
    
 
