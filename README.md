@@ -183,5 +183,26 @@ Inheritance
 
 Polymorphism
 
+(8/09/25)
+
+1. What is a reference variable?
+ A reference variable is just a name that refers to an object stored in memory.
+In Python, variables don’t store the object itself, they store the reference (address) to that object.
+
+2.What is the self keyword?
+self represents the current instance of the class.It is used to access variables and methods of the object.Python automatically passes self as the first parameter in instance methods.
+
+3.What is a website and web browser?
+ A website is a collection of related web pages hosted on a server, accessible via a domain.
+ A web browser (like Chrome, Firefox) is software that retrieves and displays websites for users.
+
+4.List different types of web browsers and difference between them.
+Common browsers: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera.
+Chrome → fast, widely used, Google integration.
+Firefox → privacy focused, open source.
+Edge → built on Chromium, Windows integration.
+Safari → optimized for Apple devices.
+Opera → lightweight, built-in VPN/ad blocker.
+
 
 
