@@ -140,6 +140,10 @@ Continue: A continue statement skips the current iteration of a loop. when a con
 
   1.Elemente do not have a specific position or index . you cannot access element by their index.
   2.A set automatically ensures that all elements are unique. if you try to add a duplicate element, it will simply be ingored.
+
+  2.remove() → Removes an element, but raises an error if it’s missing. discard() → Removes an element, but does nothing if it’s missing.
+
+3.What is the purpose of the symbol :: in set()? start → where slicing begins (default = 0). stop → where slicing ends (default = end of sequence). step → the interval between elements (default = 1).
    
    
 
