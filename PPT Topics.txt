@@ -2,30 +2,30 @@
 Here are advanced/intermediate-level Python PPT topics based on your workspace (Class 1 to OOPs):
 
 1. Python Data Types & Type Conversion
-Mutable vs Immutable Types
+Mutable vs Immutable Types  --manoj
 Advanced Type Conversion Techniques
-2. String Manipulation & Regular Expressions
-Slicing, Formatting, and Membership
-Regex for Data Extraction and Validation
-3. Lists, Tuples, Sets, and Dictionaries
-Deep vs Shallow Copy
-Advanced List Comprehensions
-Set Operations and Dictionary Manipulation
-4. Functions & Functional Programming
-Lambda, map, filter, reduce
-Decorators and Closures
-Recursion and Memoization
-5. Exception Handling & Debugging
-Custom Exceptions
-Nested try-except-finally Blocks
-Assertions and Logging
+2. String Manipulation & Regular Expressions  --- mahid
+Slicing, Formatting, and Membership --- sadvitha
+Regex for Data Extraction and Validation -- soham
+3. Lists, Tuples, Sets, and Dictionaries -- swathi
+Deep vs Shallow Copy -- nandini
+Advanced List Comprehensions --nikshan 
+Set Operations and Dictionary Manipulation --Fahran
+4. Functions & Functional Programming -- Samar
+Lambda, map, filter, reduce -- Pravalika
+Decorators and Closures  --Uday
+Recursion and Memoization  --  sai teja 
+5. Exception Handling & Debugging -- rohit
+Custom Exceptions -- chanran
+Nested try-except-finally Blocks -- nithin kumar
+Assertions and Logging -- srivatsav 
 6. File Handling & OS Operations
-Reading/Writing Files
+Reading/Writing Files -- salma
 Directory and File Management with os
-Working with CSV and Excel Files
+Working with CSV and Excel Files ---kamala
 7. Modules & Packages
-Importing, Aliasing, and Member Aliasing
-Creating and Using Custom Packages
+Importing, Aliasing, and Member Aliasing -- jahnavi
+Creating and Using Custom Packages  -- PPT
 Exploring Built-in Modules (math, random, datetime, os, sys)
 8. Object-Oriented Programming (OOP)
 Classes, Objects, and Constructors
@@ -39,6 +39,6 @@ Composition vs Aggregation
 Linked Lists, Stacks, Queues
 Custom Iterable and Iterator Classes
 10. Advanced Python Features
-Multi-threading and Multiprocessing
+Multi-threading and Multiprocessing---sashi
 CLI Applications and Automation
 Property Decorators and Dynamic Attribute Access
