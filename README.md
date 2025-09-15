@@ -171,7 +171,76 @@ Use type() for exact type checking.
 
 Use isinstance() when subclass relationships should be considered.
 
+#Modules & Intermediate Concepts
+1. Difference between module and package in Python.
 
+A module is a single Python file (.py) that contains functions, classes, or variables.
+
+A package is a collection of multiple modules organized in a directory with an __init__.py file.
+
+Module = single file, Package = folder of modules.
+
+2. What are Python namespaces and scope (LEGB rule)?
+
+A namespace is a mapping between names and objects (like a dictionary of variable names and values).
+
+Scope decides where a variable can be accessed.
+
+Python follows the LEGB rule:
+
+L (Local) → Names inside the current function.
+
+E (Enclosing) → Names in outer functions (when functions are nested).
+
+G (Global) → Names defined at the top level of the script/module.
+
+B (Built-in) → Predefined names in Python (like len, print).
+
+3. Explain import vs from-import.
+
+import module → Brings the whole module, and we access functions/classes with module.name.
+
+from module import name → Imports only specific functions or classes directly, so we can use them without prefix.
+
+import keeps namespace cleaner, while from-import gives direct access.
+
+4. What is virtual environment (venv) in Python? Why is it needed?
+
+A virtual environment (venv) is an isolated environment for Python projects.
+
+It has its own Python interpreter and dependencies, separate from the system-wide installation.
+
+Needed because:
+
+Prevents conflicts between packages of different projects.
+
+Helps maintain project-specific dependencies.
+
+Ensures reproducibility of the project environment.
+
+5. Difference between shallow copy, deep copy, assignment operator.
+
+Assignment (=) → Creates a new reference to the same object (no copy made).
+
+Shallow copy → Creates a new object but only copies references of nested objects (changes in inner objects affect both copies).
+
+Deep copy → Creates a completely independent copy, including all nested objects (changes don’t affect the original).
+
+6. Explain how JSON is handled in Python (json module).
+
+Python has a built-in json module for working with JSON data.
+
+Converting Python → JSON: json.dumps()
+
+Converting JSON → Python: json.loads()
+
+Working with files:
+
+json.dump() → Write JSON data to a file.
+
+json.load() → Read JSON data from a file.
+
+Used for data exchange in APIs, web apps, and configuration files.
 
 
 
