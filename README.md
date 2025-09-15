@@ -122,6 +122,54 @@ The GIL is a mechanism that allows only one thread to execute Python bytecode at
 copy.copy() makes a shallow copy (copies the object, but not nested objects).
 copy.deepcopy() makes a deep copy (copies the object and all nested objects recursively).
 
+Data Handling & Error Management
+1. Explain try, except, finally, else in Python.
+
+try → Used to write the code that may raise an error.
+
+except → Handles the error if it occurs.
+
+else → Executes only if no error occurs inside try block.
+
+finally → Always executes, whether an error occurs or not (used for cleanup like closing files).
+
+2. What are custom exceptions? How do you create one?
+
+Custom exceptions are user-defined exceptions.
+
+They are used when built-in exceptions are not enough.
+
+We create them by making a new class that inherits from the Exception class.
+
+3. Explain with statement and context managers in Python.
+
+The with statement simplifies resource management like handling files, database connections, and locks.
+
+It ensures that resources are properly closed or released, even if errors occur.
+
+A context manager defines how to acquire a resource (setup) and how to release it (cleanup).
+
+4. What are lambda functions? Give an example with map, filter, reduce.
+
+Lambda functions are small anonymous functions defined without using def.
+
+They are written in one line using the syntax lambda arguments: expression.
+
+map → Applies a function to all elements in a sequence.
+
+filter → Filters elements based on a condition.
+
+reduce → Reduces a sequence into a single value by repeatedly applying a function.
+
+5. Difference between isinstance() vs type().
+
+type(obj) → Returns the exact type of an object. It does not consider inheritance.
+
+isinstance(obj, class) → Checks whether an object is an instance of a class or its subclass.
+
+Use type() for exact type checking.
+
+Use isinstance() when subclass relationships should be considered.
 
 
 
