@@ -122,7 +122,7 @@ The GIL is a mechanism that allows only one thread to execute Python bytecode at
 copy.copy() makes a shallow copy (copies the object, but not nested objects).
 copy.deepcopy() makes a deep copy (copies the object and all nested objects recursively).
 
-Data Handling & Error Management
+#Data Handling & Error Management
 1. Explain try, except, finally, else in Python.
 
 try → Used to write the code that may raise an error.
