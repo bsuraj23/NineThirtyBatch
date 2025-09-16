@@ -23,3 +23,15 @@ How does Python handle memory management (Garbage collection)? Ans.Memory manage
 What are Python’s built-in data types? Ans.int,float,complex,string,list,tuple,range,dict,set,frozenset,boolean,None
 
 How are integers and floats stored in memory in Python? Ans.Integers in Python are stored as arbitrary‑precision objects (with a header + an array of “digits”), growing in size as needed,but Floats are stored as 64‑bit IEEE‑754 double‑precision values inside a Python object with metadata.
+
+
+16/09/2025
+self? self is the convention used within class definition used to refer to the instance of class itself.
+
+static variable? the variable that belongs to the class,not to the specific object
+instance variable? unique for each object
+local variable? variable that declared inside the function and can only be accessed with in that function
+
+
+
+
