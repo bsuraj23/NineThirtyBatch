@@ -1,0 +1,12 @@
+a=12
+print(type(a))
+b=2.7
+print(type(b))
+c="moksha"
+print(type(c))
+values=[2,4,8,5,7,4]
+print(type(values))
+values1={2,4,8,5,7}
+print(type(values1))
+values3=(2,4,8,5,9,3)
+print(type(values3))
