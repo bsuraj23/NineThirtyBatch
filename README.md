@@ -152,6 +152,68 @@ Continue: A continue statement skips the current iteration of a loop. when a con
 
 1.RAG means Retrieval Augmented Generation. It is a method in Artificial Intelligence (AI) where the system combines. Retrieval means Searching for information from a database/documents and generation means Using AI model like ChatGPT, gemini AI, meta AI to generate an answer.Tts like a database it cantain the all information when any one ask question then it will give the answer in one or two seconds.
 
+(28/08/2025)
+
+1.In Python, there is no functional difference between using single quotes (') and double quotes (") to define a string. Both 'hello' and "hello" create identical string objects. The choice between them is largely a matter of style or convenience, especially when a string itself contains either a single or a double quote.If a string contains a single quote, it's often more convenient to enclose it in double quotes or If a string contains a double quote, it's often more convenient to enclose it in single quotes.
+
+(29/08/25)
+
+1.self refers to the instance of the class that is currently being used. It allows access to instance variables and methods inside the class.
+
+Q2.To restart the vscode we have a shortcut i.e crtl+shift+P but this dosenot change the cache. Inorder to change the cache the process must be done manually Q3.How can you print all the attributes of a function? We can use dir() function to print all the attributes of a function which gives the directry ex: print(dir(my_func)
+
+(1/09/25) 
+
+1.In Python to modify an existing global variable within a function, the global keyword is used to explicitly declare that the variable being referenced is the global one, not a new local variable.
+
+2.We can represent hexadecimal numbers in Python using the 0x prefix.Python provides built-in functions to convert from Base 10 integer to Binary, Octal and Hexadecimal representations. The respective functions are bin() , oct() and hex() — the returned values are of String type prefixed with the corresponding base: 0b for bin() , 0o for oct() and 0x for hex().
+
+3.To obtain all attributes of a function in Python, the dir() built-in function is commonly used. difference types of attributes of functions is 1.'annotations' 2.'builtins' 3.'call' 4.'closure' 5.'code' 6.'defaults' 7.'dict' 8.'doc' 9.'get' 10.'globals' 11.'name' 12.'qualname' 13.'reduce' 14. 'repr' 15'setattr' 16'sizeof' 17'str' 18'subclasshook'
+
+4.OpenAI is an AI company that builds and releases very smart computer programs. Think of it as a factory for advanced artificial intelligence. ex: chatgpt
+
+(2/09/25)
+
+1.The factorial of zero is 1.
+
+2.A palindrome is a word, phrase, number, or other sequence of characters that reads the same backward as it does forward. Punctuation, capitalization, and spaces are usually ignored when checking for palindromes. ex:racecar,madam,level,kayak,rotator
+
+3.To purge means to remove something or someone that is unwanted, harmful, or considered "impure". This implies cleansing or removal, which can occur in several contexts. ex: a=35 but it can't used in entire code then it removed.
+
+4.In Python, a "conflict" is not a specific error but rather a general term for when different parts of your code or project clash.
+
+(3/09/25)
+
+1.error : error is syntax or semantic mistake and system problem it can be raised while compile time
+
+exception: exception is a run time error or Unexpected event at runtime can be handled using try, catch,finally blocks
+
+2.Python having Two main types of exceptions there are : built in exceptions and user defined exceptions
+
+3.None is not a datatype.It is a special constant and an object of NoneType.
+
+4.five pillors of oops are:
+
+Class
+
+Object
+
+Encapsulation
+
+Inheritance
+
+Polymorphism
+
+(8/09/25)
+
+ A reference variable is just a name that refers to an object stored in memory. In Python, variables don’t store the object itself, they store the reference (address) to that object.
+2.What is the self keyword? self represents the current instance of the class.It is used to access variables and methods of the object.Python automatically passes self as the first parameter in instance methods.
+
+3. A website is a collection of related web pages hosted on a server, accessible via a domain. A web browser (like Chrome, Firefox) is software that retrieves and displays websites for users.
+
+4.List different types of web browsers and difference between them. Common browsers: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera. Chrome → fast, widely used, Google integration. Firefox → privacy focused, open source. Edge → built on Chromium, Windows integration. Safari → optimized for Apple devices. Opera → lightweight, built-in VPN/ad blocker.
+
+
   
 
 
