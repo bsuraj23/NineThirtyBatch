@@ -1,3 +1,7 @@
-my_list=[23,45,12,7,9,61,57,45,7,23]
-my_list=list(set(my_list))
-print(my_list)
+def removing_duplicates(lst):
+    unique_list=[]
+    for i in lst:
+        if i not in unique_list:
+            unique_list.append(i)
+    return unique_list
+print(removing_duplicates([2,2,3,5,3,6,7,1,5]))
