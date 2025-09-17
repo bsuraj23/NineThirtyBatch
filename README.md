@@ -206,7 +206,8 @@ Polymorphism
 
 (8/09/25)
 
- A reference variable is just a name that refers to an object stored in memory. In Python, variables don’t store the object itself, they store the reference (address) to that object.
+1. A reference variable is just a name that refers to an object stored in memory. In Python, variables don’t store the object itself, they store the reference (address) to that object.
+   
 2.What is the self keyword? self represents the current instance of the class.It is used to access variables and methods of the object.Python automatically passes self as the first parameter in instance methods.
 
 3. A website is a collection of related web pages hosted on a server, accessible via a domain. A web browser (like Chrome, Firefox) is software that retrieves and displays websites for users.
