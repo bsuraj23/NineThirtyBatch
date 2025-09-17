@@ -1,1 +1,0 @@
-print("Hellow 9 30 Batch Anam and salma team manual way ")
