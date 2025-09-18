@@ -1,0 +1,136 @@
+-
+
+# 🐍 Python Interview Questions (Beginner → Intermediate)
+
+---
+
+## 🔹 Python Basics
+
+1. What are Python’s key features?
+2. Why is Python called an interpreted language?
+3. What happens if indentation is incorrect in Python?
+4. What are Python keywords? Can you use them as variable names?
+5. What are the differences between Python 2 and Python 3?
+
+---
+
+## 🔹 Data Types & Variables
+
+6. What are mutable and immutable data types in Python?
+7. Explain the difference between `list`, `tuple`, `set`, and `dict`.
+8. What are Python’s built-in data types?
+9. What is the difference between `is` and `==` operators?
+10. How are integers and floats stored in memory in Python?
+
+---
+
+## 🔹 Lists, Strings & Collections
+
+11. What is the difference between `append()` and `extend()` in lists?
+12. What is the difference between shallow copy and deep copy?
+13. How do you remove duplicates from a list?
+14. How do slicing operations work on lists and strings?
+15. How do you reverse a string in Python?
+
+---
+
+## 🔹 Control Flow & Loops
+
+16. What is the difference between `break`, `continue`, and `pass`?
+17. What is the purpose of the `else` clause in loops?
+18. How does `enumerate()` work in Python?
+19. How do you iterate through a dictionary?
+20. How do you use list comprehension in Python?
+
+---
+
+## 🔹 Functions
+
+21. What are default arguments in Python functions?
+22. What is the difference between \*args and \*\*kwargs?
+23. Explain pass-by-value vs pass-by-reference in Python.
+24. Can functions be assigned to variables in Python?
+25. What are lambda functions?
+
+---
+
+## 🔹 OOP in Python
+
+26. What are classes and objects in Python?
+27. What are instance methods, class methods, and static methods?
+28. What are dunder (magic) methods in Python?
+29. What is the purpose of the `__init__` method?
+30. What is polymorphism in Python?
+
+---
+
+## 🔹 Iterators, Generators & Comprehensions
+
+31. What is the difference between an iterable and an iterator?
+32. What is the difference between `iter()` and `next()`?
+33. What are generators in Python?
+34. What is the purpose of the `yield` keyword?
+35. How do dictionary comprehensions work?
+
+---
+
+## 🔹 Exception Handling
+
+36. What is the difference between `Exception` and `BaseException`?
+37. Explain `try`, `except`, `finally`, and `else`.
+38. What are custom exceptions? How do you create them?
+39. Can one `except` block handle multiple exceptions?
+40. What happens if there is no matching `except` block for an error?
+
+---
+
+## 🔹 Decorators & Context Managers
+
+41. What are decorators in Python?
+42. Can a function return another function in Python?
+43. What is a higher-order function?
+44. What is a context manager in Python?
+45. What is the difference between `with` and try-finally?
+
+---
+
+## 🔹 Modules & Imports
+
+46. What is the difference between a module and a package?
+47. What does `__name__ == "__main__"` mean in Python?
+48. What is the difference between `import` and `from-import`?
+49. How do relative imports work in Python?
+50. How does Python search for modules when importing?
+
+---
+
+## 🔹 Namespaces & Scope
+
+51. What is the LEGB rule in Python?
+52. What is the difference between global and local variables?
+53. How do you use the `global` keyword in Python?
+54. How do you use the `nonlocal` keyword?
+55. What happens when two variables with the same name exist in different scopes?
+
+---
+
+## 🔹 Data Handling
+
+56. How do you read and write files in Python?
+57. What is the difference between text mode and binary mode in file handling?
+58. How do you handle CSV files in Python?
+59. How do you serialize and deserialize JSON in Python?
+60. How do you handle command-line arguments in Python?
+
+---
+
+## 🔹 Functional Programming
+
+61. What is the difference between `map()`, `filter()`, and `reduce()`?
+62. What is a lambda function?
+63. Can you give an example where `filter()` is useful?
+64. How does `reduce()` work in Python?
+65. What is the difference between list comprehension and `map()`?
+
+---
+

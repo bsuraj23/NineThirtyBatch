@@ -1,0 +1,214 @@
+1. What are Python’s key features? Why is it called an interpreted language?
+ANS:
+Interpreted Language → No need for compilation; code runs line by line.
+Dynamically Typed → You don’t need to declare variable types explicitly.
+
+2. Difference between **Python 2 and Python 3**?
+ANS:
+Python 3 is the present and future (modern, Unicode by default, better syntax, active support).
+Python 2 is obsolete (not maintained anymore).
+
+3. Explain **indentation** in Python. What happens if indentation is incorrect?
+ANS:
+Indentation in Python
+Indentation means the spaces or tabs at the beginning of a line of code.
+Unlike many other languages (like C, Java, or JavaScript) that use { } or keywords to define code blocks, Python uses indentation to define blocks of code.
+*Python will raise an Indentation Error or unexpected indent error.
+
+4. What are Python **keywords**? Can you use them as variable names?
+ANS:
+What are Python Keywords?
+Keywords are reserved words in Python that have special meaning.
+They are used to define the syntax and structure of the Python language.
+Example keywords: if, else, while, for, break, class, try, import, etc.
+Python keywords cannot be used as variable names, function names, or identifiers.
+If you try, Python will throw a Syntax Error.
+
+5. Difference between List, Tuple, Set, and Dictionary
+
+List → Ordered, mutable collection, allows duplicates.
+Tuple → Ordered, immutable collection, allows duplicates.
+Set → Unordered collection of unique elements, mutable.
+Dictionary → Collection of key–value pairs, mutable, keys must be unique.
+
+6. Mutable vs Immutable Data Types
+Mutable → Can be changed after creation (e.g., list, set, dictionary).
+Immutable → Cannot be changed once created (e.g., int, float, string, tuple).
+
+7. == vs is Operator
+== → Compares values (content).
+is → Compares memory addresses (object identity).
+
+8. append() vs extend() in Lists
+append() → Adds the entire object as a single element.
+extend() → Adds each element of an iterable individually to the list.
+
+9. Shallow Copy vs Deep Copy
+Shallow Copy → Copies the outer object but references of nested objects are shared.
+Deep Copy → Copies both the outer object and all nested objects recursively, fully independent.
+
+10. Python Memory Management (Garbage Collection)
+Python manages memory using a private heap for objects.
+It uses reference counting to track how many references point to an object.
+When reference count becomes zero, the garbage collector automatically frees the memory.
+
+
+## 🔹 Intermediate Level (OOPs, Functions, Advanced Data Types)
+
+1. What are **functions** in Python? Difference between \*args and \*\*kwargs?
+A function is a block of reusable code that performs a specific task.
+It helps in modularity, reusability, and readability of code.
+Functions are defined using the def keyword.
+They may take parameters (inputs) and may return a value.
+
+2. Explain **decorators** in Python with an example.
+A decorator is a special function that modifies or enhances the behavior of another function without changing its code.
+It allows you to wrap another function inside it, adding extra functionality.
+They are commonly used for logging, authentication, performance measurement, caching, etc.
+In Python, decorators are applied using the @decorator_name syntax, placed just above a function definition.
+
+3. Generators and yield
+
+Generators → Special type of function in Python that allows you to generate values one at a time instead of returning them all at once.
+They are memory-efficient because they don’t store the entire result in memory.
+Defined like normal functions but use the yield keyword instead of return.
+yield
+yield is used to pause a function and return a value.
+When the generator function is called again, it resumes execution from where it left off.
+
+4. Difference between **iterable, iterator, and generator**.
+Iterable → gives an Iterator.
+Iterator → used to fetch values.
+Generator → special kind of Iterator.
+
+7. Python’s OOP Concepts
+
+Inheritance:
+A class (child) can inherit properties and methods from another class (parent).
+Promotes code reuse.
+Polymorphism:
+The ability to use the same function name or operator in different ways.
+Example: same method name in different classes doing different things.
+Encapsulation:
+Wrapping data (attributes) and methods into a single unit (class).
+Access is restricted using public, protected (_), and private (__) conventions.
+
+8. Magic/Dunder Methods in Python
+Dunder methods (double underscore, e.g., __init__) are special built-in methods that let you define how objects of a class behave.
+They start and end with __.
+Examples:
+__init__ → Constructor, called when object is created.
+__str__ → Defines string representation when print(object) is used.
+__len__ → Defines behavior for len(object).
+_add__ → Defines behavior for + operator.
+
+9. Python’s Global Interpreter Lock (GIL)
+GIL is a mutex (lock) that allows only one thread to execute Python bytecode at a time, even on multi-core processors.
+Reason: Python’s memory management (esp. reference counting) is not thread-safe.
+Effect:
+Multithreading is limited for CPU-bound tasks (like heavy computation).
+But I/O-bound tasks (like file or network operations) still benefit from threading.
+Workaround: Use multiprocessing (separate processes) instead of threads for CPU-heavy tasks.
+
+10. Difference between deepcopy vs copy.copy()
+copy.copy() (Shallow Copy)
+Creates a new object, but nested objects are shared.
+Changes in inner objects affect both copies.
+copy.deepcopy() (Deep Copy)
+Creates a new object and recursively copies all nested objects.
+The copy is completely independent of the original.
+
+## 🔹 Data Handling & Error Management
+
+1. try, except, finally, else in Python
+try → The block of code where exceptions are tested.
+except → The block of code that handles the exception if it occurs.
+else → Executes if no exception occurs in the try block.
+finally → Executes no matter what (whether an exception occurred or not). Usually used for cleanup
+ (e.g., closing files, releasing resources).
+
+2. Custom Exceptions
+Python allows us to define our own exception classes for specific error handling.
+Custom exceptions are created by inheriting from the built-in Exception class.
+Useful for domain-specific errors (e.g., InsufficientBalanceError in a banking app).
+
+3. with Statement and Context Managers
+The with statement is used to simplify resource management (like files, database connections, sockets).
+It ensures that resources are properly closed or released, even if an error occurs.
+Context Manager → An object that defines methods __enter__() and __exit__().
+Example: Using with open("file.txt") as f: automatically closes the file after use.
+
+4. Lambda Functions
+Lambda = anonymous, single-line functions defined using the lambda keyword.
+Syntax: lambda arguments: expression
+Often used with map, filter, reduce:
+map() → Applies a function to all elements of an iterable.
+filter() → Filters elements based on a condition.
+reduce() → Applies a rolling computation to sequential elements (from functools).
+
+5. isinstance() vs type()
+type(obj) → Returns the exact type of an object (no inheritance considered).
+isinstance(obj, class) → Returns True if the object is an instance of the class or its subclass.
+Key difference:
+type() is strict (must be exact type match).
+isinstance() is flexible (works with inheritance).
+
+## 🔹 Modules & Intermediate Concepts
+
+1. Difference between **module and package** in Python.
+Module → A single Python file (.py) that contains functions, classes, or variables (e.g., math.py).
+Package → A collection of related modules, organized in a directory with an __init__.py file (e.g
+
+2. What are **Python namespaces and scope** (LEGB rule)
+Namespace → A mapping between names (identifiers) and objects (values).
+Scope → The region of the program where a namespace is directly accessible.
+LEGB Rule (order of name resolution in Python):
+Local → Inside the current function.
+Enclosing → Inside any enclosing function (for nested functions).
+Global → At the module level.
+Built-in → Predefined names in Python (like len, print).
+
+3. Explain **import vs from-import**.
+import → Brings the entire module into scope. Accessed with module_name.function.
+Example: import math → use math.sqrt(16).
+from-import → Imports specific attributes/functions directly into scope.
+Example: from math import sqrt → use sqrt(16).
+ import = whole module, from-import = selected items.
+
+4. What is **virtual environment (venv)** in Python? Why is it needed?
+A virtual environment is an isolated environment for Python projects.
+Each project can have its own dependencies (packages/libraries) without conflicting with system-wide Python.
+Needed for:
+Avoiding dependency conflicts.
+Ensuring reproducibility of projects.
+Keeping global Python installation clean.
+
+5. Difference between **shallow copy, deep copy, assignment operator**.
+Assignment (=) → Creates a new reference to the same object (no new copy). Changes affect all references.
+Shallow Copy (copy.copy()) → Creates a new object, but nested objects are shared (not copied).
+Deep Copy (copy.deepcopy()) → Creates a new object and recursively copies all nested objects (fully independent).
+
+6. Explain how **JSON** is handled in Python (`json` module).
+JSON (JavaScript Object Notation) is a lightweight data format for storing and exchanging data.
+Python’s json module provides methods:
+json.loads() → Convert JSON string → Python object (dict, list, etc.).
+json.dumps() → Convert Python object → JSON string.
+json.load() → Read JSON data from a file into Python.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
