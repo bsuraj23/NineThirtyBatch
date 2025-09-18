@@ -1,1 +1,17 @@
+1.what are the python's key features?Why it is called an interpreted language?->simple & easy to learn->Interpreted language->Dynamically Typed->Object-oriented->Extensive libraries->Cross-platform->High level language python is executed line by line so it is called as interpreted language
+2.Difference between Python 2 and Python 3?Ans.Python2:->In python 2 print is a statement->The result of division is floor division Python 3:->In python 3 print is a function->The result of division is actual division
+3.Explain indentation in Python.What happens if indentation is incorrect?ans.Indentation means space or tabs at the beginning of a line of code in Python,indentation is part of the syntax it tells Python which statements belong together in a block,common indentation is four spaces if indentation is incorrect then it raises syntax and indentation error at runtime
+4.What are the python keywords?Can you use them as variable names ? ANS.The python keywords are if,for,while,else,def,class,return,true,none No,we can't use them as variable names
+5.Differnece between list,tuple,set and dictionary.Give examples?Ans.List-insertion Order is Preserved,Duplicates are allowed it is mutable,it is represented by "[]"
+Tuple insertion order is preserved,Duplicates are allowed,it is immutable,it is represented by "()"
+Set-Insertion order is preserved,Duplicates are allowed it is mutable,it is represented by"{}"
+Dictionary-As of 3.7 Insertion order is preserved,keys must be unique values can repeat,it is mutable,it is represented by "{}"
+6.What is the difference between mutable and immutable data types?Ans.Mutable datatypes that can be modified or changed after the creation Ex:list,set,dictionary Immutable datatyes that cannot be modidfied after the creation
+Ex:int,string,tuple
+7.Explain== vs is operator in Python with examples?Ans."=="is the equality operator it checks whether the values of two objects are equal."is" is the identity operator it checks whether two names(variables)refers to the exacts same object in memory
+8.What is the difference between append() vs Extend() in lists?Ans.list.append(x) adds its argument x as a single element to the end of the list.extend(iterable)takes an iterable like another list,tuple,string and adds each element
+9.Explain shallow copy vs deep copy in Python?Ans.shallow copy:creates a new container/object,but does not copy the nested(inner)objects.It just copies references to the inner objects.so the outer object is a separate object,but the inner ones are shared between original and copy.Deep copy:creates a new container/object and recursively copies all objects found in the original.So neither the outer nor any inner/mutable parts are shared.The copy is fully independent.
+10.How does Python handle memory management(Garbage collection)?Ans.Memory management refers to how python allocates memory to objects,how it keeps track of what can be used and howmit reclaims unused memory.Python makes most of this automatic so you usually dont need to manually free memory(unlike in C).
+11.What are the Python's built in data types?Ans.int,float,complex,string,list,tuple,range,dict,set,frozenset,boolean,none
+12.How are integers and flaots stored in memory in Python?Ans.Integers in python are stored as arbitrary-precision objects (with a header+an array of "digits"),growing in size as needed,but Floats are stored as 64-bit IEEE-754 double-precision values inside a Python object with metadata.
 
