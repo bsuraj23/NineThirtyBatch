@@ -1,73 +1,17 @@
-NINE THIRTY BATCH PYTHON FULL STACK AI                                                                                                    
-Assigned Tasks (Interview Questions)                                                                                                       
-(30-07-2025)                                                                                                                               
-1.what is the history of python?                                                                                                           
-2.What is the famous web application developed using python?                                                                               
-3.What is compilation?                                                                                                                     
+1.what are the python's key features?Why it is called an interpreted language?->simple & easy to learn->Interpreted language->Dynamically Typed->Object-oriented->Extensive libraries->Cross-platform->High level language python is executed line by line so it is called as interpreted language
+2.Difference between Python 2 and Python 3?Ans.Python2:->In python 2 print is a statement->The result of division is floor division Python 3:->In python 3 print is a function->The result of division is actual division
+3.Explain indentation in Python.What happens if indentation is incorrect?ans.Indentation means space or tabs at the beginning of a line of code in Python,indentation is part of the syntax it tells Python which statements belong together in a block,common indentation is four spaces if indentation is incorrect then it raises syntax and indentation error at runtime
+4.What are the python keywords?Can you use them as variable names ? ANS.The python keywords are if,for,while,else,def,class,return,true,none No,we can't use them as variable names
+5.Differnece between list,tuple,set and dictionary.Give examples?Ans.List-insertion Order is Preserved,Duplicates are allowed it is mutable,it is represented by "[]"
+Tuple insertion order is preserved,Duplicates are allowed,it is immutable,it is represented by "()"
+Set-Insertion order is preserved,Duplicates are allowed it is mutable,it is represented by"{}"
+Dictionary-As of 3.7 Insertion order is preserved,keys must be unique values can repeat,it is mutable,it is represented by "{}"
+6.What is the difference between mutable and immutable data types?Ans.Mutable datatypes that can be modified or changed after the creation Ex:list,set,dictionary Immutable datatyes that cannot be modidfied after the creation
+Ex:int,string,tuple
+7.Explain== vs is operator in Python with examples?Ans."=="is the equality operator it checks whether the values of two objects are equal."is" is the identity operator it checks whether two names(variables)refers to the exacts same object in memory
+8.What is the difference between append() vs Extend() in lists?Ans.list.append(x) adds its argument x as a single element to the end of the list.extend(iterable)takes an iterable like another list,tuple,string and adds each element
+9.Explain shallow copy vs deep copy in Python?Ans.shallow copy:creates a new container/object,but does not copy the nested(inner)objects.It just copies references to the inner objects.so the outer object is a separate object,but the inner ones are shared between original and copy.Deep copy:creates a new container/object and recursively copies all objects found in the original.So neither the outer nor any inner/mutable parts are shared.The copy is fully independent.
+10.How does Python handle memory management(Garbage collection)?Ans.Memory management refers to how python allocates memory to objects,how it keeps track of what can be used and howmit reclaims unused memory.Python makes most of this automatic so you usually dont need to manually free memory(unlike in C).
+11.What are the Python's built in data types?Ans.int,float,complex,string,list,tuple,range,dict,set,frozenset,boolean,none
+12.How are integers and flaots stored in memory in Python?Ans.Integers in python are stored as arbitrary-precision objects (with a header+an array of "digits"),growing in size as needed,but Floats are stored as 64-bit IEEE-754 double-precision values inside a Python object with metadata.
 
-(05-08-2025)                                                                                                                               
-
-1.find any 5 commands to implement in the command prompt?                                                                                  
-2.Check whether 'char' datatype exist in python or not?                                                                                    
-3.What are the features of python?             
-
-(13-08-2025)                                                                                                                               
-
-1.Difference between compilation and interpreter?                                                                                          
-2.Understand about VS code and the shortcuts?                                                                                              
-3.Find the difference between (=) and (==)?                                                                                                
-(14-08-2025)                                                                                                                               
-1.Difference between break and continue statements?                                                                                        
-2.Explore about %d,%f,%s,%t,/n?                                                                                                            
-(18-08-2025)                                                                                                                               
-1.Explore about http and https?                                                                                                            
-2.Find how does a search engine works?                                                                                                     
-(19-08-2025)                                                                                                                               
-1.What is the difference between list and set?                                                                                             
-2.Difference between remove and discard?                                                                                                   
-3.What is the purpose of the symbol :: in sets?                                                                                            
-(21-08-2025)                                                                                                                               
-1.Make a presentation on the topics dictionary, set, list, tuple?                                                                          
-(25-08-2025)                                                                                                                               
-1.Check whether tuple is mutable or not?                                                                                                   
-2.Test the 4 features of dictionary and get hands on by applying in programs?                                                              
-(26-08-2025)                                                                                                                               
-1.Understand about RAG?                                                                                                                    
-2.Find the possible ways to print list without object? hint: Use any loops?
-3.Without using sorting techniques write a code which can sort the list of integers?                                                       
-(28-08-2025)                                                                                                                               
-1.find the difference between " " and ' ' while using them for a string?                                                                   
-2.correct the code "xyz=set(temp for i in range (2))"?                                                                                     
-(29-08-2025)                                                                                                                               
-1.Understand about self keyword?                                                                                                         
-2.Print the local variables of the function using attribute?                                                                              
-3.How can you restart VS code by clearing the cache?                                                                                      
-4.print all the attritubes of a function?                                                                                                    
-
-(1-09-2025)
-
-1.How to implement the global variable in the end of the function?
-2.What is hexa,octa,odinary,complex in phython?                                                                                                                                
-3.Get the all attributes of the functions?
-4.What is openAI?Give the examples.                                                                                                                                                     
-
-(2-09-2025)
-1. what is factorial of zero?
-2. what is palidrome and their examples?
-3. what is meaning of purge?
-4. what is conflit?How do slove conflit?
-5. program for reverse a string by using for & while loop?
-
-(3-09-2025)
-
-1.Difference between exception and error.?
-
-2.How many types of exceptions are there in python.?
-
-3.How can you fix input function can able to access the boolean and null values.?
-
-4.None is data type or not in python.?
-
-5.what are the five pillors of OOPS.?
-
-   
