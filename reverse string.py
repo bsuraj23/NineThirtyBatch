@@ -1,17 +1,9 @@
-# reverse of a string
-"""def reverse_string(text):
-    rev = ""
-    for char in text:
-        rev = char + rev
-    return rev
+def reverse_string_loop(s):
+    reversed_str = ""
+    for char in s:
+        reversed_str = char + reversed_str
+    return reversed_str
 
-print("Reversed:", reverse_string("Python"))"""
-
-
-def reverse(text):
-    if text==0:
-        return text
-    else:
-        return text[::-1] 
-print("Reverse",reverse("python"))    
-
+my_string = "hello"
+reversed_string = reverse_string_loop(my_string)
+print(reversed_string)
