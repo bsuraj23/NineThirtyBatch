@@ -1,7 +1,8 @@
-a="aeiouAEIOU"
-b="Teja sree  teju"
+a="aeiouAEIOU
+b="keerthi"
 count=0
 for i in b:
     if i in a: 
         count+=1
+print(count)     
 print(count)    
