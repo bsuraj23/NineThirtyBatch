@@ -1,0 +1,10 @@
+ Python Interview Questions (Beginner → Intermediate)
+
+
+## 🔹 Python Basics
+
+1. What are Python’s key features?
+2. Why is Python called an interpreted language?
+3. What happens if indentation is incorrect in Python?
+4. What are Python keywords? Can you use them as variable names?
+5. What are the differences between Python 2 and Python 3?
