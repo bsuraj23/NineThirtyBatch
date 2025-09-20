@@ -1,6 +1,0 @@
-t = (1, 2, 3)
-l1 = list(t)
-l2 = list(('a', 'b'))
-l3 = list((True, False))
-l4 = list((10,))
-l5 = list(())
