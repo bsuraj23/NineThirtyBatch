@@ -79,6 +79,7 @@ Q1.Understand about RAG?
 ## 🔹 Python Basics
 
 1. What are Python’s key features? Why is it called an interpreted language?
+
 ->easy and readable syntax
 ->Dynamically Typed
 ->Portable
@@ -88,6 +89,7 @@ Q1.Understand about RAG?
 Python is executed line by line so it is called as interpreted language
 
 2. Difference between **Python 2 and Python 3**?
+
 Ans.Python 2:
     ->In python 2 print is a statement
     ->The result of division is floor division
@@ -96,40 +98,75 @@ Ans.Python 2:
     ->The result of division is actual division
 
 3. Explain **indentation** in Python. What happens if indentation is incorrect?
+
 Ans.Indentation means space or tabs at the beginning of a line of code In Python, indentation is part of the syntax it tells Python which statements belong together in a block,common indentation is four spaces
     if indentation is incorrect then it raises Syntax and Indentation error at Runtime,different blocks misgrouped (logical errors).
 
 4. What are Python keywords? Can you use them as variable names?
+
 Ans.The python keywords are if,for,while,else,def,class,return,true,none No,we can't use them as variable names
 
 5. Difference between **list, tuple, set, and dictionary**. Give examples?
+
 Ans.List-Insertion Order Is Preserved,Duplicates are allowed,it is mutable,It Is represented by "[]"
     Tuple-Insertion Order Is Preserved,Duplicates are allowed,it is immutable,it is represented by "()"
     Set-Insertion Order Is preserved,Duplicates are allowed,it is mutable,it is represented by "{}"
     Dictionary-As of 3.7 insertion order is preserved,Keys must be unique values can repeat,ii is mutable,it is represented by "{}"
 
 6. What is the difference between **mutable and immutable** data types?
+
 Ans.Mutable datatypes that can be modified or changed after the creation Ex:list,set,dictionary
     Immutable datatypes that cannot be modified after the creation Ex:int,string,tuple
 
 7. Explain **== vs is** operator in Python with examples?
+
 Ans."==" is the equality operator it checks whether the values of two objects are equal.
     "is" is the identity operator it checks whether two names (variables) refers to the exact same object in memory.
 
 8. What is the difference between **append() vs extend()** in lists?
+
 Ans.list.append(x) adds its argument x as a single element to the end of the list.
     list.extend(iterable) takes an iterable like another list, tuple, string and adds each element.
 
 9. Explain **shallow copy vs deep copy** in Python?
+
 Ans.Shallow copy: creates a new container/object, but does not copy the nested (inner) objects. It just copies references to the inner objects. So the outer object is a separate object, but the inner ones are        shared between original and copy.
     Deep copy: creates a new container/object and recursively copies all objects found in the original. So neither the outer nor any inner/mutable parts are shared. The copy is fully independent.
 
 10. How does Python handle **memory management** (Garbage collection)?
+
 Ans.Memory management refers to how Python allocates memory to objects, how it keeps track of what can be used and what can be freed, and how it reclaims unused memory. Python makes most of this automatic so you     usually don’t need to manually free memory (unlike in C).
 
 11. What are Python’s built-in data types?
+
 Ans.int,float,complex,string,list,tuple,range,dict,set,frozenset,boolean,None
 
 12. How are integers and floats stored in memory in Python?
+
 Ans.Integers in Python are stored as arbitrary‑precision objects (with a header + an array of “digits”), growing in size as needed,but Floats are stored as 64‑bit IEEE‑754 double‑precision values inside a Python object with metadata.
-      
+
+13. What is the difference between `break`, `continue`, and `pass`?
+
+Ans.Break: When a condition is given if we use break then if the condition is true it comes outside the loop.
+    Continue: When a condition is given if we use continue then it only skips the number that matches the condition and continue the loop.
+    Pass: Does nothing ,it’s a no-operation placeholder ,It’s only useful where syntactically some statement is required but you don’t want any action.
+
+14. What is the purpose of the `else` clause in loops?
+
+Ans.In Python, loops (for and while) can have an else clause. The else block runs only if the loop completes normally, i.e. if no break was used to exit the loop early.
+
+15. How do you use list comprehension in Python?
+
+Ans.A list comprehension is a compact way to create a new list by applying an expression to items in an iterable, optionally filtering them. It combines a for loop, and optional if filtering, into a single line      inside square brackets.
+
+16. What is the difference between `Exception` and `BaseException`?
+
+Ans.BaseException: is the root of the built-in exception hierarchy. All built-in exceptions derive (directly or indirectly) from BaseException.
+    Exception: is a subclass of BaseException. It is the base class for most of the “normal” or “application-level” exceptions.
+
+17. Explain `try`, `except`, `finally`, and `else`?
+
+Ans.try: The block of code where in you run operations that might raise exceptions.
+    except: One or more blocks that handle certain exception types if they are raised in the try.
+    else: If present, runs only if the try block did not raise any exception.
+    finally: If present, always executes after try, except, and else (if used), regardless of whether an exception was raised or not — useful for cleanup.
