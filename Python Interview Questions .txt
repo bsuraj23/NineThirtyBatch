@@ -4,7 +4,319 @@
 ## 🔹 Python Basics
 
 1. What are Python’s key features?
+Simple & Easy → Easy to learn, read, and write.
+Interpreted → Executes code line by line (no separate compilation).
+High-level Language → Abstracts low-level details like memory management.
+Dynamically Typed → No need to declare variable types explicitly.
+Portable → Runs on different platforms (Windows, Linux, Mac).
+Extensive Libraries → Comes with a rich standard library and supports third-party modules.
+Object-Oriented + Functional → Supports multiple programming paradigms.
+Open-source → Free and community-drive
+
 2. Why is Python called an interpreted language?
+Python code is executed line by line by the Python interpreter.
+No need to compile into machine code separately.
+Errors are detected during execution (runtime).
+
 3. What happens if indentation is incorrect in Python?
+Indentation defines code blocks (loops, functions, conditionals).
+If incorrect → Python raises an IndentationError or unexpected behavior.
+
 4. What are Python keywords? Can you use them as variable names?
+Keywords → Reserved words that have predefined meaning in Python.
+Examples: if, else, for, while, def, class, import, True, False, None.
+ They cannot be used as variable names, otherwise Python throws a SyntaxError.
+
 5. What are the differences between Python 2 and Python 3?
+Feature 	Python 2	Python 3
+Release Year  	2000	2008 (successor of Python 2)
+Print Statement print "Hello"	print("Hello") (function)
+
+## 🔹 Data Types & Variables
+
+6. What are mutable and immutable data types in Python?
+Mutable → Can be changed after creation (content can be modified).
+Examples: list, dict, set, bytearray.
+Immutable → Cannot be changed once created. Any modification creates a new object.
+Examples: int, float, str, tuple, frozenset, bool.
+
+8. What are Python’s built-in data types?
+Numeric Types → int, float, complex
+Sequence Types → list, tuple, range
+Text Type → str
+Set Types → set, frozen set
+Mapping Type → dict
+Boolean Type → bool
+Binary Types → bytes, byte array, memory view
+None Type → None Type
+
+9. What is the difference between `is` and `==` operators?
+== (Equality Operator)
+Compares values of objects.
+(Identity Operator)
+Compares memory addresses (whether both refer to the same object).
+
+10. How are integers and floats stored in memory in Python?
+Integers (int)
+In Python 3, integers are of unlimited size (arbitrary precision).
+Stored as objects with metadata (like reference count, sign, size) + the value.
+Floats (float)
+Implemented as 64-bit double precision (IEEE 754 standard).
+Approximation of real numbers → may have rounding errors (e.g., 0.1 + 0.2 ≠ 0.3).
+
+## 🔹 Lists, Strings & Collections
+
+11. What is the difference between `append()` and `extend()` in lists?
+append() → Adds a single element (object) to the end of the list.
+extend() → Adds all elements of another iterable to the list.
+
+12. What is the difference between shallow copy and deep copy?
+Shallow Copy (copy.copy())
+Creates a new object but references the same nested objects.
+Changes in nested objects affect both copies.
+Deep Copy (copy.deepcopy())
+Creates a new object and recursively copies all nested objects.
+Completely independent from the original.
+
+13. Removing Duplicates from a List
+Convert list to a set (removes duplicates, but order may be lost):
+To preserve order (Python 3.7+ maintains insertion order):
+
+14. How do slicing operations work on lists and strings?
+General syntax: sequence[start:stop:step]
+start → index to begin (default 0)
+stop → index to end (exclusive, default len(sequence))
+step → interval (default 1, negative for reverse)
+
+15. How do you reverse a string in Python?
+Using slicing:
+s[::-1]
+Using "".join(reversed(s)) → also works.
+
+## 🔹 Control Flow & Loops
+
+16. What is the difference between `break`, `continue`, and `pass`?
+break: Immediately exits the nearest enclosing loop (for/while), regardless of the condition.
+continue: Skips the current iteration and moves to the next one.
+pass: Does nothing (a placeholder for future code)
+
+17. What is the purpose of the `else` clause in loops?
+The else block with loops runs only if the loop completes normally (i.e., not terminated by a break).
+
+18. How does `enumerate()` work in Python?
+enumerate() adds an index counter to an iterable (like list, tuple, string) and returns it as pairs (index, value).
+
+19. How do you iterate through a dictionary?
+A concise way to create lists in a single line
+
+## 🔹 Functions
+
+21. What are default arguments in Python functions?
+Definition:
+In Python, default arguments are function parameters that take a default value if no value is provided when the function is called.
+
+22. What is the difference between \*args and \*\*kwargs?
+*args (Non-keyword arguments)
+Collects extra positional arguments as a tuple.
+**kwargs (Keyword arguments)
+Collects extra keyword arguments as a dictionary.
+
+23. Explain pass-by-value vs pass-by-reference in Python.
+In Python, everything is an object, and variables are references to those objects.
+Python uses a model called “pass-by-object-reference” (or call-by-sharing).
+
+24. Can functions be assigned to variables in Python?
+In Python, functions are first-class objects.
+They can be assigned to variables, passed as arguments, and even returned from other functions.
+
+25. What are lambda functions
+Definition:
+A lambda function is a small, anonymous function in Python (a function without a name).
+Created using the lambda keyword.
+Can have any number of arguments but only one expression.
+
+## 🔹 OOP in Python
+
+26. What are classes and objects in Python?
+Class → A blueprint for creating objects. It defines attributes (variables) and behaviors (methods).
+Object → An instance of a class, representing a specific entity with its own data.
+
+27. What are instance methods, class methods, and static methods?
+Instance Method → Operates on object (instance) data. Needs self.
+Class Method → Operates on class-level data. Needs cls. Defined with @classmethod.
+Static Method → Doesn’t need self or cls. Works like a normal function inside a class. Defined with @staticmethod.
+
+28. What are dunder (magic) methods in Python?
+"Dunder" = Double Underscore (e.g., __init__, __str__, __len__).
+they allow operator overloading and customization of class behavior.
+
+29. What is the purpose of the `__init__` method?
+It’s the constructor in Python.
+Called automatically when a new object is created.
+Used to initialize object attributes.
+
+30. What is polymorphism in Python?
+Polymorphism = "many forms."
+The same function/method behaves differently depending on the object.
+
+## 🔹 Iterators, Generators & Comprehensions
+
+31. What is the difference between an iterable and an iterator?
+Iterable → An object that can return an iterator. Examples: list, tuple, str, dict, set.
+Iterator → An object with __iter__() and __next__() methods, used to fetch elements one at a time.
+
+32. What is the difference between `iter()` and `next()`?
+iter(obj) → Returns an iterator from an iterable.
+next(iterator) → Fetches the next item from the iterator. Raises StopIteration when no more elements.
+
+33. What are generators in Python?
+Generators are special functions that yield values one by one instead of returning them all at once.
+Created using functions with yield or using generator expressions.
+More memory-efficient than lists.
+
+34. What is the purpose of the `yield` keyword?
+yield is like return, but instead of ending the function, it pauses it.
+The function’s state is saved, and execution resumes when next() is called again.
+
+35. How do dictionary comprehensions work?
+Similar to list comprehensions, but create dictionaries.
+
+## 🔹 Exception Handling
+
+36. What is the difference between `Exception` and `BaseException`?
+BaseException → The root of all exceptions in Python. Every built-in exception inherits from it.
+Exception → A subclass of BaseException. Most common runtime errors (e.g., ValueError, TypeError) inherit from Exception.
+
+37. Explain `try`, `except`, `finally`, and `else`.
+try → Wraps the code that may raise an exception.
+except → Handles the exception if it occurs
+else → Runs only if no exception occurs in the try block.
+finally → Runs always, whether an exception occurs or not (often used for cleanup, like closing files).
+
+38. What are custom exceptions? How do you create them?
+Custom exceptions are user-defined exceptions that inherit from Exception (or a subclass).
+Useful for raising meaningful, domain-specific errors.
+
+
+40. What happens if there is no matching `except` block for an error?
+If an exception occurs and no matching except block is found, the program terminates and Python
+ prints a traceback (error message showing where it happened).
+
+## 🔹 Decorators & Context Managers
+
+41. What are decorators in Python?
+A decorator is a function that takes another function as input, adds extra functionality, and 
+returns it — without modifying the original code.
+Commonly used for logging, authentication, caching, etc.
+
+43. What is a higher-order function?
+A function that takes another function as an argument or returns a function.
+Examples: map(), filter(), reduce(), decorators.
+
+44. What is a context manager in Python?
+A function that takes another function as an argument or returns a function
+Examples: map(), filter(), reduce(), decorators.v
+
+45. What is the difference between `with` and try-finally?
+Both are used for resource management.
+try-finally → You must manually open/close resources.
+with → Uses context managers; automatically handles setup and cleanup, making code cleaner and safer.
+
+
+## 🔹 Modules & Imports
+
+46. What is the difference between a module and a package?
+Module → A single .py file that contains Python code (functions, classes, variables).
+Package → A directory containing multiple modules, with a special __init__.py file (can be empty).
+
+47. What does `__name__ == "__main__"` mean in Python?
+Every Python file has a built-in variable __name__.
+If the file is run directly, __name__ == "__main__
+If the file is imported as a module, __name__ is set to the module’s name
+
+48. What is the difference between `import` and `from-import`?
+import module → Imports the entire module. Use module.function().
+from module import func → Imports a specific function/class directly.
+
+49. How do relative imports work in Python?
+Used inside packages to import modules relative to the current file’s location.
+. → current package
+.. → parent packag
+
+50. How does Python search for modules when importing?
+When you use import, Python searches in this order (via sys.path):
+Current directory (where the script is run).
+PYTHONPATH (environment variable, if set).
+Standard library directories.
+Site-packages (installed third-party packages).
+
+## 🔹 Namespaces & Scope
+
+## 🔹 Namespaces & Scope
+
+51. What is the LEGB rule in Python?
+LEGB = order in which Python looks for variables:
+L → Local (inside the current function).
+E → Enclosing (in outer function scopes, if using nested functions).
+G → Global (module-level).
+B → Built-in (Python’s reserved names, e.g., len, print).
+
+52. What is the difference between global and local variables?
+Global Variable → Defined outside functions, accessible throughout the module.
+Local Variable → Defined inside a function, accessible only within that function.
+
+53. How do you use the `global` keyword in Python?
+Used to modify a global variable inside a function.
+Without global, assignment creates a local variable.
+
+54. How do you use the `nonlocal` keyword?
+Used in nested functions to modify a variable from the enclosing scope (not global).
+
+55. What happens when two variables with the same name exist in different scopes?
+Python follows LEGB rule → local scope first, then enclosing, then global, then built-in.
+The closest scope wins.
+
+## 🔹 Data Handling
+
+56. How do you read and write files in Python?
+Use the built-in open() function.
+Modes:
+"r" → read (default)
+"w" → write (overwrites file)
+"a" → append
+"r+" → read/write
+
+57. What is the difference between text mode and binary mode in file handling?
+Text mode ("t") → Default, handles file as text (e.g., strings). Performs encoding/decoding (utf-8).
+Binary mode ("b") → Handles raw bytes (e.g., images, executables). No encoding/decoding.
+
+59. How do you serialize and deserialize JSON in Python?
+Serialization (Python → JSON string) → json.dump() or json.dumps()
+Deserialization (JSON string → Python) → json.load() or json.loads()
+
+## 🔹 Functional Programming
+
+61. What is the difference between `map()`, `filter()`, and `reduce()`?
+map(func, iterable) → Applies a function to each element and returns a new iterable.
+filter(func, iterable) → Keeps only elements where the function returns True.
+reduce(func, iterable) → Applies a function cumulatively to reduce the iterable to a single value (must import functools).
+
+62. What is a lambda function?
+A lambda function is an anonymous, single-line function defined using the lambda keyword.
+
+65. What is the difference between list comprehension and `map()`?
+List Comprehension → More Pythonic, often clearer. Can include conditions.
+map() → Calls a function on each element (sometimes faster, but less readable).
+
+
+
+
+
+
+
+
+
+
+
+
+
