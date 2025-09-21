@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def merge_dicts(d1,d2):
     D=d1.copy()
     D.update(d2)
