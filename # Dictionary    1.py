@@ -1,8 +1,8 @@
 V# Dictionary to store student data
 students = {
-    "101": {"name": "Alice", "marks": {"Math": 85, "Science": 92, "English": 88}},
-    "102": {"name": "Bob", "marks": {"Math": 75, "Science": 64, "English": 80}},
-    "103": {"name": "Charlie", "marks": {"Math": 95, "Science": 89, "English": 93}},
+    "101": {"name": "Prasad", "marks": {"Math": 85, "Science": 92, "English": 88}},
+    "102": {"name": "main", "marks": {"Math": 75, "Science": 64, "English": 80}},
+    "103": {"name": "sai", "marks": {"Math": 95, "Science": 89, "English": 93}},
 }
 
 # Function to calculate average
