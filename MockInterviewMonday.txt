@@ -1,0 +1,24 @@
+1. What are Python’s key features? Explain portability how its achieved in python technically in detail
+2. Why is Python called an interpreted language?
+
+What are Python keywords? Can you use them as variable names?
+How do you remove all occurrences of a specific element from a list?
+Write a function to reverse a list without using built-in methods
+How do you merge two lists without using the + operator?
+Write a function to invert a dictionary (swap keys and values).
+Write code to find the second largest element in a list.
+Implement a function that returns the sum of elements in a tuple.
+Write a code snippet using range() with tuples and lists.
+How do you use format() for string formatting? What are common formatting options?
+Write a regex pattern to check if a string contains only digits.
+Write a regex to replace all whitespace with a single space in a string.
+Demonstrate how to use a regex with capturing groups to parse dates from "DD/MM/YYYY".
+
+Write code to find all words that start with a capital letter in a string.
+How can you compile a regex for repeated use and why is it useful?
+
+What is method overriding? Show an example with base and derived classes.
+
+What is polymorphism? Write code showing a function that takes different object types.
+How is composition different from inheritance? Demonstrate with a code example.
+Write code showing abstract base classes (abc module) and abstract methods.
