@@ -1,0 +1,32 @@
+Write a function to generate all unique permutations of a given string or list of numbers using recursion.
+Implement the Fibonacci sequence calculation recursively,
+Write a recursive function that prints the sequence of moves required to solve the Tower of Hanoi problem for 'N' disks.
+
+Write a program that reads a plain text log file (assume one log entry per line). Count the total number of lines, and count the occurrences of a specific error code (e.g., 'ERROR 404').
+
+Task: Design a class hierarchy for geometric Shapes. Create an abstract base class Shape with an abstract method get_area(). Implement two derived classes, Circle and Rectangle, each with its own implementation of get_area(). Demonstrate polymorphism by calculating the total area of a list containing various Shape objects.
+
+Explain the conceptual difference between an Abstract Class and an Interface in your preferred OOP language
+
+Imagine a base class Engine and a derived class Car that inherits from Engine.Identify why this inheritance relationship ("is-a") is usually considered poor design in a real-world system.
+Refactor the code to use Composition ("has-a") instead, where the Car class contains an object of the Engine class as an attribute.Explain how this refactoring improves Flexibility 
+and reduces Coupling.
+
+Write a function that takes an array (or list) of integers and returns the maximum value found in the array.
+
+Write a function that takes a string and determines if it is a palindrome (reads the same forwards and backward). The check should be case-sensitive and ignore spaces.
+
+Write a function that takes a string and returns a map/dictionary/hash table where keys are the unique characters in the string and values are the count of how many times each character appears.
+
+Define a base class Employee and two derived classes, Manager and Developer. 
+All three classes must implement a method named calculate_bonus(). 
+The calculation logic should be different for each: Manager gets a higher percentage bonus than Developer. 
+Write a function that accepts a list of Employee objects and calculates the total bonus for the entire team.
+
+
+Implement the Singleton Design Pattern for a class named ConfigurationManager.
+ This class should only allow one instance to be created throughout the application's lifecycle, 
+providing a global access point to that single instance.
+
+
+
